@@ -1,0 +1,42 @@
+title: Júlio Henkes
+description: Offensive Security · Cyber Intelligence
+url: "https://juliohenkes.github.io"
+baseurl: ""
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+permalink: pretty
+
+exclude:
+  - convert_writeups.py
+  - "*.py"
+  - "*.sh"
+  - writeup.bkp/
+  - Gemfile
+  - Gemfile.lock
+  - musica/
+
+defaults:
+  - scope:
+      path: "writeups/easy"
+    values:
+      layout: writeup
+      difficulty: easy
+  - scope:
+      path: "writeups/intermediate"
+    values:
+      layout: writeup
+      difficulty: intermediate
+  - scope:
+      path: "writeups/hard"
+    values:
+      layout: writeup
+      difficulty: hard

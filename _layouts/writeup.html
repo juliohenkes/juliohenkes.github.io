@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="wu-layout">
+  <aside class="wu-sidebar">
+    {% include sidebar.html %}
+  </aside>
+  <main class="wu-main">
+    <div class="wu-breadcrumb">
+      <a href="{{ '/writeups/' | relative_url }}">writeups</a>
+      <span>/</span>
+      <a href="{{ '/writeups/' | append: page.difficulty | append: '/' | relative_url }}">{{ page.difficulty }}</a>
+      <span>/</span>
+      {{ page.name | remove: '.md' }}
+    </div>
+    <article class="wu-content">
+      {{ content }}
+    </article>
+  </main>
+</div>

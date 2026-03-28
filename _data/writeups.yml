@@ -1,0 +1,44 @@
+- difficulty: easy
+  machines:
+    - { slug: algernon,    name: Algernon,    os: windows }
+    - { slug: helpdesk,    name: Helpdesk,    os: windows }
+    - { slug: internal,    name: Internal,    os: windows }
+    - { slug: kevin,       name: Kevin,       os: windows }
+    - { slug: squid,       name: Squid,       os: windows }
+    - { slug: astronaut,   name: Astronaut,   os: linux }
+    - { slug: codo,        name: Codo,        os: linux }
+    - { slug: exfiltrated, name: Exfiltrated, os: linux }
+    - { slug: hub,         name: Hub,         os: linux }
+    - { slug: rubydome,    name: RubyDome,    os: linux }
+    - { slug: twiggy,      name: Twiggy,      os: linux }
+
+- difficulty: intermediate
+  machines:
+    - { slug: access,      name: Access,      os: windows }
+    - { slug: authby,      name: Authby,      os: windows }
+    - { slug: hutch,       name: Hutch,       os: windows }
+    - { slug: jacko,       name: Jacko,       os: windows }
+    - { slug: kyoto,       name: Kyoto,       os: windows }
+    - { slug: nara,        name: Nara,        os: windows }
+    - { slug: resourced,   name: Resourced,   os: windows }
+    - { slug: boolean,     name: Boolean,     os: linux }
+    - { slug: cockpit,     name: Cockpit,     os: linux }
+    - { slug: crane,       name: Crane,       os: linux }
+    - { slug: educated,    name: Educated,    os: linux }
+    - { slug: extplorer,   name: Extplorer,   os: linux }
+    - { slug: image,       name: Image,       os: linux }
+    - { slug: law,         name: Law,         os: linux }
+    - { slug: marshalled,  name: Marshalled,  os: linux }
+    - { slug: pc,          name: Pc,          os: linux }
+    - { slug: pelican,     name: Pelican,     os: linux }
+    - { slug: plum,        name: Plum,        os: linux }
+    - { slug: press,       name: Press,       os: linux }
+    - { slug: pyloader,    name: PyLoader,    os: linux }
+
+- difficulty: hard
+  machines:
+    - { slug: craft2,      name: Craft2,      os: windows }
+    - { slug: heist,       name: Heist,       os: windows }
+    - { slug: blackgate,   name: Blackgate,   os: linux }
+    - { slug: clue,        name: Clue,        os: linux }
+    - { slug: zipper,      name: Zipper,      os: linux }
