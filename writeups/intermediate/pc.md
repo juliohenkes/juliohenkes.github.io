@@ -1,4 +1,4 @@
-# 🐧 Pc
+# Pc
 
 ## Enumerating Services
 

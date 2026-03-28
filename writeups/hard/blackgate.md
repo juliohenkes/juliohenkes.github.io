@@ -1,4 +1,4 @@
-# 🐧 Blackgate
+# Blackgate
 
 ## Enumerating Services
 

@@ -1,4 +1,4 @@
-# 🐧 Exfiltrated
+# Exfiltrated
 
 > Subrion CMS / sudo exiftool
 

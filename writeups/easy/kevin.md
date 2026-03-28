@@ -1,4 +1,4 @@
-# 🪟 Kevin
+# Kevin
 
 > HP OpenView / MS11-046
 

@@ -1,4 +1,4 @@
-# 🪟 Squid
+# Squid
 
 > Squid Proxy + SARG / MS11-046
 

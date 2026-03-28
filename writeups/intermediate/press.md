@@ -1,4 +1,4 @@
-# 🐧 Press
+# Press
 
 ## Enumerating Services
 

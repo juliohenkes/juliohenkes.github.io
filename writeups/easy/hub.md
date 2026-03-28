@@ -1,4 +1,4 @@
-# 🐧 Hub
+# Hub
 
 > Gitea + Docker API / Docker socket
 

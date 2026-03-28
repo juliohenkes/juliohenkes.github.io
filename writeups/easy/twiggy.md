@@ -1,4 +1,4 @@
-# 🐧 Twiggy
+# Twiggy
 
 > Salt Stack / sudo mpost
 

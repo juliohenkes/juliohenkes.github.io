@@ -1,4 +1,4 @@
-# 🪟 Craft2
+# Craft2
 
 ## Enumerating Services
 

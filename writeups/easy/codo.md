@@ -1,4 +1,4 @@
-# 🐧 Codo
+# Codo
 
 > Codo CMS / sudo find
 

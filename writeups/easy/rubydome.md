@@ -1,4 +1,4 @@
-# 🐧 RubyDome
+# RubyDome
 
 > Ruby/Sinatra + pdftoppm / sudo pdftoppm
 

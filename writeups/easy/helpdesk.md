@@ -1,4 +1,4 @@
-# 🪟 Helpdesk
+# Helpdesk
 
 > ManageEngine / WinPEAS
 

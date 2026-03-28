@@ -1,4 +1,4 @@
-# 🪟 Heist
+# Heist
 
 ## Enumerating Services
 

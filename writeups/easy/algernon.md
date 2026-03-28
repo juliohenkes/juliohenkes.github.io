@@ -1,4 +1,4 @@
-# 🪟 Algernon
+# Algernon
 
 > MultiChat / PrintSpoofer
 

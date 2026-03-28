@@ -1,4 +1,4 @@
-# 🐧 Marshalled
+# Marshalled
 
 ## Enumerating Services
 

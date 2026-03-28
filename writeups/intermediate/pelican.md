@@ -1,4 +1,4 @@
-# 🐧 Pelican
+# Pelican
 
 ## Enumerating Services
 

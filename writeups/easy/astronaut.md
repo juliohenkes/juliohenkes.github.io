@@ -1,4 +1,4 @@
-# 🐧 Astronaut
+# Astronaut
 
 > Grav CMS / sudo php8.1
 

@@ -1,4 +1,4 @@
-# 🐧 Plum
+# Plum
 
 ## Enumerating Services
 

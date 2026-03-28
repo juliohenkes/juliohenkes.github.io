@@ -1,4 +1,4 @@
-# 🐧 PyLoader
+# PyLoader
 
 ## Enumerating Services
 

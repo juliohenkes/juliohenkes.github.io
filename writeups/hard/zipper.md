@@ -1,4 +1,4 @@
-# 🐧 Zipper
+# Zipper
 
 ## Enumerating Services
 
