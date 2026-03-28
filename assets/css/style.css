@@ -386,6 +386,39 @@ body {
   font-size: 0.875rem;
 }
 
+/* ── WRITEUPS INDEX LIST ── */
+.wu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 32px;
+}
+
+.wu-list a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 12px;
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.875rem;
+  border-radius: 6px;
+  transition: color 0.15s, background 0.15s;
+}
+
+.wu-list a:hover {
+  color: var(--accent);
+  background: var(--active-bg);
+}
+
+.os-icon-sm {
+  width: 13px;
+  height: 13px;
+  opacity: 0.4;
+  filter: invert(1);
+  flex-shrink: 0;
+}
+
 /* ── FOOTER ── */
 .site-footer {
   padding: 20px 48px;
