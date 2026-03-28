@@ -5,6 +5,7 @@
 }
 
 :root {
+  --nav-h: 61px;
   --bg: #0d0d0d;
   --bg-section: #111111;
   --text: #e0e0e0;
@@ -31,7 +32,8 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 18px 48px;
+  height: var(--nav-h);
+  padding: 0 48px;
   display: flex;
   justify-content: space-between;
   align-items: center;
