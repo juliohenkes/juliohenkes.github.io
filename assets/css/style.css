@@ -233,7 +233,7 @@ body {
   margin: 28px 0 10px;
 }
 
-.wu-content p { margin-bottom: 14px; }
+.wu-content p { margin-bottom: 14px; text-align: justify; }
 
 .wu-content blockquote {
   border-left: 3px solid var(--border);
@@ -351,6 +351,7 @@ body {
   color: var(--text);
   font-size: 0.9rem;
   margin-bottom: 6px;
+  text-align: justify;
 }
 
 .page-content .section-label {
