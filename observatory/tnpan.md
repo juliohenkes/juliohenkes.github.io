@@ -5,11 +5,11 @@ title: O Tratado Nuclear que Não Cumpriu suas Promessas
 
 # O Tratado Nuclear que Não Cumpriu suas Promessas
 
-> Publicado originalmente como trabalho acadêmico para o MBA em Estudos Estratégicos e Relações Internacionais — UFF/INEST, 2020.
+> Publicado originalmente como trabalho acadêmico para o MBA em Estudos Estratégicos e Relações Internacionais, UFF/INEST, 2020.
 
-Ciência e Tecnologia nem sempre tiveram seus caminhos traçados em conjunto durante a evolução humana. A união delas apenas ocorreu de maneira significativa no início do século XIX. Numa busca conceitual sumária, a Ciência está associada ao desejo humano de compreender fenômenos naturais e a Tecnologia ao desejo de aprimoramento — a melhoria de processos. Dentre os desejos humanos básicos, podemos elencar o de impor sua vontade em situações de conflito, individual ou coletivo. Definindo poder como a posse dos meios que levam à produção de efeitos desejados, podemos considerar que a maioria deles são frutos das tecnologias desenvolvidas com bases na ciência.
+Ciência e Tecnologia nem sempre tiveram seus caminhos traçados em conjunto durante a evolução humana. A união delas apenas ocorreu de maneira significativa no início do século XIX. Numa busca conceitual sumária, a Ciência está associada ao desejo humano de compreender fenômenos naturais e a Tecnologia ao desejo de aprimoramento, a melhoria de processos. Dentre os desejos humanos básicos, podemos elencar o de impor sua vontade em situações de conflito, individual ou coletivo. Definindo poder como a posse dos meios que levam à produção de efeitos desejados, podemos considerar que a maioria deles são frutos das tecnologias desenvolvidas com bases na ciência.
 
-Na década de 90, o Brasil assinou vários tratados com o intuito de obter credibilidade internacional e acesso facilitado a novas tecnologias — o que de fato não ocorreu. Se por um lado temos o mundo científico, por vezes alheio aos interesses estatais, focado no compartilhamento de informações acadêmicas pelas mais variadas fronteiras, a tecnologia virou sinônimo de superioridade. Ela permitia projeção de poder e criou uma concentração deste poder, um verdadeiro monopólio em escala global, principalmente com a criação de tratados internacionais que impedem até hoje o acesso a determinadas tecnologias a países com menor projeção.
+Na década de 90, o Brasil assinou vários tratados com o intuito de obter credibilidade internacional e acesso facilitado a novas tecnologias, o que de fato não ocorreu. Se por um lado temos o mundo científico, por vezes alheio aos interesses estatais, focado no compartilhamento de informações acadêmicas pelas mais variadas fronteiras, a tecnologia virou sinônimo de superioridade. Ela permitia projeção de poder e criou uma concentração deste poder, um verdadeiro monopólio em escala global, principalmente com a criação de tratados internacionais que impedem até hoje o acesso a determinadas tecnologias a países com menor projeção.
 
 ## O Problema dos Tratados Internacionais
 
@@ -27,7 +27,7 @@ A ONU nasce como uma mensagem de que os Estados almejavam a paz, tendo em vista 
 
 O exemplo das Ilhas Marshall é emblemático. Com pouco mais de 70 mil habitantes e localizado no meio do Oceano Pacífico, este pequeno país controlado pelos EUA desde 1947 foi alvo de 67 testes nucleares americanos entre 1946 e 1958. As consequências ambientais ainda reverberam de forma catastrófica.
 
-Em 24 de abril de 2014, a República das Ilhas Marshall impetrou ação na Corte Internacional de Justiça contra os 9 países que deveriam ter cessado a corrida nuclear — China, Coreia, França, Índia, Israel, Paquistão, Rússia, Reino Unido e Estados Unidos — e não o fizeram, mesmo após o Tratado de Não Proliferação das Armas Nucleares (TNPAN).
+Em 24 de abril de 2014, a República das Ilhas Marshall impetrou ação na Corte Internacional de Justiça contra os 9 países que deveriam ter cessado a corrida nuclear: China, Coreia, França, Índia, Israel, Paquistão, Rússia, Reino Unido e Estados Unidos, que não o fizeram, mesmo após o Tratado de Não Proliferação das Armas Nucleares (TNPAN).
 
 A Corte alegou não ser competente para julgar o caso, afirmando que "para que exista uma controvérsia entre Estados, as partes devem possuir uma visão claramente oposta sobre a questão do cumprimento ou não de certas obrigações internacionais". Uma esquiva que demonstra os limites reais das instituições internacionais quando confrontam os interesses das nações mais poderosas.
 
@@ -55,4 +55,4 @@ Somente assim defenderemos nossos interesses internos no plano internacional, se
 
 ---
 
-*Referências: CARR, Edward Hallett. Vinte Anos de Crise: 1919-1939. Brasília: UnB, 2001. — Ministério das Relações Exteriores. Desarmamento nuclear e não proliferação, 2014. — International Court of Justice. Marshall Islands v. Pakistan, 2014.*
+*Referências: CARR, Edward Hallett. Vinte Anos de Crise: 1919-1939. Brasília: UnB, 2001. Ministério das Relações Exteriores. Desarmamento nuclear e não proliferação, 2014. International Court of Justice. Marshall Islands v. Pakistan, 2014.*

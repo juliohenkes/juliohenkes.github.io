@@ -5,9 +5,9 @@ title: Malthusianismo Militar e os Acordos de Offset na Defesa Brasileira
 
 # Malthusianismo Militar e os Acordos de Offset na Defesa Brasileira
 
-> Publicado originalmente como trabalho acadêmico para o MBA em Estudos Estratégicos e Relações Internacionais — UFF/INEST, 2020.
+> Publicado originalmente como trabalho acadêmico para o MBA em Estudos Estratégicos e Relações Internacionais, UFF/INEST, 2020.
 
-Tal qual a problemática demográfica introduzida pelo economista britânico Thomas Malthus no fim do século XVIII — a divergência entre o crescimento exponencial da população e a produção linear de alimentos — percebemos hoje um aumento substancial no custo dos sistemas de armas que não é acompanhado pela receita dos Estados modernos. Esta situação contemporânea é chamada por Jurgen Brauer e Paul Dunne de *Military Malthusianism*.
+Tal qual a problemática demográfica introduzida pelo economista britânico Thomas Malthus no fim do século XVIII, a divergência entre o crescimento exponencial da população e a produção linear de alimentos, percebemos hoje um aumento substancial no custo dos sistemas de armas que não é acompanhado pela receita dos Estados modernos. Esta situação contemporânea é chamada por Jurgen Brauer e Paul Dunne de *Military Malthusianism*.
 
 Desta situação, inúmeros são os esforços empenhados pelos governos ao redor do globo para remediar esta defasagem. A tendência aponta para a cooperação entre os *players* mundiais, seja pelo melhor aproveitamento industrial e tecnológico via acordos como a OTAN, a União Europeia, ou de maneira descentralizada, como ocorre nos acordos de Offset.
 
@@ -35,16 +35,16 @@ O fato de não participarmos de acordos militares internacionais e de não termo
 
 ## Potenciais Parceiros Estratégicos
 
-**França** — Parceira militar desde a Missão Militar Francesa em 1919, que modernizou e profissionalizou o Exército Brasileiro. Investe 50,1 bilhões de dólares anualmente em Defesa. Destaque para a Eurocopter Group, fabricante dos Cougar, com subsidiária brasileira Helibrás. Participou ainda do programa FX-2 da FAB com o Rafale da Dassault.
+**França:** parceira militar desde a Missão Militar Francesa em 1919, que modernizou e profissionalizou o Exército Brasileiro. Investe 50,1 bilhões de dólares anualmente em Defesa. Destaque para a Eurocopter Group, fabricante dos Cougar, com subsidiária brasileira Helibrás. Participou ainda do programa FX-2 da FAB com o Rafale da Dassault.
 
-**Alemanha** — O Brasil possui uma plataforma inteira de carros de combate da Krauss Maffei: os Leopard 1A5 para a cavalaria, o Guepard antiaéreo para a artilharia e os Bergpanzer de engenharia de combate. A aquisição foi consolidada em 2012. A operacionalização do acordo trouxe incrementos operacionais significativos ao Exército Brasileiro.
+**Alemanha:** o Brasil possui uma plataforma inteira de carros de combate da Krauss Maffei, os Leopard 1A5 para a cavalaria, o Guepard antiaéreo para a artilharia e os Bergpanzer de engenharia de combate. A aquisição foi consolidada em 2012. A operacionalização do acordo trouxe incrementos operacionais significativos ao Exército Brasileiro.
 
-**Suécia** — Além de ganhar o programa FX-2 com o Gripen, a Saab já fornecia ao Brasil sistemas de armas como o AT-4 e o Carl Gustav (anticarro) e o RBS70 (antiaéreo). O Gripen vem para o Brasil com a missão explícita de incentivar a produção tecnológica nacional e a formação técnica especializada — um acordo de Offset estruturado.
-
----
-
-O Malthusianismo Militar não é uma tendência — é uma realidade. Os países que não souberem gerenciar essa equação entre custo crescente dos sistemas de armas e receitas limitadas estarão, progressivamente, dependentes de outras nações para sua própria defesa. O Brasil possui parceiros estratégicos e instrumentos legais adequados. O que falta é vontade política de utilizá-los com consistência.
+**Suécia:** além de ganhar o programa FX-2 com o Gripen, a Saab já fornecia ao Brasil sistemas de armas como o AT-4 e o Carl Gustav (anticarro) e o RBS70 (antiaéreo). O Gripen vem para o Brasil com a missão explícita de incentivar a produção tecnológica nacional e a formação técnica especializada, um acordo de Offset estruturado.
 
 ---
 
-*Referências: BRAUER, Jurgen; DUNNE, Paul. Arms Trade Offsets: What do We Know? UWE Bristol, 2004. — SIPRI. Gastos militares globais alcançaram 1,9 Trilhão em 2019. — Decreto nº 7.546, de 02 de agosto de 2011.*
+O Malthusianismo Militar não é uma tendência, é uma realidade. Os países que não souberem gerenciar essa equação entre custo crescente dos sistemas de armas e receitas limitadas estarão, progressivamente, dependentes de outras nações para sua própria defesa. O Brasil possui parceiros estratégicos e instrumentos legais adequados. O que falta é vontade política de utilizá-los com consistência.
+
+---
+
+*Referências: BRAUER, Jurgen; DUNNE, Paul. Arms Trade Offsets: What do We Know? UWE Bristol, 2004. SIPRI. Gastos militares globais alcançaram 1,9 Trilhão em 2019. Decreto nº 7.546, de 02 de agosto de 2011.*
