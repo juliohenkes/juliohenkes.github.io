@@ -5,8 +5,6 @@ title: Por que os Conflitos Armados São Inevitáveis
 
 # Por que os Conflitos Armados São Inevitáveis
 
-> Publicado originalmente como trabalho acadêmico para o MBA em Estudos Estratégicos e Relações Internacionais, UFF/INEST, 2020.
-
 O cerne desta análise é adquirir argumentos para a discussão sobre a necessidade de uma nação investir em forças armadas sólidas, erradicando a possibilidade de promovermos um desarmamento por iniciativa interna ou a falsa esperança de que haverá, num futuro mesmo que distante, o fim para os conflitos.
 
 ## Terrorismo: Um Fenômeno Mal Definido

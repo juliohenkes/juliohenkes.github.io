@@ -5,7 +5,7 @@ title: "O Brasil na Era dos Gigantes: Uma Análise Crítica"
 
 # O Brasil na Era dos Gigantes: Uma Análise Crítica
 
-> Resenha de: GUIMARÃES, Samuel Pinheiro. *Desafios Brasileiros na Era dos Gigantes*. Rio de Janeiro: Contraponto, 2006, 455 p. Publicada originalmente como trabalho acadêmico para o MBA em Estudos Estratégicos e Relações Internacionais, UFF/INEST, 2021.
+*Análise de: GUIMARÃES, Samuel Pinheiro. Desafios Brasileiros na Era dos Gigantes. Rio de Janeiro: Contraponto, 2006.*
 
 Diplomata brasileiro, bacharel em Ciências Jurídicas pela UFRJ e mestre em economia pela Universidade de Boston, Samuel Pinheiro Guimarães foi ministro da Secretaria de Assuntos Estratégicos da Presidência da República e Alto Representante Geral do Mercosul. Em *Desafios Brasileiros na Era dos Gigantes*, Guimarães disserta em 12 capítulos os desafios que o Brasil enfrenta desde o início do século, analisando como os temas mais importantes, como macroestruturas de poder, capacitação tecnológica e Amazônia, entre outros, influenciam positiva ou negativamente a inserção do país no sistema internacional.
 

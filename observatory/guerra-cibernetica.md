@@ -5,8 +5,6 @@ title: Do Estado de Westfália ao Campo de Batalha Cibernético
 
 # Do Estado de Westfália ao Campo de Batalha Cibernético
 
-> Publicado originalmente como trabalho acadêmico para o MBA em Estudos Estratégicos e Relações Internacionais, UFF/INEST, 2021.
-
 A Paz de Westfália foi um marco no processo de criação do Estado Moderno. Para pôr fim ao conflito que assolava a Europa, as lideranças dos principais entes beligerantes estipularam entre si novas regras que servem até os dias atuais como princípios basilares das relações internacionais. Até então, a guerra tinha um grande cunho religioso, populações eram atacadas, rios envenenados, vilas saqueadas. Após o fim da Guerra dos Trinta Anos, o interesse dos reis ganha predominância: o motivo dos conflitos deixa de ser eminentemente religioso e a guerra se torna um direito do soberano.
 
 Com a nova organização interna e a possibilidade de arrecadação de tributos, nascem as forças regulares permanentes, o braço armado para a prática da última instância política dos Estados. Nascem assim os Estudos Estratégicos, pois cresce a importância de se alcançar objetivos políticos por meio da utilização racional das Forças Armadas.

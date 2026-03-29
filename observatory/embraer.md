@@ -5,8 +5,6 @@ title: "Embraer: Quando a Soberania Industrial Entrou em Jogo"
 
 # Embraer: Quando a Soberania Industrial Entrou em Jogo
 
-> Publicado originalmente como trabalho acadêmico para o MBA em Estudos Estratégicos e Relações Internacionais, UFF/INEST, 2020.
-
 O descobrimento do continente sul-americano, nos moldes em que ocorreu, num contexto de expansão marítima das potências europeias do século XV, orientou a ocupação do território brasileiro de modo exploratório. Isso fez com que houvesse um significativo atraso no desenvolvimento dessas terras. Somente com a vinda da Coroa portuguesa para o Brasil, em 1808, a Base Industrial de Defesa brasileira começa a se desenvolver.
 
 Até 1808, era de interesse português que sua colônia não competisse com Portugal no mercado europeu, mas apenas servisse como fonte de commodities. Com o deslocamento da Coroa para a colônia, essas restrições foram aos poucos retiradas. Somente a partir deste momento notamos grandes mudanças, como a criação da Fábrica Real de Pólvora da Lagoa Rodrigo de Freitas, integrada em 1975 à Indústria de Material Bélico do Brasil (Imbel).

@@ -5,8 +5,6 @@ title: O Tratado Nuclear que Não Cumpriu suas Promessas
 
 # O Tratado Nuclear que Não Cumpriu suas Promessas
 
-> Publicado originalmente como trabalho acadêmico para o MBA em Estudos Estratégicos e Relações Internacionais, UFF/INEST, 2020.
-
 Ciência e Tecnologia nem sempre tiveram seus caminhos traçados em conjunto durante a evolução humana. A união delas apenas ocorreu de maneira significativa no início do século XIX. Numa busca conceitual sumária, a Ciência está associada ao desejo humano de compreender fenômenos naturais e a Tecnologia ao desejo de aprimoramento, a melhoria de processos. Dentre os desejos humanos básicos, podemos elencar o de impor sua vontade em situações de conflito, individual ou coletivo. Definindo poder como a posse dos meios que levam à produção de efeitos desejados, podemos considerar que a maioria deles são frutos das tecnologias desenvolvidas com bases na ciência.
 
 Na década de 90, o Brasil assinou vários tratados com o intuito de obter credibilidade internacional e acesso facilitado a novas tecnologias, o que de fato não ocorreu. Se por um lado temos o mundo científico, por vezes alheio aos interesses estatais, focado no compartilhamento de informações acadêmicas pelas mais variadas fronteiras, a tecnologia virou sinônimo de superioridade. Ela permitia projeção de poder e criou uma concentração deste poder, um verdadeiro monopólio em escala global, principalmente com a criação de tratados internacionais que impedem até hoje o acesso a determinadas tecnologias a países com menor projeção.

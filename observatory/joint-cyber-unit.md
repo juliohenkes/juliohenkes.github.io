@@ -5,8 +5,6 @@ title: "Joint Cyber Unit: Um Modelo de Cooperação Cibernética para o PROSUL?"
 
 # Joint Cyber Unit: Um Modelo de Cooperação Cibernética para o PROSUL?
 
-> Trabalho de Conclusão de Curso apresentado ao MBA em Estudos Estratégicos e Relações Internacionais, UFF/INEST. Orientador: Prof. Thomas Ferdinand Heye. Niterói, julho de 2022.
-
 O velho continente, por meio da Comissão Europeia, está em vias de viabilização da *Joint Cyber Unit* (JCU), o órgão responsável pela prevenção, dissuasão e resolução de problemas decorrentes de ataques cibernéticos de grande escala, proporcionando uma plataforma cooperativa entre organismos da UE, Estados-Membros e o setor privado europeu. O objetivo principal deste trabalho é entender os limites da legislação da UE e o caminho percorrido até a formação da JCU para concluir se seus objetivos têm aplicabilidade escalável para o PROSUL.
 
 ## Da Formação do Estado Moderno ao Espaço Cibernético

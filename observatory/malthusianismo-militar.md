@@ -5,8 +5,6 @@ title: Malthusianismo Militar e os Acordos de Offset na Defesa Brasileira
 
 # Malthusianismo Militar e os Acordos de Offset na Defesa Brasileira
 
-> Publicado originalmente como trabalho acadêmico para o MBA em Estudos Estratégicos e Relações Internacionais, UFF/INEST, 2020.
-
 Tal qual a problemática demográfica introduzida pelo economista britânico Thomas Malthus no fim do século XVIII, a divergência entre o crescimento exponencial da população e a produção linear de alimentos, percebemos hoje um aumento substancial no custo dos sistemas de armas que não é acompanhado pela receita dos Estados modernos. Esta situação contemporânea é chamada por Jurgen Brauer e Paul Dunne de *Military Malthusianism*.
 
 Desta situação, inúmeros são os esforços empenhados pelos governos ao redor do globo para remediar esta defasagem. A tendência aponta para a cooperação entre os *players* mundiais, seja pelo melhor aproveitamento industrial e tecnológico via acordos como a OTAN, a União Europeia, ou de maneira descentralizada, como ocorre nos acordos de Offset.

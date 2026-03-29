@@ -5,8 +5,6 @@ title: Jaguaribe e a Autonomia Estratégica do Brasil
 
 # Jaguaribe e a Autonomia Estratégica do Brasil
 
-> Publicado originalmente como trabalho acadêmico para o MBA em Estudos Estratégicos e Relações Internacionais, UFF/INEST, 2021.
-
 Após o fim da Segunda Guerra Mundial, importantes transformações globais e regionais colocaram pesquisadores, diplomatas, políticos e militares em posição de repensar a forma correta de conduzir os assuntos correlatos à defesa. Jaguaribe, com o intuito de traduzir a realidade dos fatos de forma a projetar eficientemente estratégias futuras para o Brasil, enfatizou a necessidade de integração com os demais países da América do Sul, em especial com a Argentina, na forma de um eixo estratégico, para aumentarmos nosso poder de barganha perante os Estados Unidos.
 
 Pouco tempo depois, já encerrado o período de bipolaridade, o Brasil observou uma crescente utilização das Forças Armadas em operações de segurança doméstica em detrimento de seu preparo estratégico em segurança externa. Fato que se contrapõe aos novos desafios presentes na América do Sul: a presença da China na Argentina, país vizinho de fundamental importância para a estratégia proposta por Jaguaribe, e a presença russa na Venezuela.

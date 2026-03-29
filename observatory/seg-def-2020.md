@@ -5,7 +5,7 @@ title: "O Brasil de 2020 a 2030: Quatro Cenários de Segurança e Defesa"
 
 # O Brasil de 2020 a 2030: Quatro Cenários de Segurança e Defesa
 
-> Resenha de: RODRIGUES, T.; KALIL, M. *Situación de la Seguridad Y Defensa de Brasil para la Década de 2020-2030*. In: AthenaLab, Santiago do Chile, 2020. Publicada originalmente como trabalho acadêmico para o MBA em Estudos Estratégicos e Relações Internacionais, UFF/INEST, 2021.
+*Análise de: RODRIGUES, T.; KALIL, M. Situación de la Seguridad Y Defensa de Brasil para la Década de 2020-2030. In: AthenaLab, Santiago do Chile, 2020.*
 
 Mariana Kalil é doutora em Relações Internacionais pela Universidade de Brasília, especialista em Segurança e Defesa e professora de Geopolítica da Escola Superior de Guerra. Thiago Rodrigues é doutor em Relações Internacionais pela PUC-SP e professor associado do Instituto de Estudos Estratégicos da UFF. Juntos, contribuem para o capítulo *"Situación de la Seguridad Y Defensa de Brasil para la Década de 2020-2030"*, que analisaremos neste trabalho.
 

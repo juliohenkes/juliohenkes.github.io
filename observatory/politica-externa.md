@@ -5,8 +5,6 @@ title: "Americanismo e Globalismo: Os Paradigmas da Política Externa Brasileira
 
 # Americanismo e Globalismo: Os Paradigmas da Política Externa Brasileira
 
-> Publicado originalmente como trabalho acadêmico para o MBA em Estudos Estratégicos e Relações Internacionais, UFF/INEST, 2021.
-
 A Política Externa Brasileira (PEB) viveu diferentes momentos ao longo dos últimos séculos. Essa variação ocorreu principalmente pela mudança da visão ideológica e econômica de quem detinha o poder interno, tanto nos governos democráticos como no Regime Militar, ou até mesmo através de influência econômica, para não esquecermos as corporações multinacionais e os atores transnacionais em seus respectivos protagonismos no sistema internacional.
 
 O Brasil sempre pautou-se pela busca de autonomia internacional e desenvolvimento interno, mesmo que para isso fosse necessário um alinhamento unilateral a um polo específico de poder global.
