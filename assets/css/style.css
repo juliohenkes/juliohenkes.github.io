@@ -412,6 +412,10 @@ body {
   background: var(--active-bg);
 }
 
+.page-content .wu-list a {
+  color: var(--text);
+}
+
 .os-icon-sm {
   width: 13px;
   height: 13px;
