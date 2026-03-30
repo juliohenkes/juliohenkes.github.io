@@ -18,6 +18,8 @@
   --easy:        #4ec9b0;
   --inter:       #79b8ff;
   --hard:        #f97583;
+  --toolkit:     #e5c07b;
+  --exploit-dev: #c792ea;
 }
 
 html { scroll-behavior: smooth; }
@@ -130,6 +132,8 @@ body {
 .diff-label.easy         { color: var(--easy); }
 .diff-label.intermediate { color: var(--inter); }
 .diff-label.hard         { color: var(--hard); }
+.diff-label.toolkit      { color: var(--toolkit); }
+.diff-label.exploit-dev  { color: var(--exploit-dev); }
 
 .sidebar-items { display: none; }
 .sidebar-group.open .sidebar-items { display: block; }

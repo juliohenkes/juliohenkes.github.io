@@ -3,15 +3,15 @@ layout: default
 ---
 <div class="wu-layout">
   <aside class="wu-sidebar">
-    {% include sidebar.html %}
+    {% include cyber-sidebar.html %}
   </aside>
   <main class="wu-main">
     <div class="wu-breadcrumb">
-      <a href="{{ '/writeups/easy/algernon/' | relative_url }}">writeups</a>
+      <a href="{{ '/cyber/' | relative_url }}">cyber</a>
       <span>/</span>
-      <span>{{ page.difficulty }}</span>
+      <span>{{ page.group }}</span>
       <span>/</span>
-      {{ page.name | remove: '.md' }}
+      {{ page.title }}
     </div>
     <article class="wu-content">
       {{ content }}

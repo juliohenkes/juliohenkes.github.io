@@ -40,3 +40,8 @@ defaults:
     values:
       layout: writeup
       difficulty: hard
+  - scope:
+      path: "cyber/toolkit"
+    values:
+      layout: cyber
+      group: toolkit
