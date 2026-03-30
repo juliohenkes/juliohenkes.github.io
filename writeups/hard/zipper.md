@@ -109,5 +109,4 @@ ip a
 
 # proof.txt
 cat /root/proof.txt
-3e434a1b34917eba34422cfe736068cb
 ```

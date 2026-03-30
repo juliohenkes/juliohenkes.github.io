@@ -138,5 +138,4 @@ The privilege escalation method was a memory exploit via the `cname` binary.
 ```shell
 # Evidence
 cat /home/dev-acc/local.txt
-39993e8a1bf7ab4287b069e4b7f420a7
 ```

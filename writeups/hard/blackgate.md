@@ -74,5 +74,4 @@ With privileged access to the machine, we took the proof.txt flag as evidence of
 # Evidence
 ip a
 cat /root/proof.txt
-41f85022a062c01ff93dc7efddc029a7
 ```

@@ -111,5 +111,4 @@ With root privileges, we capture the target's flags.
 ```shell
 # Evidence
 cat /root/proof.txt
-e0940fe34e2bb0d8b1f5364bd62f5c14
 ```

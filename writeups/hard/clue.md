@@ -121,8 +121,6 @@ With privileged access to the machine we get the flags.
 ip a
 
 cat /var/lib/freeswitch/local.txt
-7386a090831bd78236975d4d6cd18e9e
 
 cat /root/proof_youtriedharder.txt
-a023a04ee0465574a64e4f27daa1ad82
 ```

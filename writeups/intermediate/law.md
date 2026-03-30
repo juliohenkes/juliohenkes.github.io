@@ -140,5 +140,4 @@ With root privileges, we capture the target's flags.
 ip a
 
 cat /root/proof.txt
-29f1af5c0f520682fcd96d6c1624b1fb
 ```

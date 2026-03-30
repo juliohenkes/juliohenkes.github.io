@@ -159,9 +159,7 @@ ipconfig
 
 # Local
 type C:\Users\enox\Desktop\local.txt
-c43909eb3b35e03a2853b9e6222f6c3f
 
 # Proof.txt
 type C:\Users\Administrator\proof.txt
-496a5dd6efb9addc29ce258e1a1c9305
 ```
