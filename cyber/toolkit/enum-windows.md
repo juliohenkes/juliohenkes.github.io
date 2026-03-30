@@ -4,16 +4,16 @@ title: "Windows File Enum"
 
 # Windows File Enum
 
-Enumeração de arquivos sensíveis e histórico de comandos PowerShell em hosts Windows. Busca por bases KeePass, arquivos de texto e e-mails, além do histórico PSReadLine que frequentemente contém credenciais.
+Enumerates sensitive files and PowerShell command history on Windows hosts. Searches for KeePass databases, text files, and emails, as well as PSReadLine history which often contains credentials.
 
 ```powershell
-# Buscar arquivos sensíveis em C:\Users
+# Search for sensitive files under C:\Users
 Get-ChildItem -Path C:\Users -Include *.kdbx,*.txt,*.eml -File -Recurse -ErrorAction SilentlyContinue
 
-# Listar estrutura de diretórios
+# List directory tree
 tree /f
 
-# Localizar e ler histórico PSReadLine
+# Locate and read PSReadLine history
 (Get-PSReadlineOption).HistorySavePath
 Get-History
 ```

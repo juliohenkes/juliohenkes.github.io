@@ -4,18 +4,18 @@ title: "TTY Upgrade"
 
 # TTY Upgrade
 
-Upgrade de shell dumb (sem TTY) para terminal interativo completo. Necessário para usar `sudo`, editores de texto, e comandos que requerem um terminal real. A versão completa restaura o tamanho correto e o tipo de terminal.
+Upgrade from a dumb shell (no TTY) to a full interactive terminal. Required for using `sudo`, text editors, and commands that need a real terminal. The full version also restores the correct terminal size and type.
 
 ```shell
-# Rápido
+# Quick
 whereis python
 /usr/bin/python3.8 -c 'import pty; pty.spawn("/bin/bash")'
 ```
 
 ```shell
-# Completo (com resize)
+# Full (with resize)
 python -c "import pty;pty.spawn('/bin/bash')"
-# Ctrl+Z para background
+# Ctrl+Z to background
 stty -a | head -1 | cut -d';' -f2,3 | tr -d '\;'
 export | grep TERM
 stty raw -echo

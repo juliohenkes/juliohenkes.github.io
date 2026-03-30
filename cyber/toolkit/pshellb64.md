@@ -4,7 +4,7 @@ title: "pshellb64.py"
 
 # pshellb64.py
 
-Script Python que gera um one-liner PowerShell reverse shell encodado em base64 UTF-16LE, pronto para uso com `-EncodedCommand`. Evita problemas com caracteres especiais em shells e parâmetros de linha de comando.
+Python script that generates a base64 UTF-16LE encoded PowerShell reverse shell one-liner, ready for use with `-EncodedCommand`. Avoids issues with special characters in shells and command-line parameters.
 
 ```python
 import sys

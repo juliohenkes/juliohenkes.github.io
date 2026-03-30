@@ -4,10 +4,10 @@ title: "Network Enumeration"
 
 # Network Enumeration
 
-Resolução de hostnames para IPs via PowerView em múltiplos domínios AD. Útil após comprometer um host com acesso ao domínio para mapear toda a infraestrutura interna.
+Resolves hostnames to IPs via PowerView across multiple AD domains. Useful after compromising a domain-joined host to map the full internal infrastructure.
 
 ```powershell
-# Enumerar todos os hosts do domínio e resolver IPs
+# Enumerate all domain computers and resolve their IPs
 Get-NetComputer -Domain final.com | ForEach-Object {
     $hostname = $_.dnshostname
     $ip = [System.Net.Dns]::GetHostAddresses($hostname) | Where-Object { $_.AddressFamily -eq 'InterNetwork' }

@@ -4,13 +4,13 @@ title: "Listeners"
 
 # Listeners
 
-Templates de listeners para receber conexões reversas. Inclui netcat simples, OpenSSL com TLS e Metasploit multi/handler para payloads PHP, 32-bit e 64-bit HTTPS com migração automática de processo.
+Listener templates for catching reverse connections. Includes plain netcat, OpenSSL with TLS, and Metasploit multi/handler for PHP, 32-bit, and 64-bit HTTPS payloads with automatic process migration.
 
 ```shell
-# Netcat com rlwrap (histórico de comandos)
+# Netcat with rlwrap (command history support)
 rlwrap -cAra nc -vnlp 443
 
-# OpenSSL — gerar certificado e iniciar listener TLS
+# OpenSSL — generate certificate and start TLS listener
 openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365 -nodes
 openssl s_server -quiet -key key.pem -cert cert.pem -port 443
 

@@ -4,7 +4,7 @@ title: "History Cleanup"
 
 # History Cleanup
 
-Limpeza do histórico de comandos bash para remover rastros de atividade pós-exploração.
+Clears bash command history to remove traces of post-exploitation activity.
 
 ```shell
 set +o history; history -c; history

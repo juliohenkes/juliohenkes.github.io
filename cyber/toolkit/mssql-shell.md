@@ -4,7 +4,7 @@ title: "MSSQL to Shell"
 
 # MSSQL to Shell
 
-Acesso ao MSSQL via impacket e ativação do `xp_cmdshell` para execução de comandos do sistema operacional. Requer credenciais válidas com permissões de sysadmin ou equivalente.
+MSSQL access via impacket with `xp_cmdshell` enabled for OS command execution. Requires valid credentials with sysadmin or equivalent permissions.
 
 ```shell
 impacket-mssqlclient Administrator:Lab123@192.168.50.18 -windows-auth

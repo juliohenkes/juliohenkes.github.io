@@ -4,7 +4,7 @@ title: "Ticketer"
 
 # Ticketer
 
-Conversão de tickets Kerberos entre os formatos `.kirbi` (Windows/Mimikatz) e `.ccache` (Linux/impacket). Necessário para usar tickets obtidos no Windows em ferramentas Linux como `impacket-psexec`, `smbclient`, etc.
+Converts Kerberos tickets between `.kirbi` (Windows/Mimikatz) and `.ccache` (Linux/impacket) formats. Required to use tickets obtained on Windows with Linux tools such as `impacket-psexec`, `smbclient`, etc.
 
 ```shell
 impacket-ticketConverter machine.kirbi machine.ccache

