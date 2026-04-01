@@ -3,7 +3,6 @@
     - { slug: ligolo-tunnel,  title: "Ligolo Tunnel" }
     - { slug: freeze,         title: "Freeze" }
     - { slug: amsi-bypass,    title: "AMSI Bypass" }
-    - { slug: listeners,      title: "Listeners" }
     - { slug: nishang,        title: "Nishang" }
     - { slug: rev-bash,       title: "Reverse Shell (bash)" }
     - { slug: rev-mkfifo,     title: "Reverse Shell (mkfifo)" }
