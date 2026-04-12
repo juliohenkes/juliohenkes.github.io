@@ -160,3 +160,9 @@ PowerShell execution flow:
 
 **What it sees:** decoded script content in memory, immediately before execution.  
 **What it misses:** nothing at the script level, unless the interface itself is patched before the content reaches it.
+
+## The Foundation
+
+Each detection layer was built to compensate for the failure of the one before it. Signatures failed against novel malware, so heuristics were added. Heuristics failed against runtime-only behavior, so sandboxes were added. Sandboxes failed against evasion-aware samples, so ML was added. ML failed against script-based attacks, so AMSI was added.
+
+The pattern is consistent: every evasion technique that became widespread eventually got a detection layer built against it. Understanding why each layer exists, and what assumption it relies on, is what tells you where it breaks. That is the only foundation evasion is built on.
