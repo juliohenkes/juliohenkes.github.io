@@ -37,13 +37,3 @@ title: research
   <a href="{{ '/research/aslr-bypass/' | relative_url }}">ASLR Bypass</a>
 </div>
 
-<span class="section-label">mobile</span>
-
-<div class="wu-list">
-  <a href="{{ '/research/methodology/' | relative_url }}">Methodology</a>
-  <a href="{{ '/research/android-security/' | relative_url }}">Android Security</a>
-  <a href="{{ '/research/apk-reverse-engineering/' | relative_url }}">APK Reverse Engineering</a>
-  <a href="{{ '/research/owasp-mobile-top10/' | relative_url }}">OWASP Mobile Top 10</a>
-  <a href="{{ '/research/traffic-interception/' | relative_url }}">Traffic Interception</a>
-  <a href="{{ '/research/android-malware/' | relative_url }}">Android Malware</a>
-</div>
