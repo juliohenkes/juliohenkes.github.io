@@ -11,4 +11,5 @@ title: research
 
 <div class="wu-list">
   <a href="{{ '/research/av-evasion-basics/' | relative_url }}">The Minimum You Need to Know About Antivirus Evasion</a>
+  <a href="{{ '/research/crypters/' | relative_url }}">Crypters: Hiding Payloads on Disk</a>
 </div>
