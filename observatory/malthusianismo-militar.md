@@ -5,7 +5,7 @@ title: Military Malthusianism and Offset Agreements in Brazilian Defense
 
 # Military Malthusianism and Offset Agreements in Brazilian Defense
 
-Much like the demographic problem introduced by British economist Thomas Malthus in the late eighteenth century — the divergence between exponential population growth and linear food production — we observe today a substantial increase in the cost of weapons systems that is not matched by the revenues of modern states. This contemporary situation is called *Military Malthusianism* by Jurgen Brauer and Paul Dunne.
+Much like the demographic problem introduced by British economist Thomas Malthus in the late eighteenth century (the divergence between exponential population growth and linear food production), we observe today a substantial increase in the cost of weapons systems that is not matched by the revenues of modern states. This contemporary situation is called *Military Malthusianism* by Jurgen Brauer and Paul Dunne.
 
 From this situation, countless efforts have been made by governments around the globe to remedy this gap. The trend points toward cooperation among world players, whether through better industrial and technological utilization via agreements like NATO and the European Union, or in a more decentralized manner, as occurs in Offset agreements.
 
@@ -17,7 +17,7 @@ Offsets are a powerful industrial policy tool. They facilitate technology transf
 
 However, although this type of negotiation appears advantageous to all parties, various governmental interests overlap with the mere commercial agreement. It is in the interest of countries with a robust Defense Industrial Base that Offset activities be rigorously monitored by state agencies.
 
-Beyond the strategic issues involved, developing a production chain in the recipient country may offer the technology holder significant future competition. The case of Embraer illustrates this — one of the world's largest aviation companies, part of whose growth stemmed from compensation and technology exchanges gained through this type of agreement.
+Beyond the strategic issues involved, developing a production chain in the recipient country may offer the technology holder significant future competition. The case of Embraer illustrates this: one of the world's largest aviation companies, part of whose growth stemmed from compensation and technology exchanges gained through this type of agreement.
 
 We can partially conclude that free trade, sought by weapons systems companies, collides with state intervention to maintain sovereignty interests. As a counterexample: the United States considers Offset agreements a distortion of trade, prohibiting American agencies from encouraging them.
 
@@ -35,13 +35,13 @@ The fact that Brazil does not participate in international military alliances an
 
 **France:** a military partner since the French Military Mission in 1919, which modernized and professionalized the Brazilian Army. France invests $50.1 billion annually in defense. Noteworthy is the Eurocopter Group, manufacturer of the Cougar helicopters, with its Brazilian subsidiary Helibrás. France also participated in the Brazilian Air Force FX-2 program with Dassault's Rafale.
 
-**Germany:** Brazil operates an entire platform of armored vehicles from Krauss Maffei — the Leopard 1A5 for cavalry, the Gepard anti-aircraft system for artillery, and combat engineering Bergpanzers. The acquisition was consolidated in 2012, bringing significant operational enhancements to the Brazilian Army.
+**Germany:** Brazil operates an entire platform of armored vehicles from Krauss Maffei: the Leopard 1A5 for cavalry, the Gepard anti-aircraft system for artillery, and combat engineering Bergpanzers. The acquisition was consolidated in 2012, bringing significant operational enhancements to the Brazilian Army.
 
-**Sweden:** in addition to winning the FX-2 program with the Gripen, Saab already supplied Brazil with weapons systems such as the AT-4 and Carl Gustav (anti-tank) and the RBS70 (anti-aircraft). The Gripen comes to Brazil with an explicit mission to foster national technological production and specialized technical training — a structured Offset agreement.
+**Sweden:** in addition to winning the FX-2 program with the Gripen, Saab already supplied Brazil with weapons systems such as the AT-4 and Carl Gustav (anti-tank) and the RBS70 (anti-aircraft). The Gripen comes to Brazil with an explicit mission to foster national technological production and specialized technical training, in a structured Offset agreement.
 
 ---
 
-Military Malthusianism is not a trend — it is a reality. Countries that fail to manage the equation between rising weapons system costs and limited revenues will progressively depend on other nations for their own defense. Brazil has strategic partners and adequate legal instruments. What is missing is the political will to use them consistently.
+Military Malthusianism is not a trend, it is a reality. Countries that fail to manage the equation between rising weapons system costs and limited revenues will progressively depend on other nations for their own defense. Brazil has strategic partners and adequate legal instruments. What is missing is the political will to use them consistently.
 
 ---
 

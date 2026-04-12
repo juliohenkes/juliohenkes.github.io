@@ -7,13 +7,13 @@ title: "Brazil in the Age of Giants: A Critical Analysis"
 
 *Analysis of: GUIMARÃES, Samuel Pinheiro. Brazilian Challenges in the Age of Giants. Rio de Janeiro: Contraponto, 2006.*
 
-A Brazilian diplomat, bachelor of law from UFRJ, and master of economics from Boston University, Samuel Pinheiro Guimarães served as Minister of Strategic Affairs of the Presidency and as General High Representative of Mercosur. In *Brazilian Challenges in the Age of Giants*, Guimarães examines in 12 chapters the challenges Brazil has faced since the turn of the century, analyzing how the most important themes — power macrostructures, technological capacity, and the Amazon, among others — positively or negatively influence the country's insertion in the international system.
+A Brazilian diplomat, bachelor of law from UFRJ, and master of economics from Boston University, Samuel Pinheiro Guimarães served as Minister of Strategic Affairs of the Presidency and as General High Representative of Mercosur. In *Brazilian Challenges in the Age of Giants*, Guimarães examines in 12 chapters the challenges Brazil has faced since the turn of the century, analyzing how the most important themes (power macrostructures, technological capacity, and the Amazon, among others) positively or negatively influence the country's insertion in the international system.
 
 ## The Structure and Dynamics of the International System
 
 Guimarães leads the reader to understand some essential conceptual points about the structure and dynamics of the international system. He notes that classifications differ based on which actor is seen as wielding real influence: realists point only to the state; more modern theories bet on mega-corporations and NGOs; others recognize the state as the heaviest actor, primarily through its legal means of exercising power.
 
-On the dynamics of international relations, views are divided between those who believe in a "positive-sum game" and those who count on a "zero-sum game." A third perspective analyzes more deeply the relations among states, NGOs, and international agencies, concluding that what occurs is a complex web of conflicts, competition, and cooperation — dependent on region, subject, and moment. In this final view, the state remains the most capable actor of intervening in this international organism.
+On the dynamics of international relations, views are divided between those who believe in a "positive-sum game" and those who count on a "zero-sum game." A third perspective analyzes more deeply the relations among states, NGOs, and international agencies, concluding that what occurs is a complex web of conflicts, competition, and cooperation, dependent on region, subject, and moment. In this final view, the state remains the most capable actor of intervening in this international organism.
 
 ## Technology as a Vector of Inequality
 
@@ -21,11 +21,11 @@ Guimarães signals that the primary international trend is the continuous accele
 
 Media and the internet play a fundamental role in the global economy, as integration has made common certain consumption patterns that were previously regional.
 
-Economic inequality has increased both among states and within them — primarily as a result of the concentration of knowledge and scientific production. Units of the system that already wielded influence managed to expand their reach. Few who lacked it began to operate effectively.
+Economic inequality has increased both among states and within them, primarily as a result of the concentration of knowledge and scientific production. Units of the system that already wielded influence managed to expand their reach. Few who lacked it began to operate effectively.
 
 ## Brazil and Its Internal Challenges
 
-Brazil's internal problems — rising crime and social inequality — have held back national growth relative to what globalization might have enabled. The country still does not hold a seat on the Security Council, and only recently has seen any relevant military investment, far below its actual needs.
+Brazil's internal problems (rising crime and social inequality) have held back national growth relative to what globalization might have enabled. The country still does not hold a seat on the Security Council, and only recently has seen any relevant military investment, far below its actual needs.
 
 Guimarães identifies three major challenges for the Brazilian nation: eliminating internal disparities; eliminating external vulnerabilities, whether political, economic, ideological, or military; and exploiting the potential Brazil possesses, given its vast, rich territory and its strong consumer market.
 
@@ -37,9 +37,9 @@ The diplomat anticipated the main challenges Brazil would face: wealthy countrie
 
 ## An Updated Reading
 
-We can add considerations that time has made obvious: the need for political, administrative, and tax reform — only evidenced after the discovery of corruption scandals, an impeachment, the imprisonment of a former president, and the worsening of the public security crisis. And an important consideration that Guimarães could not fully anticipate: Brazilian political polarization, which surpasses healthy democratic debate and results in Congress's inability to pass development-driving legislation.
+We can add considerations that time has made obvious: the need for political, administrative, and tax reform, only evidenced after the discovery of corruption scandals, an impeachment, the imprisonment of a former president, and the worsening of the public security crisis. And an important consideration that Guimarães could not fully anticipate: Brazilian political polarization, which surpasses healthy democratic debate and results in Congress's inability to pass development-driving legislation.
 
-On the Chinese case, with a large share of Brazilian foreign trade directed to China and the powerful agribusiness lobby in Congress, it would be nearly impossible for any president to hold firm on ideological principles without yielding to these powerful internal pressures — as Guimarães correctly foresaw.
+On the Chinese case, with a large share of Brazilian foreign trade directed to China and the powerful agribusiness lobby in Congress, it would be nearly impossible for any president to hold firm on ideological principles without yielding to these powerful internal pressures, as Guimarães correctly foresaw.
 
 ## Conclusion
 
@@ -49,4 +49,4 @@ All of these challenges have solutions. Brazil's task is to chart a course with 
 
 ---
 
-*References: GUIMARÃES, Samuel Pinheiro. Brazilian Challenges in the Age of Giants. Contraponto, 2006.*
+*References: GUIMARÃES, Samuel Pinheiro. Desafios Brasileiros na Era dos Gigantes. Contraponto, 2006.*

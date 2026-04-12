@@ -9,11 +9,11 @@ The European Commission is moving toward establishing the Joint Cyber Unit (JCU)
 
 ## From the Modern State to Cyberspace
 
-The Peace of Westphalia established the foundational principles of modern international relations. With it came the concept of territorial sovereignty and permanent armed forces as instruments of state power. Since then, each revolution — industrial, nuclear, digital — has redefined what it means to project power in the international system.
+The Peace of Westphalia established the foundational principles of modern international relations. With it came the concept of territorial sovereignty and permanent armed forces as instruments of state power. Since then, each revolution (industrial, nuclear, digital) has redefined what it means to project power in the international system.
 
 The creation of ARPANET in 1969 gave rise to what we now know as the internet. With it came new vulnerabilities. Virtually all energy systems, industrial production, aviation, and financial infrastructure are networked, meaning a cyberattack can produce direct physical consequences for societies.
 
-There is no consensus on how to classify these incidents — cyberterrorism, cyberespionage, cyber warfare. Even more established terms like "terrorism" lack broadly accepted definitions in international law. Brustolin (2019) demonstrates that this imprecision results in penalties that do not reflect the actual severity of the crimes, and the same problem replicates itself in the cyber domain.
+There is no consensus on how to classify these incidents: cyberterrorism, cyberespionage, cyber warfare. Even more established terms like "terrorism" lack broadly accepted definitions in international law. Brustolin (2019) demonstrates that this imprecision results in penalties that do not reflect the actual severity of the crimes, and the same problem replicates itself in the cyber domain.
 
 ## EU Cybersecurity Milestones
 
@@ -29,7 +29,7 @@ The **Cyber Resilience Act** (in force from 2022) went further, imposing mandato
 
 The JCU was proposed by the European Commission in June 2021 as a virtual and physical platform for coordinated response to large-scale cyber incidents and crises. It brings together four main communities: civil, law enforcement, diplomatic, and defense.
 
-Its roots trace back to the EU's progressive cyber cooperation initiatives developed following the major attacks on Baltic states in the early 2000s — especially the Estonia case in 2007, which demonstrated the vulnerability of critical national infrastructure to coordinated attacks.
+Its roots trace back to the EU's progressive cyber cooperation initiatives developed following the major attacks on Baltic states in the early 2000s, especially the Estonia case in 2007, which demonstrated the vulnerability of critical national infrastructure to coordinated attacks.
 
 Implementation unfolds in phases: first, establishing the platform and governance structure; then progressively integrating the communities mentioned; and finally full operationalization with real-time response capability.
 
@@ -59,4 +59,4 @@ What the European model offers is not a shortcut, but a map. The route must be b
 
 ---
 
-*References: European Commission. Joint Cyber Unit, 2021. ENISA. EU Cybersecurity Act, 2019. BRUSTOLIN, Vitelio. Comparative Analysis of Regulations for Cybersecurity and Cyber Defence in the United States and Brazil. CLAUSEWITZ, Carl von. On War, 1832. BRAZIL. National Defense Strategy, 2016.*
+*References: European Commission. Joint Cyber Unit, 2021. ENISA. EU Cybersecurity Act, 2019. BRUSTOLIN, Vitelio. Comparative Analysis of Regulations for Cybersecurity and Cyber Defence in the United States and Brazil. CLAUSEWITZ, Carl von. Da Guerra, 1832. BRAZIL. Estratégia Nacional de Defesa, 2016.*
