@@ -45,3 +45,23 @@ defaults:
     values:
       layout: cyber
       group: toolkit
+  - scope:
+      path: "cyber/pentest"
+    values:
+      layout: cyber
+      group: pentest
+  - scope:
+      path: "cyber/evasion"
+    values:
+      layout: cyber
+      group: evasion
+  - scope:
+      path: "cyber/exploit-dev"
+    values:
+      layout: cyber
+      group: exploit-dev
+  - scope:
+      path: "cyber/mobile"
+    values:
+      layout: cyber
+      group: mobile
