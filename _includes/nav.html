@@ -3,7 +3,7 @@
   <div class="nav-links">
     <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>bio</a>
     <a href="{{ '/observatory/' | relative_url }}" {% if page.url contains '/observatory/' %}class="active"{% endif %}>observatory</a>
-    <a href="{{ '/cyber/' | relative_url }}" {% if page.url contains '/cyber/' %}class="active"{% endif %}>cyber</a>
-    <a href="{{ '/writeups/easy/algernon/' | relative_url }}" {% if page.url contains '/writeups/' %}class="active"{% endif %}>writeups</a>
+    <a href="{{ '/research/' | relative_url }}" {% if page.url contains '/research/' %}class="active"{% endif %}>research</a>
+    <a href="{{ '/cyber/' | relative_url }}" {% if page.url contains '/cyber/' or page.url contains '/writeups/' %}class="active"{% endif %}>cyber</a>
   </div>
 </nav>

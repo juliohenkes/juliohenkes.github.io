@@ -51,17 +51,6 @@ defaults:
       layout: cyber
       group: pentest
   - scope:
-      path: "cyber/evasion"
+      path: "research"
     values:
-      layout: cyber
-      group: evasion
-  - scope:
-      path: "cyber/exploit-dev"
-    values:
-      layout: cyber
-      group: exploit-dev
-  - scope:
-      path: "cyber/mobile"
-    values:
-      layout: cyber
-      group: mobile
+      layout: page

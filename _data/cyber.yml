@@ -1,3 +1,18 @@
+- group: pentest
+  pages:
+    - { slug: reconnaissance,          title: "Reconnaissance" }
+    - { slug: vulnerability-scanning,  title: "Vulnerability Scanning" }
+    - { slug: web-attacks,             title: "Web Attacks" }
+    - { slug: client-side-attacks,     title: "Client-Side Attacks" }
+    - { slug: public-exploits,         title: "Public Exploits" }
+    - { slug: password-attacks,        title: "Password Attacks" }
+    - { slug: windows-privesc,         title: "Windows Privilege Escalation" }
+    - { slug: linux-privesc,           title: "Linux Privilege Escalation" }
+    - { slug: tunneling,               title: "Tunneling" }
+    - { slug: ad-enumeration,          title: "AD Enumeration" }
+    - { slug: ad-authentication,       title: "AD Authentication" }
+    - { slug: ad-lateral-movement,     title: "AD Lateral Movement" }
+
 - group: toolkit
   pages:
     - { slug: ligolo-tunnel,  title: "Ligolo Tunnel" }
@@ -23,53 +38,3 @@
     - { slug: mssql-shell,    title: "MSSQL to Shell" }
     - { slug: upload-server,  title: "Upload Server" }
     - { slug: history,        title: "History Cleanup" }
-
-- group: pentest
-  pages:
-    - { slug: reconnaissance,       title: "Reconnaissance" }
-    - { slug: vulnerability-scanning, title: "Vulnerability Scanning" }
-    - { slug: web-attacks,          title: "Web Attacks" }
-    - { slug: client-side-attacks,  title: "Client-Side Attacks" }
-    - { slug: public-exploits,      title: "Public Exploits" }
-    - { slug: password-attacks,     title: "Password Attacks" }
-    - { slug: windows-privesc,      title: "Windows Privilege Escalation" }
-    - { slug: linux-privesc,        title: "Linux Privilege Escalation" }
-    - { slug: tunneling,            title: "Tunneling" }
-    - { slug: ad-enumeration,       title: "AD Enumeration" }
-    - { slug: ad-authentication,    title: "AD Authentication" }
-    - { slug: ad-lateral-movement,  title: "AD Lateral Movement" }
-
-- group: evasion
-  pages:
-    - { slug: office-macros,            title: "Office Macros" }
-    - { slug: process-injection,        title: "Process Injection" }
-    - { slug: av-evasion-basics,        title: "AV Evasion: Basics" }
-    - { slug: av-evasion-advanced,      title: "AV Evasion: AMSI" }
-    - { slug: application-whitelisting, title: "Application Whitelisting" }
-    - { slug: dpi-bypass,               title: "DPI Bypass" }
-    - { slug: windows-credentials,      title: "Windows Credentials" }
-    - { slug: windows-lateral-movement, title: "Windows Lateral Movement" }
-    - { slug: linux-lateral-movement,   title: "Linux Lateral Movement" }
-    - { slug: mssql-to-shell,           title: "MSSQL to Shell" }
-    - { slug: ad-exploitation,          title: "AD Exploitation" }
-
-- group: exploit-dev
-  pages:
-    - { slug: x86-architecture,  title: "x86 Architecture" }
-    - { slug: windbg,            title: "WinDbg" }
-    - { slug: stack-overflows,   title: "Stack Overflows" }
-    - { slug: seh-overflows,     title: "SEH Overflows" }
-    - { slug: ida-pro,           title: "IDA Pro" }
-    - { slug: egghunters,        title: "Egghunters" }
-    - { slug: custom-shellcode,  title: "Custom Shellcode" }
-    - { slug: dep-bypass,        title: "DEP Bypass" }
-    - { slug: aslr-bypass,       title: "ASLR Bypass" }
-
-- group: mobile
-  pages:
-    - { slug: methodology,              title: "Methodology" }
-    - { slug: android-security,         title: "Android Security" }
-    - { slug: apk-reverse-engineering,  title: "APK Reverse Engineering" }
-    - { slug: owasp-mobile-top10,       title: "OWASP Mobile Top 10" }
-    - { slug: traffic-interception,     title: "Traffic Interception" }
-    - { slug: android-malware,          title: "Android Malware" }
