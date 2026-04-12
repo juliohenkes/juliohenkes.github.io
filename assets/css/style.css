@@ -7,8 +7,8 @@
   --nav-h: 56px;
   --bg:          #111111;
   --bg-sidebar:  #111111;
-  --bg-code:     #161616;
-  --border:      #252525;
+  --bg-code:     #1a1a1a;
+  --border:      #2e2e2e;
   --text:        #dde1e7;
   --muted:       #6e7681;
   --accent:      #e0e0e0;
@@ -360,7 +360,7 @@ body {
   text-align: justify;
 }
 
-.page-content .section-label {
+.section-label {
   font-size: 0.65rem;
   font-weight: 600;
   letter-spacing: 3px;
