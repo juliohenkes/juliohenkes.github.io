@@ -26,31 +26,22 @@ exclude:
 
 defaults:
   - scope:
-      path: "writeups/easy"
+      path: "evasion"
     values:
-      layout: writeup
-      difficulty: easy
+      layout: page
   - scope:
-      path: "writeups/intermediate"
+      path: "exploit-dev"
     values:
-      layout: writeup
-      difficulty: intermediate
+      layout: page
   - scope:
-      path: "writeups/hard"
+      path: "methodology"
     values:
-      layout: writeup
-      difficulty: hard
+      layout: page
   - scope:
-      path: "cyber/toolkit"
+      path: "toolkit"
     values:
-      layout: cyber
-      group: toolkit
+      layout: page
   - scope:
-      path: "cyber/pentest"
-    values:
-      layout: cyber
-      group: pentest
-  - scope:
-      path: "research"
+      path: "writeups"
     values:
       layout: page
