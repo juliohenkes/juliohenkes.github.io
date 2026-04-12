@@ -183,9 +183,9 @@ body {
 }
 
 .page-container {
-  max-width: 680px;
+  max-width: 860px;
   margin: 0 auto;
-  padding: 64px 48px 80px;
+  padding: 64px 56px 80px;
 }
 
 /* ── BREADCRUMB ── */
@@ -247,8 +247,8 @@ body {
 .wu-content a { color: var(--link); text-decoration: none; }
 .wu-content a:hover { text-decoration: underline; }
 
-.wu-content pre,
-.wu-content .highlight pre {
+pre,
+.highlight pre {
   background: var(--bg-code) !important;
   border: 1px solid var(--border);
   border-radius: 8px;
@@ -259,8 +259,8 @@ body {
   line-height: 1.6;
 }
 
-.wu-content pre code,
-.wu-content .highlight pre code {
+pre code,
+.highlight pre code {
   background: none !important;
   border: none !important;
   padding: 0 !important;
@@ -268,7 +268,7 @@ body {
   font-size: inherit;
 }
 
-.wu-content code {
+code {
   background: var(--bg-code);
   border: 1px solid var(--border);
   border-radius: 4px;
