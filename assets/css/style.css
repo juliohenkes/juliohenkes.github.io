@@ -5,9 +5,9 @@
 :root {
   --sidebar-w: 272px;
   --nav-h: 56px;
-  --bg:          #111111;
-  --bg-sidebar:  #111111;
-  --bg-code:     #1a1a1a;
+  --bg:          #1a1a1a;
+  --bg-sidebar:  #1a1a1a;
+  --bg-code:     #252525;
   --border:      #2e2e2e;
   --text:        #dde1e7;
   --muted:       #6e7681;
