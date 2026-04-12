@@ -6,8 +6,8 @@
   --sidebar-w: 272px;
   --nav-h: 56px;
   --bg:          #111111;
-  --bg-sidebar:  #161616;
-  --bg-code:     #1e2127;
+  --bg-sidebar:  #111111;
+  --bg-code:     #161616;
   --border:      #252525;
   --text:        #dde1e7;
   --muted:       #6e7681;
@@ -231,10 +231,12 @@ body {
 }
 
 .wu-content h3 {
-  font-size: 0.95rem;
+  font-size: 0.68rem;
   font-weight: 600;
-  color: var(--accent);
-  margin: 28px 0 10px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 32px 0 10px;
 }
 
 .wu-content p { margin-bottom: 14px; text-align: justify; }
