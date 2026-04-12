@@ -1,5 +1,5 @@
 ---
-layout: cyber
+layout: page
 title: cyber
 ---
 
