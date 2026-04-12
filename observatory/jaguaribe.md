@@ -1,56 +1,56 @@
 ---
 layout: page
-title: Jaguaribe e a Autonomia Estratégica do Brasil
+title: Jaguaribe and Brazil's Strategic Autonomy
 ---
 
-# Jaguaribe e a Autonomia Estratégica do Brasil
+# Jaguaribe and Brazil's Strategic Autonomy
 
-Após o fim da Segunda Guerra Mundial, importantes transformações globais e regionais colocaram pesquisadores, diplomatas, políticos e militares em posição de repensar a forma correta de conduzir os assuntos correlatos à defesa. Jaguaribe, com o intuito de traduzir a realidade dos fatos de forma a projetar eficientemente estratégias futuras para o Brasil, enfatizou a necessidade de integração com os demais países da América do Sul, em especial com a Argentina, na forma de um eixo estratégico, para aumentarmos nosso poder de barganha perante os Estados Unidos.
+After World War II, major global and regional transformations placed researchers, diplomats, politicians, and military leaders in the position of rethinking how to conduct defense affairs. Jaguaribe, seeking to translate reality into effective future strategies for Brazil, emphasized the need for integration with other South American countries — particularly Argentina, as a strategic axis — to increase Brazil's bargaining power vis-à-vis the United States.
 
-Pouco tempo depois, já encerrado o período de bipolaridade, o Brasil observou uma crescente utilização das Forças Armadas em operações de segurança doméstica em detrimento de seu preparo estratégico em segurança externa. Fato que se contrapõe aos novos desafios presentes na América do Sul: a presença da China na Argentina, país vizinho de fundamental importância para a estratégia proposta por Jaguaribe, e a presença russa na Venezuela.
+Shortly thereafter, following the end of the bipolar era, Brazil witnessed a growing use of its Armed Forces in domestic security operations at the expense of strategic preparation for external defense. This stands in contrast to the new challenges present in South America: China's growing presence in Argentina, a neighbor of fundamental importance to the strategy proposed by Jaguaribe, and Russia's presence in Venezuela.
 
-## O Ciclo de Desenvolvimento das Nações e dos Exércitos
+## The Developmental Cycle of Nations and Armies
 
-A Paz de Westfália foi um marco no processo de criação do Estado Moderno. Até então, a guerra tinha um grande cunho religioso. Após o fim da Guerra dos Trinta Anos, o interesse dos reis ganha predominância: a guerra se torna um direito do soberano.
+The Peace of Westphalia was a landmark in the creation of the modern state. Until then, war carried a predominantly religious character. After the Thirty Years' War, royal interests gained primacy — war became a sovereign's right.
 
-Com a nova organização interna e a arrecadação de tributos, nascem as forças regulares permanentes. Nascem assim os Estudos Estratégicos. Clausewitz acrescentou sobremaneira a esse campo de conhecimento, e sua obra serviu de base para a formação das Escolas de Comando e Estado-Maior em diversas partes do planeta.
+With new internal organization and tax collection, permanent regular forces emerged. Strategic Studies were born. Clausewitz contributed enormously to this field, and his work served as the foundation for Command and General Staff schools across the globe.
 
-No século XIX, a Revolução Industrial muda politicamente e economicamente as nações, e radicalmente o campo militar. A Primeira Guerra Mundial ocorreu em decorrência de tudo que vinha evoluindo desde Westfália. Após ela, as relações entre as nações passaram a ser academicamente estudadas. A Liga das Nações, entretanto, acabou por meio da utopia despreparando os Aliados para o conflito vindouro.
+In the nineteenth century, the Industrial Revolution radically changed nations politically, economically, and militarily. World War I was the product of everything that had been evolving since Westphalia. After the war, international relations began to be academically studied. The League of Nations, however, ended by lulling the Allies into unpreparedness for the conflict that followed.
 
-Na Segunda Guerra Mundial, os militares tomaram consciência do caráter estratégico da Ciência e Tecnologia. Na Guerra Fria, a capacidade de P&D traduziu-se na mais valiosa fonte de poder dos Estados.
+In World War II, the military recognized the strategic dimension of science and technology. During the Cold War, R&D capacity became the most valuable source of national power.
 
-Podemos afirmar, portanto, que a evolução do Estado Moderno e do Sistema Internacional estão diretamente ligadas à evolução dos Exércitos e suas tecnologias. Ocorre um ciclo contínuo que muitos traduzem como o binômio Segurança-Desenvolvimento: quanto maior o poder econômico de um país, mais bem preparado estará seu Exército, e maior será seu poder de barganha no sistema internacional. A nação que desvia suas Forças Armadas de sua finalidade precípua corre o risco de prejudicar gravemente seu ciclo de desenvolvimento nacional.
+We can affirm, therefore, that the evolution of the modern state and the international system are directly tied to the evolution of armies and their technologies. A continuous cycle exists that many describe as the Security-Development binomial: the greater a country's economic power, the better prepared its military, and the greater its bargaining power in the international system. A nation that diverts its armed forces from their core purpose risks seriously damaging its national development cycle.
 
-## As Forças Armadas e o Desvio Institucionalizado
+## The Armed Forces and Institutionalized Diversion
 
-Independente da crescente demanda por segurança interna, nenhum país abrirá mão da guerra como extensão da política. É importante, portanto, racionalizar como o Brasil prevê em seu ordenamento jurídico alinhar-se com essas demandas.
+Regardless of growing domestic security demands, no country will abandon war as an extension of politics. It is therefore important to understand how Brazil's legal framework aligns with these demands.
 
-O problema da utilização das Forças Armadas na Segurança Pública ocorre quando os níveis de segurança individual e comunitária atingem o nível de segurança nacional, quando a gravidade extrapola o suportado pelas Forças de Segurança Pública. Entretanto, a falta de planejamento e organização das forças policiais, somadas ao mau gerenciamento de crise dos governos estaduais, corroboram para o agravamento da situação.
+The problem of deploying the Armed Forces in public security arises when the levels of individual and community security reach national security dimensions — when the severity exceeds what public security forces can handle. However, the lack of planning and organization in police forces, combined with poor crisis management by state governments, compounds the situation.
 
-A abrangência do termo Segurança Nacional precisa ser revista no Brasil. Precisamos enfrentar da forma correta os desafios impostos pela nova ordem mundial.
+The scope of the term National Security needs to be reviewed in Brazil. The country must properly confront the challenges posed by the new world order.
 
-## A Estratégia Brasileira para o Desenvolvimento Nacional
+## Brazil's Strategy for National Development
 
-O Brasil sempre pautou-se pela busca de autonomia internacional e desenvolvimento interno, mesmo que para isso fosse necessário um alinhamento unilateral a um polo específico de poder global. As relações exteriores brasileiras seguiram estratégias econômicas e diplomáticas diferentes em cada governo, mas sempre buscando autonomia e desenvolvimento.
+Brazil has consistently pursued international autonomy and internal development, even when this required unilateral alignment with a specific global power center. Brazilian foreign relations have followed different economic and diplomatic strategies across governments, but always in pursuit of autonomy and development.
 
-Um dos maiores defensores da autonomia diplomática brasileira era o Professor Hélio Jaguaribe. Ele considerava que somente com a integração da América do Sul os interesses brasileiros poderiam fazer frente às pressões dos Estados Unidos.
+One of the greatest advocates of Brazilian diplomatic autonomy was Professor Hélio Jaguaribe. He believed that only through South American integration could Brazilian interests hold their own against pressure from the United States.
 
-> "Um regime precisa ser estabelecido de tal maneira que a proposta brasileira seja extremamente útil para aqueles a quem ela se dirige, de maneira que pertencer ao Mercosul seja bom e não pertencer seja mau." — Jaguaribe, 2002.
+> "A regime must be established in such a way that the Brazilian proposal is extremely useful to those it addresses, so that belonging to Mercosur is good and not belonging is bad." — Jaguaribe, 2002.
 
-Para o autor, o desenvolvimento industrial seria a força motriz do desenvolvimento econômico. Dentro da América do Sul, o Brasil deveria priorizar o Mercosul, e dentro dele, a Argentina.
+For Jaguaribe, industrial development would be the driving force of economic growth. Within South America, Brazil should prioritize Mercosur, and within it, Argentina.
 
-> "Uma aliança ofensiva e defensiva brasileiro-argentina, quanto possível apoiada em melhor articulação da economia dos dois países, acarretaria, de imediato, a inversão das regras do jogo de poder na América do Sul." — Jaguaribe, 1958.
+> "A Brazilian-Argentine offensive and defensive alliance, as far as possible supported by better articulation of the two countries' economies, would immediately invert the rules of the power game in South America." — Jaguaribe, 1958.
 
-## O Cenário Atual e a Relevância de Jaguaribe
+## The Current Scenario and the Relevance of Jaguaribe
 
-Notamos hoje uma crescente presença russa na Venezuela e um alinhamento, principalmente econômico, da China com nossos principais vizinhos estratégicos, os argentinos. O que esses países sul-americanos fizeram ao se alinharem com Rússia e China também foi proposto por Jaguaribe como alternativa ao Brasil: na medida em que a grande potência "madrinha" não ajudasse o Brasil a se desenvolver, nosso país deveria buscar outras alternativas.
+We observe today a growing Russian presence in Venezuela and an alignment — primarily economic — of China with our most important strategic neighbors, the Argentines. What these South American countries did in aligning with Russia and China was also proposed by Jaguaribe as an alternative for Brazil: to the extent that the major "sponsoring" power failed to help Brazil develop, the country should seek other alternatives.
 
-Os sinais dessa falta de colaboração americana já foram dados diversas vezes. Na década de 90, o Brasil assinou diversos tratados com o intuito de obter maior credibilidade internacional e acesso a tecnologias. A resposta americana veio em 2010, quando os EUA negaram a compra de CPUs norte-americanos destinados ao programa nuclear naval brasileiro.
+Signals of this American lack of collaboration have been given many times. In the 1990s, Brazil signed several treaties to gain international credibility and access to technologies. The American response came in 2010, when the United States denied the sale of North American CPUs intended for Brazil's naval nuclear program.
 
-A conclusão é que cabe ao Brasil buscar aquilo que lhe permite liberdade diplomática para atender aos interesses de sua população. Buscando, num primeiro momento, alinhar-se a países vizinhos para fazer frente às pressões das superpotências. E em um segundo momento, aumentar seus acordos econômicos e militares com países que ofereçam trocas de tecnologia, como fez a Argentina com a China.
+The conclusion is that Brazil must seek what allows it diplomatic freedom to serve the interests of its population — first by aligning with neighboring countries to counter pressure from superpowers, and then by expanding economic and military agreements with countries that offer technology exchanges, as Argentina has done with China.
 
-O pensamento de Jaguaribe permanece atual. Não porque o mundo não mudou, pois mudou muito. Mas porque os princípios fundamentais da soberania, da autonomia estratégica e da necessidade de construir poder por meio de alianças inteligentes não mudam. Ignorar isso é repetir os erros que ele dedicou sua vida a documentar.
+Jaguaribe's thinking remains current. Not because the world has not changed — it has changed enormously. But because the fundamental principles of sovereignty, strategic autonomy, and the need to build power through intelligent alliances do not change. To ignore this is to repeat the mistakes he dedicated his life to documenting.
 
 ---
 
-*Referências: JAGUARIBE, Hélio. O Nacionalismo na Atualidade Brasileira, 1958. JAGUARIBE, Hélio. Brasil: alternativas e saídas, 2002. PINHEIRO, Letícia. Política Externa Brasileira. Jorge Zahar, 2004. BRASIL. Política Nacional de Defesa / Estratégia Nacional de Defesa, 2016.*
+*References: JAGUARIBE, Hélio. Nationalism in Contemporary Brazil, 1958. JAGUARIBE, Hélio. Brazil: alternatives and paths, 2002. PINHEIRO, Letícia. Brazilian Foreign Policy. Jorge Zahar, 2004. BRAZIL. National Defense Policy / National Defense Strategy, 2016.*

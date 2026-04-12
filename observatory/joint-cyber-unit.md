@@ -1,62 +1,62 @@
 ---
 layout: page
-title: "Joint Cyber Unit: Um Modelo de Cooperação Cibernética para o PROSUL?"
+title: "Joint Cyber Unit: A Model of Cyber Cooperation for PROSUL?"
 ---
 
-# Joint Cyber Unit: Um Modelo de Cooperação Cibernética para o PROSUL?
+# Joint Cyber Unit: A Model of Cyber Cooperation for PROSUL?
 
-O velho continente, por meio da Comissão Europeia, está em vias de viabilização da *Joint Cyber Unit* (JCU), o órgão responsável pela prevenção, dissuasão e resolução de problemas decorrentes de ataques cibernéticos de grande escala, proporcionando uma plataforma cooperativa entre organismos da UE, Estados-Membros e o setor privado europeu. O objetivo principal deste trabalho é entender os limites da legislação da UE e o caminho percorrido até a formação da JCU para concluir se seus objetivos têm aplicabilidade escalável para o PROSUL.
+The European Commission is moving toward establishing the Joint Cyber Unit (JCU), the body responsible for preventing, deterring, and resolving large-scale cyberattacks through a cooperative platform involving EU institutions, member states, and the European private sector. The central question of this analysis is whether the JCU's objectives have scalable applicability for PROSUL, the Forum for the Progress of South America.
 
-## Da Formação do Estado Moderno ao Espaço Cibernético
+## From the Modern State to Cyberspace
 
-A Paz de Westfália estabeleceu os princípios basilares das relações internacionais modernas. Com ela, nasce o conceito de soberania territorial e as forças regulares permanentes como instrumento de poder do Estado. Desde então, cada revolução tecnológica, industrial, nuclear ou digital, redefiniu o que significa projetar poder no sistema internacional.
+The Peace of Westphalia established the foundational principles of modern international relations. With it came the concept of territorial sovereignty and permanent armed forces as instruments of state power. Since then, each revolution — industrial, nuclear, digital — has redefined what it means to project power in the international system.
 
-A criação da ARPANET em 1969 deu origem ao que hoje conhecemos como internet. Com ela, nascem também novas vulnerabilidades. Praticamente todos os sistemas de energia, produção industrial, aeronáutico e financeiro de um país estão conectados em rede, o que significa que um ataque cibernético pode causar consequências físicas diretas para as sociedades.
+The creation of ARPANET in 1969 gave rise to what we now know as the internet. With it came new vulnerabilities. Virtually all energy systems, industrial production, aviation, and financial infrastructure are networked, meaning a cyberattack can produce direct physical consequences for societies.
 
-Não há consenso sobre como classificar esses incidentes: ciberterrorismo, ciberespionagem, guerra cibernética. Nem mesmo termos mais consolidados como "terrorismo" possuem definição amplamente aceita no direito internacional. Brustolin (2019) demonstra que essa imprecisão resulta em punições que não refletem a real gravidade dos crimes, e o mesmo problema se replica no campo cibernético.
+There is no consensus on how to classify these incidents — cyberterrorism, cyberespionage, cyber warfare. Even more established terms like "terrorism" lack broadly accepted definitions in international law. Brustolin (2019) demonstrates that this imprecision results in penalties that do not reflect the actual severity of the crimes, and the same problem replicates itself in the cyber domain.
 
-## Marcos de Segurança Cibernética na Europa
+## EU Cybersecurity Milestones
 
-A União Europeia percebeu cedo que ataques cibernéticos não reconhecem fronteiras nacionais, e que respostas isoladas de cada Estado-Membro seriam insuficientes. A trajetória legislativa da UE reflete essa percepção:
+The European Union recognized early that cyberattacks do not respect national borders, and that isolated responses from individual member states would be insufficient. The EU's legislative trajectory reflects this understanding:
 
-A **Diretiva NIS** (Network and Information Security, 2016) foi o primeiro instrumento legal abrangente de cibersegurança da UE. Estabeleceu requisitos de segurança para operadores de serviços essenciais e prestadores de serviços digitais, além de criar uma rede de CERTs nacionais (Computer Emergency Response Teams).
+The **NIS Directive** (Network and Information Security, 2016) was the EU's first comprehensive cybersecurity legal instrument. It established security requirements for operators of essential services and digital service providers, and created a network of national CERTs (Computer Emergency Response Teams).
 
-O **EU Cybersecurity Act** (2019) fortaleceu o papel da ENISA, Agência da União Europeia para a Cibersegurança, e criou um framework de certificação de cibersegurança para produtos, serviços e processos digitais na UE.
+The **EU Cybersecurity Act** (2019) strengthened the role of ENISA, the European Union Agency for Cybersecurity, and created a cybersecurity certification framework for digital products, services, and processes across the EU.
 
-O **Cyber Resilience Act** (em vigor a partir de 2022) foi mais além, impondo requisitos obrigatórios de cibersegurança para produtos com elementos digitais colocados no mercado europeu, da concepção à manutenção.
+The **Cyber Resilience Act** (in force from 2022) went further, imposing mandatory cybersecurity requirements for products with digital elements placed on the European market, from conception to maintenance.
 
-## A Joint Cyber Unit: Estrutura e Ambições
+## The Joint Cyber Unit: Structure and Ambitions
 
-A JCU foi proposta pela Comissão Europeia em junho de 2021 como uma plataforma virtual e física de resposta coordenada a incidentes e crises cibernéticas de grande escala. Reúne quatro comunidades principais: civil, policial, diplomática e de defesa.
+The JCU was proposed by the European Commission in June 2021 as a virtual and physical platform for coordinated response to large-scale cyber incidents and crises. It brings together four main communities: civil, law enforcement, diplomatic, and defense.
 
-Seu histórico remonta às iniciativas de cooperação cibernética da UE que se desenvolveram progressivamente após os grandes ataques aos países bálticos no início dos anos 2000, especialmente o caso da Estônia em 2007, que demonstrou a vulnerabilidade de infraestruturas críticas nacionais a ataques coordenados.
+Its roots trace back to the EU's progressive cyber cooperation initiatives developed following the major attacks on Baltic states in the early 2000s — especially the Estonia case in 2007, which demonstrated the vulnerability of critical national infrastructure to coordinated attacks.
 
-A implementação da JCU se dá em fases: primeiro o estabelecimento da plataforma e da estrutura de governança; depois a integração progressiva das comunidades mencionadas; e por fim a plena operacionalização com capacidade de resposta em tempo real.
+Implementation unfolds in phases: first, establishing the platform and governance structure; then progressively integrating the communities mentioned; and finally full operationalization with real-time response capability.
 
-Os desafios são consideráveis. A soberania dos Estados-Membros sobre seus próprios sistemas de defesa cibernética cria fricção com a necessidade de compartilhamento de informações em tempo real. A questão da classificação de dados sensíveis e a confiança mútua entre os membros continuam sendo obstáculos concretos.
+The challenges are considerable. Member state sovereignty over their own cyber defense systems creates friction with the need to share information in real time. Classification of sensitive data and mutual trust among members remain concrete obstacles.
 
-## Aplicabilidade para o PROSUL
+## Applicability for PROSUL
 
-O PROSUL, Foro para o Progresso da América do Sul, é uma organização intergovernamental que busca a integração e cooperação regional em diversas áreas, incluindo segurança. A pergunta central deste trabalho é: o modelo da JCU pode ser replicado para o PROSUL?
+PROSUL is an intergovernmental forum seeking regional integration and cooperation in various areas, including security. Can the JCU model be replicated for PROSUL?
 
-A resposta é parcialmente afirmativa, com ressalvas importantes.
+The answer is partially affirmative, with important caveats.
 
-As semelhanças são relevantes: ambos os contextos envolvem múltiplos Estados soberanos com capacidades cibernéticas assimétricas, infraestruturas críticas interconectadas e interesse compartilhado em prevenir ataques de grande escala.
+The similarities are relevant: both contexts involve multiple sovereign states with asymmetric cyber capabilities, interconnected critical infrastructure, and a shared interest in preventing large-scale attacks.
 
-As diferenças, porém, são substanciais. A UE possui décadas de integração institucional prévia, mecanismos de financiamento consolidados e uma cultura de compartilhamento de inteligência que não existe no PROSUL. O nível de maturidade em cibersegurança entre os países sul-americanos é extremamente heterogêneo. E a ausência de um equivalente à ENISA na América do Sul significa que não há agência regional com mandato, expertise e legitimidade para coordenar uma estrutura análoga à JCU.
+The differences, however, are substantial. The EU has decades of prior institutional integration, consolidated funding mechanisms, and a culture of intelligence sharing that does not exist in PROSUL. The level of cybersecurity maturity among South American countries is extremely heterogeneous. And the absence of an ENISA equivalent in South America means there is no regional agency with the mandate, expertise, and legitimacy to coordinate a structure analogous to the JCU.
 
-## Conclusão
+## Conclusion
 
-A Joint Cyber Unit representa um modelo avançado de cooperação cibernética coletiva, o mais ambicioso já tentado em escala regional. Para o PROSUL, os objetivos da JCU têm aplicabilidade como referência conceitual, mas não como modelo de replicação imediata.
+The Joint Cyber Unit represents the most advanced model of collective cyber cooperation ever attempted at a regional scale. For PROSUL, the JCU's objectives are applicable as a conceptual reference, but not as an immediately replicable model.
 
-O caminho sul-americano precisaria começar por etapas menores: compartilhamento de threat intelligence, exercícios conjuntos de resposta a incidentes e harmonização gradual da legislação de cibersegurança entre os países membros. A construção da confiança institucional necessária para uma estrutura como a JCU leva décadas, e a América do Sul ainda está nos primeiros capítulos dessa história.
+The South American path would need to begin with smaller steps: threat intelligence sharing, joint incident response exercises, and gradual harmonization of cybersecurity legislation among member countries. Building the institutional trust required for a structure like the JCU takes decades, and South America is still in the opening chapters of that story.
 
-O que o modelo europeu nos oferece não é um atalho, mas um mapa. A rota precisa ser construída considerando as realidades do nosso continente.
-
----
-
-**Palavras-chave:** Segurança Cibernética. União Europeia. Cooperação. Prevenção. PROSUL.
+What the European model offers is not a shortcut, but a map. The route must be built with our continent's realities in mind.
 
 ---
 
-*Referências: Comissão Europeia. Joint Cyber Unit, 2021. ENISA. EU Cybersecurity Act, 2019. BRUSTOLIN, Vitelio. Comparative Analysis of Regulations for Cybersecurity and Cyber Defence in the United States and Brazil. CLAUSEWITZ, Carl von. On War, 1832. BRASIL. Estratégia Nacional de Defesa, 2016.*
+**Keywords:** Cybersecurity. European Union. Cooperation. Prevention. PROSUL.
+
+---
+
+*References: European Commission. Joint Cyber Unit, 2021. ENISA. EU Cybersecurity Act, 2019. BRUSTOLIN, Vitelio. Comparative Analysis of Regulations for Cybersecurity and Cyber Defence in the United States and Brazil. CLAUSEWITZ, Carl von. On War, 1832. BRAZIL. National Defense Strategy, 2016.*

@@ -1,52 +1,52 @@
 ---
 layout: page
-title: "O Brasil na Era dos Gigantes: Uma Análise Crítica"
+title: "Brazil in the Age of Giants: A Critical Analysis"
 ---
 
-# O Brasil na Era dos Gigantes: Uma Análise Crítica
+# Brazil in the Age of Giants: A Critical Analysis
 
-*Análise de: GUIMARÃES, Samuel Pinheiro. Desafios Brasileiros na Era dos Gigantes. Rio de Janeiro: Contraponto, 2006.*
+*Analysis of: GUIMARÃES, Samuel Pinheiro. Brazilian Challenges in the Age of Giants. Rio de Janeiro: Contraponto, 2006.*
 
-Diplomata brasileiro, bacharel em Ciências Jurídicas pela UFRJ e mestre em economia pela Universidade de Boston, Samuel Pinheiro Guimarães foi ministro da Secretaria de Assuntos Estratégicos da Presidência da República e Alto Representante Geral do Mercosul. Em *Desafios Brasileiros na Era dos Gigantes*, Guimarães disserta em 12 capítulos os desafios que o Brasil enfrenta desde o início do século, analisando como os temas mais importantes, como macroestruturas de poder, capacitação tecnológica e Amazônia, entre outros, influenciam positiva ou negativamente a inserção do país no sistema internacional.
+A Brazilian diplomat, bachelor of law from UFRJ, and master of economics from Boston University, Samuel Pinheiro Guimarães served as Minister of Strategic Affairs of the Presidency and as General High Representative of Mercosur. In *Brazilian Challenges in the Age of Giants*, Guimarães examines in 12 chapters the challenges Brazil has faced since the turn of the century, analyzing how the most important themes — power macrostructures, technological capacity, and the Amazon, among others — positively or negatively influence the country's insertion in the international system.
 
-## A Estrutura e a Dinâmica do Sistema Internacional
+## The Structure and Dynamics of the International System
 
-Guimarães leva o leitor a entender alguns pontos conceituais essenciais sobre a estrutura e a dinâmica do sistema internacional. Afirma que as classificações diferem pela análise de qual ator realmente exerce influência: os realistas indicam apenas o Estado; teorias mais modernas apostam nas megaempresas e ONGs; outras reconhecem o Estado como ator de maior peso, principalmente por seus meios legais de exercer poder.
+Guimarães leads the reader to understand some essential conceptual points about the structure and dynamics of the international system. He notes that classifications differ based on which actor is seen as wielding real influence: realists point only to the state; more modern theories bet on mega-corporations and NGOs; others recognize the state as the heaviest actor, primarily through its legal means of exercising power.
 
-Sobre a dinâmica das relações internacionais, as visões se dividem entre aqueles que creem num "jogo de soma positiva" e aqueles que apostam num "jogo de soma zero". Uma terceira visão analisa mais profundamente as relações entre Estados, ONGs e agências internacionais, concluindo que o que ocorre é um complexo emaranhado de conflitos, competições e cooperações, dependentes da região, do tema e do momento. Nessa última visão, o Estado permanece sendo o mais capaz de intervir nesse organismo internacional.
+On the dynamics of international relations, views are divided between those who believe in a "positive-sum game" and those who count on a "zero-sum game." A third perspective analyzes more deeply the relations among states, NGOs, and international agencies, concluding that what occurs is a complex web of conflicts, competition, and cooperation — dependent on region, subject, and moment. In this final view, the state remains the most capable actor of intervening in this international organism.
 
-## Tecnologia como Vetor de Desigualdade
+## Technology as a Vector of Inequality
 
-Guimarães sinaliza que a principal tendência internacional consiste na contínua aceleração do progresso científico e tecnológico. Na produção civil, a principal marca é a troca de sistemas físicos por eletroeletrônicos e automação. Militarmente, as tecnologias alcançadas permitem um aumento considerável na capacidade combativa com profunda reestruturação doutrinária dos exércitos.
+Guimarães signals that the primary international trend is the continuous acceleration of scientific and technological progress. In civil production, the main feature is the replacement of physical systems with electronics and automation. In military terms, achieved technologies allow a considerable increase in combat capability alongside profound doctrinal restructuring of armies.
 
-A mídia e a internet desempenham papel fundamental na economia mundial, pois a integração tornou comuns certos padrões de consumo que antes eram regionais.
+Media and the internet play a fundamental role in the global economy, as integration has made common certain consumption patterns that were previously regional.
 
-A desigualdade econômica aumentou tanto entre os Estados como dentro deles, fruto principalmente da concentração de conhecimento e produção científica. As unidades do sistema que já possuíam influência conseguiram expandir sua atuação. Poucos foram os que não tinham e começaram a atuar efetivamente.
+Economic inequality has increased both among states and within them — primarily as a result of the concentration of knowledge and scientific production. Units of the system that already wielded influence managed to expand their reach. Few who lacked it began to operate effectively.
 
-## O Brasil e seus Desafios Internos
+## Brazil and Its Internal Challenges
 
-Os problemas internos do Brasil, como o aumento da criminalidade e da desigualdade social, seguraram o crescimento nacional em comparação com o esperado com a globalização. O país não possui até hoje uma cadeira no Conselho de Segurança e somente recentemente percebe algum investimento militar relevante, muito aquém de suas reais necessidades.
+Brazil's internal problems — rising crime and social inequality — have held back national growth relative to what globalization might have enabled. The country still does not hold a seat on the Security Council, and only recently has seen any relevant military investment, far below its actual needs.
 
-Guimarães indica três grandes desafios para a nação brasileira: a eliminação das disparidades internas; das vulnerabilidades externas, sejam elas políticas, econômicas, ideológicas ou militares; e a exploração do potencial que o Brasil possui, dado seu vasto território rico e seu forte mercado consumidor.
+Guimarães identifies three major challenges for the Brazilian nation: eliminating internal disparities; eliminating external vulnerabilities, whether political, economic, ideological, or military; and exploiting the potential Brazil possesses, given its vast, rich territory and its strong consumer market.
 
-## O Continente Americano e as Relações com os EUA
+## The American Continent and Relations with the US
 
-George Bush, em 1994, propôs a Área de Livre Comércio das Américas (ALCA), que criaria o maior bloco econômico mundial. Na visão de Guimarães, a ALCA poderia engolir o Mercosul e superar os interesses americanos em relação aos brasileiros, criando desativação de indústrias e crescimento do desemprego no país. Esta visão prevaleceu, e as negociações foram encerradas em novembro de 2005 na Cúpula das Américas.
+George Bush proposed the Free Trade Area of the Americas (FTAA) in 1994, which would have created the world's largest economic bloc. In Guimarães's view, the FTAA could have swallowed Mercosur and placed American interests above Brazilian ones, generating industrial deactivation and rising unemployment in the country. This view prevailed, and negotiations ended in November 2005 at the Summit of the Americas.
 
-O diplomata prevê os principais desafios que enfrentaríamos: países ricos continuando na busca pela concentração de riqueza e poderio militar; o crescimento mais acelerado da China; a expansão da União Europeia; e a manutenção dos Estados Unidos como grande potência.
+The diplomat anticipated the main challenges Brazil would face: wealthy countries continuing to concentrate wealth and military power; China's accelerating growth; the expansion of the European Union; and the maintenance of the United States as a major power.
 
-## Uma Leitura Atualizada
+## An Updated Reading
 
-Podemos acrescentar à obra considerações que o tempo tornou óbvias: a necessidade de reforma política, administrativa e tributária, somente evidenciada após a descoberta de escândalos de corrupção, um impeachment, a prisão de um ex-presidente e o agravamento da crise de segurança pública. E uma consideração importante que Guimarães não poderia prever em sua totalidade: a polarização política brasileira, que extrapola o saudável debate democrático e resulta numa incapacidade do Congresso Nacional em aprovar projetos que propulsionem o desenvolvimento nacional.
+We can add considerations that time has made obvious: the need for political, administrative, and tax reform — only evidenced after the discovery of corruption scandals, an impeachment, the imprisonment of a former president, and the worsening of the public security crisis. And an important consideration that Guimarães could not fully anticipate: Brazilian political polarization, which surpasses healthy democratic debate and results in Congress's inability to pass development-driving legislation.
 
-Sobre o caso chinês, com a grande parcela do comércio exterior brasileiro destinado à China e o poderoso lobby do agronegócio no Congresso Nacional, dificilmente um presidente teria condições de manter-se firme em propósitos ideológicos sem ceder a essas fortes pressões internas, como Guimarães corretamente previa.
+On the Chinese case, with a large share of Brazilian foreign trade directed to China and the powerful agribusiness lobby in Congress, it would be nearly impossible for any president to hold firm on ideological principles without yielding to these powerful internal pressures — as Guimarães correctly foresaw.
 
-## Conclusão
+## Conclusion
 
-A obra de Samuel Pinheiro Guimarães apresenta uma sólida base para entendermos os desafios que o Brasil enfrenta no século XXI. Apresenta de maneira clara como os aspectos da capacitação tecnológica, das macroestruturas de poder, da globalização e dos fatores políticos, econômicos, sociais, culturais e militares influenciam este processo estratégico de longo prazo que nos comprometemos a realizar.
+Samuel Pinheiro Guimarães's work provides a solid foundation for understanding the challenges Brazil faces in the twenty-first century. It clearly shows how technological capacity, power macrostructures, globalization, and political, economic, social, cultural, and military factors influence the long-term strategic process we have committed to pursuing.
 
-Todos estes desafios possuem soluções. Cabe ao Brasil traçar uma rota com uma estratégia de projeção nacional que englobe principalmente: a inclusão no Conselho de Segurança da ONU, um incremento na defesa nacional, o fortalecimento das fronteiras e da Amazônia, e o investimento em tecnologia para desvencilhar-se da dependência das grandes potências.
+All of these challenges have solutions. Brazil's task is to chart a course with a national projection strategy that encompasses above all: inclusion in the UN Security Council, an increase in national defense, the strengthening of borders and the Amazon, and investment in technology to break free from dependence on the great powers.
 
 ---
 
-*Referências: GUIMARÃES, Samuel Pinheiro. Desafios Brasileiros na Era dos Gigantes. Contraponto, 2006.*
+*References: GUIMARÃES, Samuel Pinheiro. Brazilian Challenges in the Age of Giants. Contraponto, 2006.*

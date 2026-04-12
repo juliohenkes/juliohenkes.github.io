@@ -1,48 +1,48 @@
 ---
 layout: page
-title: Malthusianismo Militar e os Acordos de Offset na Defesa Brasileira
+title: Military Malthusianism and Offset Agreements in Brazilian Defense
 ---
 
-# Malthusianismo Militar e os Acordos de Offset na Defesa Brasileira
+# Military Malthusianism and Offset Agreements in Brazilian Defense
 
-Tal qual a problemática demográfica introduzida pelo economista britânico Thomas Malthus no fim do século XVIII, a divergência entre o crescimento exponencial da população e a produção linear de alimentos, percebemos hoje um aumento substancial no custo dos sistemas de armas que não é acompanhado pela receita dos Estados modernos. Esta situação contemporânea é chamada por Jurgen Brauer e Paul Dunne de *Military Malthusianism*.
+Much like the demographic problem introduced by British economist Thomas Malthus in the late eighteenth century — the divergence between exponential population growth and linear food production — we observe today a substantial increase in the cost of weapons systems that is not matched by the revenues of modern states. This contemporary situation is called *Military Malthusianism* by Jurgen Brauer and Paul Dunne.
 
-Desta situação, inúmeros são os esforços empenhados pelos governos ao redor do globo para remediar esta defasagem. A tendência aponta para a cooperação entre os *players* mundiais, seja pelo melhor aproveitamento industrial e tecnológico via acordos como a OTAN, a União Europeia, ou de maneira descentralizada, como ocorre nos acordos de Offset.
+From this situation, countless efforts have been made by governments around the globe to remedy this gap. The trend points toward cooperation among world players, whether through better industrial and technological utilization via agreements like NATO and the European Union, or in a more decentralized manner, as occurs in Offset agreements.
 
-## O que são os Acordos de Offset
+## What Are Offset Agreements
 
-Os Offsets são acordos de compensação industrial previstos na legislação brasileira no Decreto nº 7.546, de 2011. Convenientes por dois motivos básicos: adquirir produtos de defesa para o curto e médio prazo e fomentar a indústria, a ciência e a tecnologia para que no longo prazo a dependência nessa área seja menor.
+Offsets are industrial compensation agreements established in Brazilian legislation under Decree No. 7,546 of 2011. They are convenient for two basic reasons: acquiring defense products for the short and medium term, and fostering industry, science, and technology so that long-term dependency in this area is reduced.
 
-Os Offsets são uma forte ferramenta de política industrial. Facilitam a transferência de tecnologia, criam empregos de alto nível técnico e estimulam a capacitação profissional. Estão inclusive previstos na Estratégia Nacional de Defesa.
+Offsets are a powerful industrial policy tool. They facilitate technology transfer, create high-skill jobs, and stimulate professional development. They are even mentioned in the National Defense Strategy.
 
-Entretanto, embora pareça ser um tipo de negociação vantajosa para todas as partes, há diversos interesses governamentais que se sobrepõem ao mero acordo comercial. É de interesse dos países que possuem uma boa Base Industrial de Defesa que as atividades de Offset sejam monitoradas com rigor pelos órgãos de Estado.
+However, although this type of negotiation appears advantageous to all parties, various governmental interests overlap with the mere commercial agreement. It is in the interest of countries with a robust Defense Industrial Base that Offset activities be rigorously monitored by state agencies.
 
-Além dos assuntos estratégicos envolvidos, o desenvolvimento de uma cadeia de produção no país de destino pode ofertar ao detentor da tecnologia uma forte concorrência futura. É o caso da Embraer, que se configura como uma das maiores empresas de aviação do mundo e teve parte de seu crescimento proveniente de compensações e trocas de tecnologia auferidas por este tipo de acordo.
+Beyond the strategic issues involved, developing a production chain in the recipient country may offer the technology holder significant future competition. The case of Embraer illustrates this — one of the world's largest aviation companies, part of whose growth stemmed from compensation and technology exchanges gained through this type of agreement.
 
-Conclui-se parcialmente que o livre-comércio, almejado pelas empresas de sistemas de armas, esbarra na intervenção estatal para a manutenção dos interesses de soberania. Como exemplo: os Estados Unidos consideram os acordos de Offset uma distorção do comércio, proibindo as agências americanas de estimular sua realização.
+We can partially conclude that free trade, sought by weapons systems companies, collides with state intervention to maintain sovereignty interests. As a counterexample: the United States considers Offset agreements a distortion of trade, prohibiting American agencies from encouraging them.
 
-## Seletividade Estratégica na Escolha de Parceiros
+## Strategic Selectivity in Partner Selection
 
-Dada a importância do assunto, convém ao Brasil estabelecer critérios claros para a seleção dos parceiros de Defesa. O alinhamento de princípios das relações internacionais, positivados no artigo 4º da Constituição Federal de 1988, parece um ótimo ponto de partida.
+Given the importance of the matter, Brazil would benefit from establishing clear criteria for selecting defense partners. The alignment of international relations principles, codified in Article 4 of the 1988 Federal Constitution, seems an excellent starting point.
 
-Do ponto de vista estratégico, firmar acordos com países com relevância na ONU, que possuam vasto investimento no setor militar e que tenham histórico de parcerias com o Brasil parece de extrema conveniência. No aspecto técnico, é importante que o equipamento possua forma de emprego familiar ao que as Forças Armadas Brasileiras já possuam.
+From a strategic perspective, agreements with countries that have relevant influence at the UN, significant military investment, and a history of partnership with Brazil appear highly convenient. On the technical side, it is important that equipment has an operational profile familiar to what the Brazilian Armed Forces already possess.
 
-Há que se reconhecer que a complexidade do assunto ultrapassa semelhanças ideológicas e entra no campo da disponibilidade, da predisposição e da cooperação entre os Estados parte. Nem todos os países que possuem alinhamento com o Brasil tornar-se-ão bons transferidores de conhecimento técnico-científico.
+It must be recognized that the complexity of the matter goes beyond ideological similarities and enters the realm of availability, predisposition, and cooperation between the parties. Not all countries aligned with Brazil will become good transferors of scientific and technical knowledge.
 
-O fato de não participarmos de acordos militares internacionais e de não termos um Mercosul formado em sua plenitude reduz os ofertantes dispostos a cooperar. Por outro lado, dá liberdade ao Brasil para escolher produtos de defesa por sua qualidade, em vez de pautar nossas decisões por aspectos subjetivos da política externa.
+The fact that Brazil does not participate in international military alliances and does not have a fully formed Mercosur reduces the pool of willing cooperators. On the other hand, it gives Brazil the freedom to choose defense products based on quality, rather than anchoring decisions to the subjective aspects of foreign policy.
 
-## Potenciais Parceiros Estratégicos
+## Potential Strategic Partners
 
-**França:** parceira militar desde a Missão Militar Francesa em 1919, que modernizou e profissionalizou o Exército Brasileiro. Investe 50,1 bilhões de dólares anualmente em Defesa. Destaque para a Eurocopter Group, fabricante dos Cougar, com subsidiária brasileira Helibrás. Participou ainda do programa FX-2 da FAB com o Rafale da Dassault.
+**France:** a military partner since the French Military Mission in 1919, which modernized and professionalized the Brazilian Army. France invests $50.1 billion annually in defense. Noteworthy is the Eurocopter Group, manufacturer of the Cougar helicopters, with its Brazilian subsidiary Helibrás. France also participated in the Brazilian Air Force FX-2 program with Dassault's Rafale.
 
-**Alemanha:** o Brasil possui uma plataforma inteira de carros de combate da Krauss Maffei, os Leopard 1A5 para a cavalaria, o Guepard antiaéreo para a artilharia e os Bergpanzer de engenharia de combate. A aquisição foi consolidada em 2012. A operacionalização do acordo trouxe incrementos operacionais significativos ao Exército Brasileiro.
+**Germany:** Brazil operates an entire platform of armored vehicles from Krauss Maffei — the Leopard 1A5 for cavalry, the Gepard anti-aircraft system for artillery, and combat engineering Bergpanzers. The acquisition was consolidated in 2012, bringing significant operational enhancements to the Brazilian Army.
 
-**Suécia:** além de ganhar o programa FX-2 com o Gripen, a Saab já fornecia ao Brasil sistemas de armas como o AT-4 e o Carl Gustav (anticarro) e o RBS70 (antiaéreo). O Gripen vem para o Brasil com a missão explícita de incentivar a produção tecnológica nacional e a formação técnica especializada, um acordo de Offset estruturado.
-
----
-
-O Malthusianismo Militar não é uma tendência, é uma realidade. Os países que não souberem gerenciar essa equação entre custo crescente dos sistemas de armas e receitas limitadas estarão, progressivamente, dependentes de outras nações para sua própria defesa. O Brasil possui parceiros estratégicos e instrumentos legais adequados. O que falta é vontade política de utilizá-los com consistência.
+**Sweden:** in addition to winning the FX-2 program with the Gripen, Saab already supplied Brazil with weapons systems such as the AT-4 and Carl Gustav (anti-tank) and the RBS70 (anti-aircraft). The Gripen comes to Brazil with an explicit mission to foster national technological production and specialized technical training — a structured Offset agreement.
 
 ---
 
-*Referências: BRAUER, Jurgen; DUNNE, Paul. Arms Trade Offsets: What do We Know? UWE Bristol, 2004. SIPRI. Gastos militares globais alcançaram 1,9 Trilhão em 2019. Decreto nº 7.546, de 02 de agosto de 2011.*
+Military Malthusianism is not a trend — it is a reality. Countries that fail to manage the equation between rising weapons system costs and limited revenues will progressively depend on other nations for their own defense. Brazil has strategic partners and adequate legal instruments. What is missing is the political will to use them consistently.
+
+---
+
+*References: BRAUER, Jurgen; DUNNE, Paul. Arms Trade Offsets: What do We Know? UWE Bristol, 2004. SIPRI. Global military spending reached $1.9 trillion in 2019. Decree No. 7,546, August 2, 2011.*

@@ -1,56 +1,56 @@
 ---
 layout: page
-title: O Tratado Nuclear que Não Cumpriu suas Promessas
+title: The Nuclear Treaty That Failed Its Promises
 ---
 
-# O Tratado Nuclear que Não Cumpriu suas Promessas
+# The Nuclear Treaty That Failed Its Promises
 
-Ciência e Tecnologia nem sempre tiveram seus caminhos traçados em conjunto durante a evolução humana. A união delas apenas ocorreu de maneira significativa no início do século XIX. Numa busca conceitual sumária, a Ciência está associada ao desejo humano de compreender fenômenos naturais e a Tecnologia ao desejo de aprimoramento, a melhoria de processos. Dentre os desejos humanos básicos, podemos elencar o de impor sua vontade em situações de conflito, individual ou coletivo. Definindo poder como a posse dos meios que levam à produção de efeitos desejados, podemos considerar que a maioria deles são frutos das tecnologias desenvolvidas com bases na ciência.
+Science and Technology have not always traveled together throughout human evolution. Their union only became significant in the early nineteenth century. In a concise conceptual search, Science is associated with the human desire to understand natural phenomena, and Technology with the desire for improvement — the optimization of processes. Among the basic human desires is the drive to impose one's will in situations of conflict, individual or collective. Defining power as the possession of means that lead to desired effects, we can consider that most of these means are products of technologies built on scientific foundations.
 
-Na década de 90, o Brasil assinou vários tratados com o intuito de obter credibilidade internacional e acesso facilitado a novas tecnologias, o que de fato não ocorreu. Se por um lado temos o mundo científico, por vezes alheio aos interesses estatais, focado no compartilhamento de informações acadêmicas pelas mais variadas fronteiras, a tecnologia virou sinônimo de superioridade. Ela permitia projeção de poder e criou uma concentração deste poder, um verdadeiro monopólio em escala global, principalmente com a criação de tratados internacionais que impedem até hoje o acesso a determinadas tecnologias a países com menor projeção.
+In the 1990s, Brazil signed several treaties to gain international credibility and easier access to new technologies — which, in fact, did not materialize. While the scientific world, at times detached from state interests, focuses on sharing academic information across borders, technology has become synonymous with superiority. It enables the projection of power and has created a concentration of that power — a genuine global monopoly — particularly through international treaties that to this day prevent access to certain technologies for countries with lesser geopolitical projection.
 
-## O Problema dos Tratados Internacionais
+## The Problem with International Treaties
 
-Os rumos de uma nação e suas intenções no cenário internacional podem ser muito bem previsíveis no longo prazo quando analisamos estritamente seu povo. Entretanto, basta que uma liderança voltada para o fortalecimento da soberania interna em detrimento dos acordos internacionais assuma o poder, para que boa parte do progresso pacifista mundial se deteriore.
+A nation's trajectory and its intentions in the international arena can often be predicted in the long term when we analyze its people strictly. However, it only takes a leadership focused on strengthening internal sovereignty at the expense of international agreements to come to power for much of the world's pacifist progress to deteriorate.
 
-A busca pelo bem-estar supranacional interessa à economia e ao modelo capitalista, mas sempre foi balanceada pela busca de poder e pela afirmação da soberania. Sem elas, não se atinge o benefício do maior cliente de cada governo: o cidadão. O poder exerce autoridade, mas a base moral do governo traz o consentimento dos governados.
+The pursuit of supranational welfare interests economics and the capitalist model, but has always been balanced by the pursuit of power and the affirmation of sovereignty. Without them, the greatest client of every government — the citizen — cannot be served. Power exercises authority, but the moral foundation of government brings the consent of the governed.
 
-Por vezes, reunimos países além de suas fronteiras a fim de discutir soluções para diversos males. Os dois maiores exemplos dessas tentativas foram a Liga das Nações e atualmente a ONU.
+At times, nations gather beyond their borders to discuss solutions to common problems. The two greatest examples are the League of Nations and the United Nations.
 
-A Liga das Nações foi criada após a Primeira Guerra Mundial com o intuito de evitar outro evento daquela dimensão. Hoje é vista como uma boa tentativa de alcançar a paz mundial, entretanto ela cegou os países chamados de Aliados para a realidade do ultranacionalismo alemão, despreparando-os e abrindo espaço para o crescimento do nazismo. O resultado foi um conflito ainda maior, que reduziu o título do anterior de "A Grande Guerra" para apenas "Primeira".
+The League of Nations was created after World War I with the intent to prevent another event of that scale. Today it is viewed as a genuine attempt at world peace, but it blinded the Allied countries to the reality of German ultranationalism, leaving them unprepared and opening space for the rise of Nazism. The result was a conflict even larger, which demoted the former's title from "The Great War" to merely "the First."
 
-A ONU nasce como uma mensagem de que os Estados almejavam a paz, tendo em vista o fracasso da Liga das Nações. Ainda está em funcionamento, porém não pleno.
+The UN was born as a message that states aspired to peace, given the League's failure. It continues to function — though not fully.
 
-## O Caso das Ilhas Marshall
+## The Marshall Islands Case
 
-O exemplo das Ilhas Marshall é emblemático. Com pouco mais de 70 mil habitantes e localizado no meio do Oceano Pacífico, este pequeno país controlado pelos EUA desde 1947 foi alvo de 67 testes nucleares americanos entre 1946 e 1958. As consequências ambientais ainda reverberam de forma catastrófica.
+The Marshall Islands example is emblematic. With barely 70,000 inhabitants and located in the middle of the Pacific Ocean, this small country — controlled by the United States since 1947 — was the target of 67 American nuclear tests between 1946 and 1958. The environmental consequences continue to reverberate catastrophically.
 
-Em 24 de abril de 2014, a República das Ilhas Marshall impetrou ação na Corte Internacional de Justiça contra os 9 países que deveriam ter cessado a corrida nuclear: China, Coreia, França, Índia, Israel, Paquistão, Rússia, Reino Unido e Estados Unidos, que não o fizeram, mesmo após o Tratado de Não Proliferação das Armas Nucleares (TNPAN).
+On April 24, 2014, the Republic of the Marshall Islands filed suit at the International Court of Justice against the 9 countries that should have ceased the nuclear arms race: China, North Korea, France, India, Israel, Pakistan, Russia, the United Kingdom, and the United States — none of whom had done so, even after the Nuclear Non-Proliferation Treaty (NPT).
 
-A Corte alegou não ser competente para julgar o caso, afirmando que "para que exista uma controvérsia entre Estados, as partes devem possuir uma visão claramente oposta sobre a questão do cumprimento ou não de certas obrigações internacionais". Uma esquiva que demonstra os limites reais das instituições internacionais quando confrontam os interesses das nações mais poderosas.
+The Court claimed it lacked jurisdiction, stating that "for a dispute to exist between states, the parties must hold a clearly opposite view on the question of whether certain international obligations are being fulfilled or not." A dodge that reveals the real limits of international institutions when confronting the interests of the most powerful nations.
 
-## O que o Tratado Realmente Representa
+## What the Treaty Actually Represents
 
-O TNPAN estabelecia que os países sem armamento nuclear no momento de sua assinatura não os produziriam, e que os países que já os possuíam reduziriam seu arsenal a zero. O que se observou foi o exato oposto: o tratado foi aproveitado pelos países detentores para a manutenção do seu *status quo* nuclear.
+The NPT established that countries without nuclear weapons at the time of signing would not produce them, and that countries already possessing them would reduce their arsenal to zero. What occurred was the precise opposite: the treaty was exploited by nuclear-armed states to maintain their *status quo*.
 
-Era imperativo que a Corte Internacional de Justiça e a própria ONU fossem suficientemente respeitadas para imporem a essas 9 nações a obrigação de cumprir com aquilo a que se propuseram. Não o foram.
+It was imperative that the International Court of Justice and the UN itself be sufficiently respected to compel these 9 nations to fulfill what they had committed to. They were not.
 
-## A Adesão Brasileira e suas Consequências
+## Brazil's Accession and Its Consequences
 
-O Brasil, ao assinar o TNPAN, levou em conta sua política internacional pacifista. A Constituição Federal é clara: "toda atividade nuclear em território nacional somente será admitida para fins pacíficos e mediante aprovação do Congresso Nacional."
+Brazil, in signing the NPT, was guided by its pacifist international policy. The Federal Constitution is clear: "all nuclear activity in national territory shall only be permitted for peaceful purposes and subject to approval by the National Congress."
 
-Porém, ao verificarmos a atitude dos países possuidores de armamento nuclear e as ações da ONU por meio da Corte Internacional de Justiça, não é difícil concluir que o Brasil, ao assinar o Tratado, afirmou que sua *ultima ratio* será sempre inferior à dos países que já possuíam armas nucleares.
+However, upon examining the conduct of nuclear-armed states and the actions of the UN through the International Court of Justice, it is not difficult to conclude that Brazil, by signing the Treaty, declared that its *ultima ratio* would always be inferior to that of countries that already possessed nuclear weapons.
 
-Há um fato importantíssimo a considerar: o Brasil nunca teve um plano satisfatório que alocasse esforços estratégicos de defesa suficientes em sua pauta diplomática. Partindo desta premissa, não surpreende que optemos por uma visão irrealista do que pode ocorrer no futuro, acreditando que todos os atores internacionais possuem boas intenções ou que atenderão às nossas expectativas quando da assinatura de um tratado.
+One crucially important fact must be considered: Brazil has never had a satisfactory plan that allocated sufficient strategic defense efforts in its diplomatic agenda. Starting from this premise, it is unsurprising that we opt for an unrealistic view of what may occur in the future — believing that all international actors have good intentions or that they will meet our expectations when a treaty is signed.
 
-A história nos mostrou, mas não nos ensinou: a formação dos órgãos internacionais ocorre com Estados indissolúveis de suas peculiaridades e necessidades, visando sempre o bem-estar de seu povo, liderados por governos mutáveis, cuja constância não se nota nem quando da troca de partidos, quanto mais da alteração ideológica.
+History has shown us, but has not taught us: international bodies are formed by states inseparable from their peculiarities and needs, always seeking the well-being of their people, led by mutable governments, whose consistency is not even visible across party changes — let alone ideological shifts.
 
-## O Que Cabe ao Brasil
+## What Falls to Brazil
 
-Ao Brasil, cabe o realismo. Uma maior inserção civil nos assuntos estratégicos de defesa, bem como deste assunto nas pautas do Congresso Nacional e nos gabinetes do Itamaraty. É necessário que as instituições acadêmicas, tanto civis quanto militares, essencialmente voltadas para o tema, assumam protagonismo dos debates e levem-no para a conscientização do povo e dos poderes constitucionais.
+For Brazil, realism is the answer. Greater civil engagement in strategic defense matters, and a stronger presence of this topic in congressional agendas and Foreign Ministry offices. Academic institutions — both civilian and military — focused on these issues must take a leading role in public debate and bring these questions to the awareness of citizens and constitutional branches of government.
 
-Somente assim defenderemos nossos interesses internos no plano internacional, sem nunca abandonarmos a moralidade e a humanidade que nos caracterizam como povo, mas tendo sempre a alternativa de, quando necessário, utilizarmos o que estiver ao nosso alcance para defender aquilo que nos é sagrado.
+Only in this way will we defend our internal interests in the international arena — never abandoning the morality and humanity that characterize us as a people, but always retaining the option, when necessary, of using every means available to defend what is sacred to us.
 
 ---
 
-*Referências: CARR, Edward Hallett. Vinte Anos de Crise: 1919-1939. Brasília: UnB, 2001. Ministério das Relações Exteriores. Desarmamento nuclear e não proliferação, 2014. International Court of Justice. Marshall Islands v. Pakistan, 2014.*
+*References: CARR, Edward Hallett. The Twenty Years' Crisis: 1919–1939. Brasília: UnB, 2001. Ministry of Foreign Affairs. Nuclear disarmament and non-proliferation, 2014. International Court of Justice. Marshall Islands v. Pakistan, 2014.*

@@ -1,60 +1,60 @@
 ---
 layout: page
-title: Do Estado de Westfália ao Campo de Batalha Cibernético
+title: From the Westphalian State to the Cyber Battlefield
 ---
 
-# Do Estado de Westfália ao Campo de Batalha Cibernético
+# From the Westphalian State to the Cyber Battlefield
 
-A Paz de Westfália foi um marco no processo de criação do Estado Moderno. Para pôr fim ao conflito que assolava a Europa, as lideranças dos principais entes beligerantes estipularam entre si novas regras que servem até os dias atuais como princípios basilares das relações internacionais. Até então, a guerra tinha um grande cunho religioso, populações eram atacadas, rios envenenados, vilas saqueadas. Após o fim da Guerra dos Trinta Anos, o interesse dos reis ganha predominância: o motivo dos conflitos deixa de ser eminentemente religioso e a guerra se torna um direito do soberano.
+The Peace of Westphalia was a landmark in the creation of the modern state. To end the conflict ravaging Europe, the leaders of the major belligerents established new rules that to this day serve as foundational principles of international relations. Until then, war carried a predominantly religious character — populations were attacked, rivers poisoned, villages plundered. After the Thirty Years' War, royal interests gained primacy: the motivation for conflict shifted from religion, and war became a sovereign's right.
 
-Com a nova organização interna e a possibilidade de arrecadação de tributos, nascem as forças regulares permanentes, o braço armado para a prática da última instância política dos Estados. Nascem assim os Estudos Estratégicos, pois cresce a importância de se alcançar objetivos políticos por meio da utilização racional das Forças Armadas.
+With new internal organization and the ability to collect taxes, permanent regular forces emerged as the armed instrument of state political will. Strategic Studies were born, as the rational use of armed forces to achieve political objectives became increasingly important.
 
-## Da Revolução Francesa à Revolução Industrial
+## From the French Revolution to the Industrial Revolution
 
-Após a Revolução Francesa, estabeleceu-se tacitamente que se a política era um assunto de todos, a defesa também o era. O crescente sentimento de nacionalismo deu maior flexibilidade e movimento aos antigos cercos dos exércitos. As batalhas voltaram a ser decisivas.
+After the French Revolution, it became tacitly understood that if politics was everyone's business, so was defense. The growing sense of nationalism gave armies greater flexibility and mobility. Battles became decisive again.
 
-Destacam-se neste período dois autores fundamentais: o Barão Jomini, que interpretou as campanhas napoleônicas realizando uma análise do comandante da tropa; e principalmente Clausewitz, que acrescentou sobremaneira aos Estudos Estratégicos. Com Clausewitz, a guerra foi elevada a outro nível, sua obra serviu de base para a formação das Escolas de Comando e Estado-Maior em diversas partes do planeta.
+Two fundamental thinkers stand out from this period: Baron Jomini, who analyzed the Napoleonic campaigns from a command perspective; and above all Clausewitz, whose contributions to Strategic Studies were immense. With Clausewitz, war was elevated to a new conceptual level — his work became the foundation of Command and General Staff schools across the globe.
 
-No século XIX, a Revolução Industrial traz uma brusca mudança política e econômica. Pouca diferença se percebe na marcha para o combate executada pela Legião Romana de Aníbal em 218 a.C. e a da tropa francesa de Napoleão em 1805. Com as novas tecnologias, tanto a mobilização quanto a mobilidade das unidades ficam facilitadas, e sem esses avanços, a unificação italiana ou a guerra civil americana teriam sido outras.
+In the nineteenth century, the Industrial Revolution brought sudden political and economic change. Little difference could be seen between the march of Hannibal's Roman Legion in 218 BC and Napoleon's French troops in 1805. The new technologies transformed both mobilization and unit mobility, and without these advances, Italian unification or the American Civil War would have unfolded differently.
 
-## A Primeira Guerra Mundial e a Consolidação da C&T
+## World War I and the Consolidation of Science and Technology
 
-A Primeira Guerra Mundial ocorreu em decorrência de tudo que vinha evoluindo desde Westfália. Exércitos profissionais e permanentes, munidos de espírito nacionalista, recebiam as inovações tecnológicas da Revolução Industrial, ao passo que se observava a formação de coalizões entre os Estados. Foi justamente a ligação entre esses dois eventos que potencializou a crueldade e a magnitude do conflito: carros de combate, metralhadoras, canhões modernos e aviões, compensados pela articulação internacional entre beligerantes, que prolongou a guerra.
+World War I was the product of everything that had been evolving since Westphalia. Professional standing armies, imbued with nationalist spirit, absorbed the innovations of the Industrial Revolution while states formed coalitions. It was precisely the fusion of these two forces that amplified the conflict's cruelty and scale — tanks, machine guns, modern artillery, and aircraft, compounded by international alliances that prolonged the war.
 
-Do ponto de vista dos Estudos Estratégicos, como aprendemos com Clausewitz, a Primeira Guerra foi um fracasso até mesmo para os vencedores. O que houve foi um encolhimento da política dentro da estratégia.
+From the perspective of Strategic Studies, as Clausewitz would have it, World War I was a failure even for the victors. What occurred was a contraction of politics within strategy.
 
-Na Segunda Guerra Mundial, os militares tomaram consciência do caráter estratégico da Ciência e Tecnologia e impulsionaram seu desenvolvimento por meio de programas militares de P&D. Dos novos motores, armamentos e veículos surgiram novos tipos de unidades e operações, e em pouco tempo a natureza da guerra havia mudado totalmente.
+In World War II, the military recognized the strategic dimension of science and technology and drove its development through military R&D programs. New engines, weapons, and vehicles gave rise to new types of units and operations, and within a short time the nature of war had entirely changed.
 
-## A Guerra Fria e o Nascimento do Espaço Cibernético
+## The Cold War and the Birth of Cyberspace
 
-Com a queda do nazismo, Rússia e Estados Unidos disputaram a hegemonia mundial por meio do confronto indireto e da corrida armamentista. Na Guerra Fria, a capacidade de P&D dos países traduziu-se na mais valiosa fonte de poder dos Estados, e ao mesmo tempo houve uma concentração desse poder por meio do cerceamento ao acesso a determinadas tecnologias.
+With the fall of Nazism, Russia and the United States competed for global hegemony through indirect confrontation and the arms race. During the Cold War, a nation's R&D capacity became its most valuable source of power, while that power became increasingly concentrated through the restriction of access to critical technologies.
 
-Nos anos 50, a projeção de poder por meio da superioridade tecnológica ficou ainda mais explícita na missão declarada da Advanced Research Projects Agency (ARPA): *"We have a singular mission: the prevention and the creation of strategic surprise."*
+In the 1950s, the projection of power through technological superiority became explicit in the declared mission of the Advanced Research Projects Agency (ARPA): *"We have a singular mission: the prevention and the creation of strategic surprise."*
 
-Em 1969 surge a ARPANET, com a função de integrar os laboratórios de pesquisa da ARPA. Posteriormente, suas tecnologias de protocolos de internet e programação foram expandidas para o público civil, nascendo assim a Internet.
+In 1969, ARPANET was created to connect ARPA's research laboratories. Its internet protocols and programming technologies were later expanded to the civilian public, and the Internet was born.
 
-## O Espaço Cibernético como Novo Campo de Batalha
+## Cyberspace as the New Battlefield
 
-Com a criação da Internet, praticamente todas as atividades cotidianas passaram a ser desenvolvidas em rede. Os indivíduos, grupos, estados e coalizões de países se beneficiam desta tecnologia nas mais diversas formas, desde a agricultura até a comunicação satelital.
+With the creation of the Internet, virtually all daily activities began taking place online. Individuals, groups, states, and coalitions of nations benefit from this technology in countless ways, from agriculture to satellite communications.
 
-Não podemos, porém, desconsiderar a natureza humana. A busca pelo bem-estar supranacional sempre foi balanceada pela busca de poder. Como afirma Clausewitz, "a guerra é a continuação da política por outros meios". Portanto, é da natureza humana resolver, em última instância, seus problemas por meio do enfrentamento. A Ciência e a Tecnologia nunca estarão separadas dessa realidade.
+We cannot, however, dismiss human nature. The pursuit of supranational welfare has always been balanced by the pursuit of power. As Clausewitz wrote, "war is the continuation of politics by other means." It is therefore in human nature to resolve disputes, as a last resort, through confrontation. Science and Technology will never be separated from this reality.
 
-Observamos um crescente número de crimes cibernéticos, categorizados como ciberterrorismo, ciberespionagem ou guerra cibernética. Nem mesmo termos mais antigos como "terrorismo" possuem definições amplamente aceitas no direito internacional, o que por analogia ocorre também com o ciberterrorismo.
+We observe a growing number of cybercrimes, categorized as cyberterrorism, cyberespionage, or cyber warfare. Even older terms like "terrorism" lack broadly accepted definitions in international law — the same problem, by analogy, applies to cyberterrorism.
 
-O ambiente cibernético, ao contrário do eletromagnético, pode trazer consequências físicas diretas para as sociedades. Uma vez que praticamente todos os sistemas de energia, produção industrial, aeronáutico e naval de um país estão conectados em rede, um ataque cibernético, que consiste na exploração de vulnerabilidades, representa um risco existencial para qualquer nação.
+The cyber environment, unlike the electromagnetic domain, can produce direct physical consequences for societies. Since virtually all energy systems, industrial production, aviation, and naval infrastructure are networked, a cyberattack — which consists of exploiting vulnerabilities — represents an existential risk to any nation.
 
-## O Valor Estratégico da Capacidade Cibernética para o Brasil
+## The Strategic Value of Cyber Capability for Brazil
 
-Do ponto de vista ofensivo, o domínio das ações cibernéticas serviria como uma valiosa ferramenta de incremento de poder ao Estado Brasileiro. Definindo poder como a resultante da posse dos meios que levam outros Estados à produção de efeitos desejados por nós, inclusive pela via da dissuasão, o espaço cibernético abre portas importantes para o Brasil de forma relativamente muito mais barata que outras tecnologias militares.
+From an offensive standpoint, mastery of cyber operations would serve as a valuable instrument of national power for Brazil. Defining power as the possession of means that lead other states to produce effects we desire — including through deterrence — cyberspace opens important doors for Brazil at a fraction of the cost of conventional military technologies.
 
-O custo para desenvolver um submarino nuclear, adquirir uma nova família de blindados ou caças é incomparável com os investimentos necessários à formação e capacitação de militares na área de segurança cibernética.
+The cost of developing a nuclear submarine, acquiring a new family of armored vehicles, or procuring fighter jets is incomparable to the investment required to train and develop military personnel in cybersecurity.
 
-Obviamente, todos os meios de combate são complementares entre si. Não devemos recair no erro de Giulio Douhet, que acreditava que os bombardeiros estratégicos seriam os elementos decisivos da Segunda Guerra. A doutrina militar tem que considerar continuamente os avanços tecnológicos.
+All means of warfare are complementary, of course. We must not repeat the error of Giulio Douhet, who believed strategic bombers would be the decisive element of World War II. Military doctrine must continuously account for technological advances.
 
-De maneira estrutural, o Brasil demonstra estar alinhado com a necessidade de investimentos na área cibernética. A Política Nacional de Defesa e a Estratégia Nacional de Defesa mostram-se atualizadas desta realidade, estipulando a maneira pela qual os setores irão alcançar os objetivos impostos para salvaguardar o país no espaço cibernético.
+Structurally, Brazil has demonstrated alignment with the need for investment in the cyber domain. The National Defense Policy and the National Defense Strategy reflect this awareness, establishing how the relevant sectors will achieve the objectives set to safeguard the country in cyberspace.
 
-O campo de batalha do século XXI não se limita mais ao território físico. Quem dominar o espaço cibernético terá uma vantagem estratégica que décadas atrás só era possível com arsenais nucleares.
+The battlefield of the twenty-first century is no longer confined to physical territory. Whoever dominates cyberspace will hold a strategic advantage that decades ago was only possible through nuclear arsenals.
 
 ---
 
-*Referências: BRUSTOLIN, Vitelio. Criteria for Defining War, Terrorism, and Guerrilla Warfare. Naval War College Review, 2019. CLAUSEWITZ, Carl von. On War, 1832. GUDERIAN, Heinz. Achtung, Panzer! Biblioteca do Exército, 2009. BRASIL. Política Nacional de Defesa / Estratégia Nacional de Defesa, 2016.*
+*References: BRUSTOLIN, Vitelio. Criteria for Defining War, Terrorism, and Guerrilla Warfare. Naval War College Review, 2019. CLAUSEWITZ, Carl von. On War, 1832. GUDERIAN, Heinz. Achtung, Panzer! Army Library, 2009. BRAZIL. National Defense Policy / National Defense Strategy, 2016.*

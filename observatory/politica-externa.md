@@ -1,50 +1,50 @@
 ---
 layout: page
-title: "Americanismo e Globalismo: Os Paradigmas da Política Externa Brasileira"
+title: "Americanism and Globalism: The Paradigms of Brazilian Foreign Policy"
 ---
 
-# Americanismo e Globalismo: Os Paradigmas da Política Externa Brasileira
+# Americanism and Globalism: The Paradigms of Brazilian Foreign Policy
 
-A Política Externa Brasileira (PEB) viveu diferentes momentos ao longo dos últimos séculos. Essa variação ocorreu principalmente pela mudança da visão ideológica e econômica de quem detinha o poder interno, tanto nos governos democráticos como no Regime Militar, ou até mesmo através de influência econômica, para não esquecermos as corporações multinacionais e os atores transnacionais em seus respectivos protagonismos no sistema internacional.
+Brazilian Foreign Policy (BFP) has gone through different phases over the past centuries. This variation occurred primarily due to shifts in the ideological and economic vision of those holding internal power — in democratic governments, during the Military Regime, and even through economic influence, given the role of multinational corporations and transnational actors in the international system.
 
-O Brasil sempre pautou-se pela busca de autonomia internacional e desenvolvimento interno, mesmo que para isso fosse necessário um alinhamento unilateral a um polo específico de poder global.
+Brazil has consistently pursued international autonomy and internal development, even when this required unilateral alignment with a specific global power center.
 
-## Os Paradigmas de Letícia Pinheiro
+## The Paradigms of Letícia Pinheiro
 
-Para facilitar o entendimento das diversas tendências das relações exteriores brasileiras, a autora Letícia Pinheiro classificou como *paradigma estratégico* americanista, decorrente da aproximação do Brasil com os Estados Unidos, ou globalista, decorrente do afastamento dos EUA e da maior diversificação das relações exteriores com os demais países do sistema global.
+To facilitate understanding of the various tendencies in Brazilian foreign relations, scholar Letícia Pinheiro classified them as *Americanist* — stemming from Brazil's alignment with the United States — or *Globalist*, stemming from distancing from the US and greater diversification of relations with other countries in the global system.
 
-> "Primeiro, a implantação de um mesmo modelo de desenvolvimento não implica a adoção de uma única linha de política externa. Em outras palavras, os mesmos interesses podem ser alcançados por meio de estratégias e mesmo com base em princípios político-ideológicos distintos. Segundo, a mudança na natureza do regime político não determina uma mudança no conteúdo da política externa." — Pinheiro, 2004.
+> "First, the implementation of the same development model does not imply the adoption of a single foreign policy line. In other words, the same interests can be achieved through distinct strategies and even based on different political-ideological principles. Second, a change in the nature of the political regime does not determine a change in the content of foreign policy." — Pinheiro, 2004.
 
-## O Paradigma Americanista no Regime Militar
+## The Americanist Paradigm Under the Military Regime
 
-Para exemplificar a classificação de Pinheiro, analisemos a adoção do paradigma americanista no Regime Militar, iniciado em 1964 por Castelo Branco, até o seu abandono, quando Geisel restauraria o paradigma globalista entre 1974 e 1979.
+To illustrate Pinheiro's classification, consider the adoption of the Americanist paradigm during the Military Regime, which began in 1964 under Castelo Branco, until its abandonment when Geisel restored the Globalist paradigm between 1974 and 1979.
 
-Com os militares no poder para salvaguardar o país da ameaça comunista, o primeiro presidente militar relacionava para a PEB a visão entre segurança e desenvolvimento, sendo uma dependente da outra. As preocupações com os países latino-americanos tinham viés de segurança, com vistas à possibilidade de surgimento de partidos de esquerda nos países vizinhos. As preocupações com o desenvolvimento instalavam-se no eixo Brasil-EUA.
+With the military in power to safeguard the country from the communist threat, the first military president framed Brazilian foreign policy around the relationship between security and development, each dependent on the other. Concerns about Latin American countries had a security dimension, given the possibility of left-wing parties emerging in neighboring nations. Concerns about development were framed around the Brazil-US axis.
 
-> "Em 1964, tal como ocorrera em 1946, a crença na condição do Brasil de aliado especial fazia com que as elites dirigentes acreditassem que esta escolha se traduziria em benefícios automáticos para o país. Não tardaria, entretanto, para que o aprofundamento do modelo econômico fizesse surgir contenciosos com os Estados Unidos: o reconhecimento da liderança norte-americana não garantiu ao Brasil nem a assistência econômica requerida, nem uma posição de destaque na América Latina." — Pinheiro, 2004.
+> "In 1964, just as in 1946, the belief in Brazil's status as a special ally led the ruling elites to believe that this choice would translate into automatic benefits for the country. It would not take long, however, for the deepening of the economic model to produce friction with the United States: recognition of American leadership guaranteed Brazil neither the required economic assistance nor a prominent position in Latin America." — Pinheiro, 2004.
 
-Somente nos governos seguintes, com a busca por novas parcerias econômicas e autonomia, o Brasil teve um desenvolvimento notável, culminando no "Milagre Econômico" entre 1968 e 1974.
+Only in subsequent governments, with the pursuit of new partnerships and autonomy, did Brazil achieve notable development, culminating in the "Economic Miracle" between 1968 and 1974.
 
-Já no governo Geisel (1974–1979), o Brasil alinhou-se ao que Pinheiro chama de globalismo, principalmente para buscar mercado para seus produtos industrializados.
+Under the Geisel government (1974–1979), Brazil aligned with what Pinheiro calls globalism — primarily in search of markets for its industrial products.
 
-> "Com Geisel, a política externa finalmente se libertava da camisa-de-força ideológica que dificultara a diversificação das relações do Brasil. Retomava-se a busca de autonomia pelo afastamento do centro hegemônico e pela aproximação da Europa Ocidental e dos países subdesenvolvidos da Ásia, África e América Latina." — Pinheiro, 2004.
+> "With Geisel, foreign policy finally freed itself from the ideological straitjacket that had hindered the diversification of Brazil's relations. The pursuit of autonomy through distancing from the hegemonic center was resumed, through closer ties with Western Europe and the underdeveloped countries of Asia, Africa, and Latin America." — Pinheiro, 2004.
 
-## Diplomacia e Defesa: Uma Articulação Necessária
+## Diplomacy and Defense: A Necessary Articulation
 
-Para a autora Maria Regina Soares de Lima, o Brasil contou inicialmente com uma vitoriosa diplomacia que, desde a demarcação territorial, utilizou-se da arbitragem, devido à ausência de ameaças militares efetivas. Isso gerou a percepção de satisfação geopolítica e, consequentemente, uma histórica separação estrutural entre os corpos diplomáticos e militares.
+For scholar Maria Regina Soares de Lima, Brazil initially benefited from a successful diplomacy that, since territorial demarcation, relied on arbitration due to the absence of effective military threats. This generated a perception of geopolitical satisfaction and, consequently, a historical structural separation between the diplomatic and military bodies.
 
-Entretanto, é um axioma que se faz necessária uma melhor articulação entre diplomacia e defesa. A capacidade militar é um ativo de poder de uma nação e serve de base para qualquer argumentação diplomática que reivindique seus interesses.
+However, it is axiomatic that better articulation between diplomacy and defense is necessary. Military capacity is an asset of national power and serves as the foundation for any diplomatic argument asserting a nation's interests.
 
-Somente no governo Lula houve articulações perenes para as pautas diplomáticas e militares: a criação do Conselho de Defesa Sul-Americano e principalmente a Estratégia Nacional de Defesa, em dezembro de 2008.
+Only under the Lula government were lasting articulations made between diplomatic and military agendas — the creation of the South American Defense Council and especially the National Defense Strategy in December 2008.
 
-> "A persistência de ameaças à paz mundial requer a atualização permanente e o aparelhamento das nossas Forças Armadas, com ênfase no apoio à ciência e tecnologia para o desenvolvimento da indústria nacional de defesa." — Estratégia Nacional de Defesa, 2016.
+> "The persistence of threats to world peace requires the permanent updating and equipping of our Armed Forces, with emphasis on support for science and technology to develop the national defense industry." — National Defense Strategy, 2016.
 
-## Conclusão
+## Conclusion
 
-Observar o paradigma americanista no Regime Militar nos prova o quão prejudicial é para o Brasil atender somente aos anseios de um alinhamento unilateral na PEB. Para o pleno desenvolvimento do país, não basta que se busque alinhamento ideológico nas relações exteriores; devem ser considerados os aspectos econômicos e estratégicos.
+Examining the Americanist paradigm during the Military Regime demonstrates how harmful it is for Brazil to serve only the aspirations of unilateral alignment in its foreign policy. For the country's full development, ideological alignment in foreign relations is insufficient — economic and strategic considerations must also be weighed.
 
-A história nos mostrou que os atores internacionais são indissolúveis de suas peculiaridades e necessidades. Os maiores mantenedores desses interesses são os corpos diplomáticos apoiados no solo firme da capacidade de projeção militar. É necessário que os governos permaneçam focados nas políticas de Estado, visando os interesses nacionais de longo prazo: desenvolvimento econômico, soberania e autonomia internacional.
+History has shown that international actors are inseparable from their peculiarities and needs. The principal sustainers of these interests are diplomatic corps standing on the solid ground of military projection capability. Governments must remain focused on state policies aimed at long-term national interests: economic development, sovereignty, and international autonomy.
 
 ---
 
-*Referências: PINHEIRO, Letícia. Política Externa Brasileira (1889-2002). Jorge Zahar, 2004. LIMA, Maria Regina Soares de. Diplomacia, defesa e a definição política dos objetivos internacionais. Ed. FGV, 2010. BRASIL. Estratégia Nacional de Defesa, 2016.*
+*References: PINHEIRO, Letícia. Brazilian Foreign Policy (1889–2002). Jorge Zahar, 2004. LIMA, Maria Regina Soares de. Diplomacy, defense, and the political definition of international objectives. FGV, 2010. BRAZIL. National Defense Strategy, 2016.*

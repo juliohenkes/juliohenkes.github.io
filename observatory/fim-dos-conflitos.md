@@ -1,52 +1,52 @@
 ---
 layout: page
-title: Por que os Conflitos Armados São Inevitáveis
+title: Why Armed Conflicts Are Inevitable
 ---
 
-# Por que os Conflitos Armados São Inevitáveis
+# Why Armed Conflicts Are Inevitable
 
-O cerne desta análise é adquirir argumentos para a discussão sobre a necessidade de uma nação investir em forças armadas sólidas, erradicando a possibilidade de promovermos um desarmamento por iniciativa interna ou a falsa esperança de que haverá, num futuro mesmo que distante, o fim para os conflitos.
+The core of this analysis is to build arguments for the discussion about the necessity of a nation investing in solid armed forces — ruling out the possibility of pursuing unilateral disarmament or harboring the false hope that armed conflicts will, even in a distant future, cease to exist.
 
-## Terrorismo: Um Fenômeno Mal Definido
+## Terrorism: A Poorly Defined Phenomenon
 
-Após os ataques de 11 de setembro de 2001, incontáveis pesquisadores lançaram-se na árdua tarefa de debater e tipificar o terrorismo. O que se percebe é, em resumo, a generalização e a falta de embasamento científico nas teorias. Clausewitz, percebendo esta dificuldade científica, focou seu trabalho na essência da guerra para lograr praticidade e respostas para este fenômeno.
+After the attacks of September 11, 2001, countless researchers engaged in the arduous task of debating and classifying terrorism. What emerges, in summary, is generalization and a lack of scientific grounding in the theories. Clausewitz, recognizing this scientific difficulty, focused his work on the essence of war to achieve practicality and answers for this phenomenon.
 
-Em 2019, Brustolin publica o artigo *"Criteria for Defining War, Terrorism, and Guerrilla Warfare Based on Clausewitz's Concepts"*, que dá nova luz a esta questão. O que se tem é que, sem a definição precisa de terrorismo, o direito internacional pune quem o pratica não pelo contexto geral do crime, mas pelo estreito enquadramento legal disponível. Torna-se difícil, portanto, a promulgação de políticas de Estado para evitar o terrorismo quando não se sabe ao certo o que ele é.
+In 2019, Brustolin published the article *"Criteria for Defining War, Terrorism, and Guerrilla Warfare Based on Clausewitz's Concepts"*, shedding new light on the question. The result is that, without a precise definition of terrorism, international law punishes its practitioners not based on the broader context of the crime, but on the narrow available legal framework. It becomes difficult, therefore, to craft state policies to prevent terrorism when we are not entirely sure what it is.
 
-A Lei nº 13.260/2016 define terrorismo como a prática de atos "por razões de xenofobia, discriminação ou preconceito de raça, cor, etnia e religião, quando cometidos com a finalidade de provocar terror social ou generalizado". Talvez nem os atentados às Torres Gêmeas se enquadrariam como terroristas caso a legislação americana possuísse as mesmas definições brasileiras, tamanha é a imprecisão conceitual.
+Brazilian Law No. 13,260/2016 defines terrorism as acts motivated "by xenophobia, discrimination, or prejudice based on race, color, ethnicity, or religion, when committed with the intent to provoke social or widespread terror." Not even the attacks on the Twin Towers might qualify as terrorism under comparable American legislation — so great is the conceptual imprecision.
 
-Quem pratica o ato terrorista, o faz com o objetivo de demandar algo de um agente governamental, mas o pratica contra um agente não governamental. Com o globalismo e a velocidade das informações, qualquer ato terrorista pode ser feito inclusive em um país que tenha o foco das atenções midiáticas sem ser necessariamente o território de origem das reivindicações. Isso se comprova com o esquema de segurança montado no Brasil durante os Jogos Olímpicos de 2016.
+Those who commit terrorist acts do so to demand something from a government actor, yet act against a non-governmental actor. With globalism and the speed of information, any terrorist act can be carried out in a country that happens to be in the media spotlight without being the territory of origin for the grievances. This was demonstrated by the security apparatus assembled in Brazil during the 2016 Olympic Games.
 
-## A Natureza Permanente da Guerra
+## The Permanent Nature of War
 
-A busca pelo bem-estar supranacional sempre interessou à economia e ao capitalismo, mas sempre foi balanceada pela busca de poder e pela afirmação da soberania dos Estados, pois sem elas, não se atinge o benefício do maior cliente de cada governo: o cidadão.
+The pursuit of supranational welfare has always interested economics and capitalism, but has always been balanced by the pursuit of power and the affirmation of state sovereignty — because without them, the greatest client of every government — the citizen — cannot be served.
 
-A paz é almejada por todos os povos, mas não se deve dissociar os aspectos de poder. Como afirma Clausewitz, "a guerra é a continuação da política por outros meios". Sendo a política a representação dos interesses de uma comunidade, podemos finalmente associar o início da civilização com o surgimento da guerra.
+Peace is sought by all peoples, but we must not dissociate the dimensions of power. As Clausewitz stated, "war is the continuation of politics by other means." Since politics is the representation of a community's interests, we can ultimately link the beginning of civilization with the emergence of war.
 
-Os conflitos para a raça humana não surgiram com as primeiras civilizações na região da Mesopotâmia, pois sítios arqueológicos datam de muito antes dos Sumérios. O conflito é da natureza não só dos homens, mas de diversas outras espécies. Relações políticas e conflituosas já foram observadas até mesmo em chimpanzés, como documenta Frans de Waal em *Políticas dos Chimpanzés*.
+Conflicts among human beings did not begin with the first civilizations of Mesopotamia — archaeological sites date much further back than the Sumerians. Conflict is intrinsic not only to humans, but to many other species. Political and conflictual relationships have been observed even among chimpanzees, as Frans de Waal documents in *Chimpanzee Politics*.
 
-Por vezes, reunimos países além de suas fronteiras para discutir a paz. Os dois maiores exemplos foram a Liga das Nações e a ONU, criadas no início e na metade do século XX, respectivamente. Curiosamente, o século XX foi o mais sangrento de toda a existência humana. A Liga das Nações cegou os Aliados para o ultranacionalismo alemão. Voltando vistas para o passado, poderíamos condenar qualquer utópico da época a mero negacionista da ciência e da real natureza e essência do homem.
+At times, nations gather beyond their borders to discuss peace. The two greatest examples were the League of Nations and the United Nations, created in the beginning and middle of the twentieth century, respectively. Curiously, the twentieth century was the bloodiest in all of human history. The League of Nations blinded the Allies to German ultranationalism. Looking back, we could condemn any utopian of that era as a mere denier of science and of the real nature and essence of humanity.
 
-## A Tecnologia nos Conflitos Futuros
+## Technology in Future Conflicts
 
-Com todos os argumentos de que não há como separar o homem da guerra, convém estudarmos como serão os conflitos do futuro. A evolução científica e tecnológica está diretamente associada às guerras. Ciência e Tecnologia, numa busca conceitual sumária, estão associadas ao desejo humano de compreender fenômenos naturais e ao desejo de aprimoramento de processos. Dentre os desejos humanos básicos, está o de impor sua vontade em situações de conflito.
+Given all the arguments that there is no separating humanity from war, it is worth studying what future conflicts will look like. Scientific and technological evolution is directly associated with wars. Science, in a summary search, is associated with the human desire to understand natural phenomena; Technology with the desire for improvement and process optimization. Among the basic human desires is the drive to impose one's will in situations of conflict.
 
-Conclui-se que, sendo da natureza humana resolver seus problemas por meio do enfrentamento, em qualquer escala, a Ciência e a Tecnologia nunca estarão separadas desses processos, pois são ferramentas do incremento de poder dos povos.
+It follows that, as conflict resolution through confrontation is intrinsic to human nature — at any scale — Science and Technology will never be separated from these processes, as they are tools for enhancing the power of peoples.
 
-A história nos mostrou que a formação e consolidação das nações soberanas só ocorreu graças à sua força internacional frente aos demais atores do sistema, valendo-se de toda a tecnologia disponível para garantir seus interesses. Estados indissolúveis de suas peculiaridades e necessidades, liderados por governos mutáveis, cuja constância não se nota nem quando da troca de partidos, que no tempo perpetuaram, no mínimo, o desejo de manterem-se como Estados soberanos.
+History has shown that the formation and consolidation of sovereign nations occurred only through their international strength against other actors, using all available technology to secure their interests. States are inseparable from their peculiarities and needs, led by mutable governments, whose consistency is not even visible when parties change — let alone when ideological shifts occur — yet who have perpetually maintained, at minimum, the desire to remain as sovereign states.
 
-## O Alinhamento Brasileiro com a Realidade
+## Brazil's Alignment with Reality
 
-Partindo da premissa de que nenhum país abrirá mão da guerra como extensão da política, é importante racionalizar como o Brasil prevê em seu ordenamento jurídico alinhar-se com estas demandas.
+Starting from the premise that no country will abandon war as an extension of politics, it is important to understand how Brazil's legal order aligns with these demands.
 
-A Política Nacional de Defesa (PND) e a Estratégia Nacional de Defesa (END) representam uma resposta recente a esta problemática. Ambos os textos são provenientes de um debate realizado em conjunto com diversos setores da sociedade.
+The National Defense Policy (NDP) and the National Defense Strategy (NDS) represent a recent response to this problem. Both documents resulted from debates conducted jointly with various sectors of society.
 
-> "A persistência de ameaças à paz mundial requer a atualização permanente e o aparelhamento das nossas Forças Armadas, com ênfase no apoio à ciência e tecnologia para o desenvolvimento da indústria nacional de defesa." — Estratégia Nacional de Defesa, 2016.
+> "The persistence of threats to world peace requires the permanent updating and equipping of our Armed Forces, with emphasis on support for science and technology to develop the national defense industry." — National Defense Strategy, 2016.
 
-Os conceitos de Defesa e tecnologia são inseparáveis nos documentos, citados 95 vezes em 114 páginas dos textos oficiais. De maneira estrutural, o país demonstra estar alinhado com o realismo e com a necessidade de investimentos em Defesa. Embora todas as crises e dívidas públicas que limitam a execução plena do que se pretende, ambos os textos representam uma grande evolução na preocupação do país com a proteção internacional do Brasil.
+The concepts of Defense and technology are inseparable in these documents, mentioned 95 times across 114 pages of official text. Structurally, Brazil has demonstrated alignment with realism and the need for defense investment. Despite all the crises and public debt that limit full execution of stated intentions, both documents represent a major advance in the country's commitment to protecting Brazil's international standing.
 
-O erro seria acreditar que a evolução moral da humanidade tornará os conflitos desnecessários. A história não nos deu nenhuma evidência disso. O que ela nos deu foi a prova de que os países que se preparam sobrevivem — e os que se iludem, não.
+The mistake would be to believe that the moral evolution of humanity will make conflicts unnecessary. History has given us no evidence of this. What it has given us is proof that countries that prepare survive — and those that indulge in illusions do not.
 
 ---
 
-*Referências: BRUSTOLIN, Vitelio. Criteria for Defining War, Terrorism, and Guerrilla Warfare. Naval War College Review, 2019. CLAUSEWITZ, Carl von. On War, 1832. WAAL, Frans De. Chimpanzee Politics, 1982. BRASIL. Política Nacional de Defesa / Estratégia Nacional de Defesa, 2016.*
+*References: BRUSTOLIN, Vitelio. Criteria for Defining War, Terrorism, and Guerrilla Warfare. Naval War College Review, 2019. CLAUSEWITZ, Carl von. On War, 1832. WAAL, Frans De. Chimpanzee Politics, 1982. BRAZIL. National Defense Policy / National Defense Strategy, 2016.*

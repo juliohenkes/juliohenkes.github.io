@@ -1,52 +1,52 @@
 ---
 layout: page
-title: "Embraer: Quando a Soberania Industrial Entrou em Jogo"
+title: "Embraer: When Industrial Sovereignty Was at Stake"
 ---
 
-# Embraer: Quando a Soberania Industrial Entrou em Jogo
+# Embraer: When Industrial Sovereignty Was at Stake
 
-O descobrimento do continente sul-americano, nos moldes em que ocorreu, num contexto de expansão marítima das potências europeias do século XV, orientou a ocupação do território brasileiro de modo exploratório. Isso fez com que houvesse um significativo atraso no desenvolvimento dessas terras. Somente com a vinda da Coroa portuguesa para o Brasil, em 1808, a Base Industrial de Defesa brasileira começa a se desenvolver.
+The discovery of the South American continent, in the context of fifteenth-century maritime expansion by European powers, oriented the occupation of Brazilian territory in an extractive manner. This resulted in significant developmental delay. Only with the arrival of the Portuguese Crown in Brazil in 1808 did the Brazilian Defense Industrial Base begin to take shape.
 
-Até 1808, era de interesse português que sua colônia não competisse com Portugal no mercado europeu, mas apenas servisse como fonte de commodities. Com o deslocamento da Coroa para a colônia, essas restrições foram aos poucos retiradas. Somente a partir deste momento notamos grandes mudanças, como a criação da Fábrica Real de Pólvora da Lagoa Rodrigo de Freitas, integrada em 1975 à Indústria de Material Bélico do Brasil (Imbel).
+Until 1808, it was in Portugal's interest that its colony not compete in the European market, but instead serve only as a source of commodities. With the Crown's relocation to the colony, these restrictions were gradually lifted. Only from this point do we notice significant changes — such as the creation of the Royal Gunpowder Factory at Lagoa Rodrigo de Freitas, which was later integrated in 1975 into the Brazilian War Material Industry (Imbel).
 
-## Os Ciclos da Base Industrial de Defesa
+## The Cycles of the Defense Industrial Base
 
-A Base Industrial de Defesa do Brasil passou por quatro ciclos distintos.
+Brazil's Defense Industrial Base went through four distinct cycles.
 
-O **Ciclo das fábricas militares** (1889–1940) foi marcado pelo surgimento de estatais como a Fábrica do Realengo e a Fábrica do Piquete, que permitiram ao Brasil desvencilhar-se da dependência de pólvora do mercado exterior.
+The **Military Factories Cycle** (1889–1940) was marked by the emergence of state-owned companies such as the Realengo and Piquete factories, which allowed Brazil to break free from dependence on imported gunpowder.
 
-O segundo ciclo (1940–1964), logo após o início da Segunda Guerra Mundial, foi marcado pela percepção, por militares e pela sociedade civil, da importância do desenvolvimento tecnológico na área militar. Surgem nesta fase o Instituto Tecnológico Aeroespacial (ITA) e o Instituto Militar de Engenharia (IME).
+The second cycle (1940–1964), shortly after the start of World War II, was characterized by recognition — among the military and civil society — of the importance of technological development in the military domain. The Technological Institute of Aeronautics (ITA) and the Military Engineering Institute (IME) emerged during this phase.
 
-O terceiro ciclo (1964–1990) transformou o Brasil de um país que não exportava produtos de defesa para o 5º maior exportador do mundo. Em 1980, esta boa fase econômica estimulou a criação da Engesa, da Avibras e da Embraer.
+The third cycle (1964–1990) transformed Brazil from a country that did not export defense products to the world's fifth-largest defense exporter. In 1980, favorable economic conditions stimulated the creation of Engesa, Avibras, and Embraer.
 
-O último ciclo (1990–2000) foi um período de crise. A Engesa decretou falência em 1993, a Avibras parou de exportar entre 1993 e 1999, e na Embraer, até mesmo o diretor Ozílio da Silva pediu demissão após a dívida da empresa bater 700 milhões de dólares em 1990.
+The final cycle (1990–2000) was a period of crisis. Engesa declared bankruptcy in 1993, Avibras halted exports between 1993 and 1999, and at Embraer, even CEO Ozílio da Silva resigned after the company's debt reached $700 million in 1990.
 
-## A Privatização e o Crescimento
+## Privatization and Growth
 
-Esta crise resultou na privatização da Embraer, em 7 de dezembro de 1994, no governo do presidente Itamar Franco. Após a Oferta Pública Inicial na Bovespa, a Embraer saiu da crise tornando-se a terceira maior fabricante de jatos comerciais do mundo, líder no segmento de aviões médios, com faturamento anual na faixa de US$ 6 bilhões em 2017.
+This crisis led to Embraer's privatization on December 7, 1994, under President Itamar Franco. Following its initial public offering on the Bovespa, Embraer emerged from crisis to become the world's third-largest commercial jet manufacturer, the leader in the mid-size aircraft segment, with annual revenues around $6 billion in 2017.
 
-Com a vantagem de analisarmos este fato após o crescimento que a empresa teve, podemos concluir que a iniciativa do governo de privatizar a Embraer foi positiva, principalmente quando comparada com a gerência governamental realizada na Petrobrás, que foi usada por anos para a prática de crimes de corrupção.
+With the advantage of hindsight, we can conclude that the government's decision to privatize Embraer was positive — particularly when compared to the government management of Petrobras, which for years served as a vehicle for corruption.
 
-## O Acordo com a Boeing: Uma Ameaça Disfarçada de Oportunidade
+## The Boeing Agreement: A Threat Disguised as an Opportunity
 
-Em dezembro de 2017, a Boeing anunciou, em conjunto com a Embraer, seu interesse de realizar uma *joint venture* com a empresa brasileira. O acordo foi recebido com entusiasmo por parte do governo, que acenava para a manutenção dos interesses estratégicos nacionais e a preservação da *Golden Share*.
+In December 2017, Boeing announced, jointly with Embraer, its interest in forming a joint venture with the Brazilian company. The agreement was received with enthusiasm by the government, which signaled the preservation of national strategic interests and the maintenance of the Golden Share.
 
-Racionalizando sobre o contrato, entretanto, o resultado seria praticamente uma nova empresa, da qual a Embraer seria detentora de apenas 20%, para atuar num mercado que ela já liderava. O motivo da Boeing oferecer este acordo era reflexo do espaço que a americana vinha perdendo para a canadense Bombardier no mercado internacional, e não qualquer crise estrutural da Embraer.
+Analyzing the contract rationally, however, the result would have been virtually a new company in which Embraer held only 20%, competing in a market it already led. Boeing's motivation for offering this deal reflected the market share it had been losing to Canada's Bombardier — not any structural crisis at Embraer.
 
-Deveríamos ter esperado que o governo brasileiro legitimasse o princípio da soberania e defesa dos interesses nacionais de longo prazo, em detrimento momentâneo da atual necessidade de ampliação do liberalismo econômico, justamente por se tratar de uma empresa estratégica do nosso setor aeronáutico de defesa.
+The Brazilian government should have upheld the principle of sovereignty and long-term national interests, even at the short-term cost of limiting economic liberalism — precisely because this involved a strategic company in the national aerospace and defense sector.
 
-Em 2020, a Boeing rescindiu o acordo após o setor de aviação entrar em crise pelo Covid-19 e a empresa enfrentar problemas com o modelo 737 MAX. Para a Embraer restaram prejuízos e desvalorização no mercado acionário.
+In 2020, Boeing terminated the agreement after the aviation sector entered crisis due to COVID-19 and the company faced serious problems with the 737 MAX model. Embraer was left with significant losses and devaluation in the stock market.
 
-## O Caminho para a Reestatização
+## The Path Toward Re-Nationalization
 
-No início do acordo, a Embraer era avaliada em 4,75 bilhões de dólares. Atualmente, estima-se que o valor necessário para sua recuperação fica na casa de 1,5 bilhões de dólares.
+At the start of the agreement, Embraer was valued at $4.75 billion. Currently, the estimated cost of its recovery is around $1.5 billion.
 
-Pensar na reestatização da Embraer nos parece uma saída não só válida como oportuna. A Operação Lava-Jato afasta os temores de novos casos de corrupção; o valor de mercado baixo favorece tal aquisição. Esta possibilidade é reforçada principalmente quando comparamos com o montante de 6 bilhões destinado à recuperação das três maiores empresas de transporte aéreo atuantes no país.
+Re-nationalization of Embraer appears not only valid but timely. Operation Car Wash removes fears of new corruption cases; the low market value favors such an acquisition. This possibility is further reinforced when compared to the $6 billion allocated to the recovery of the three largest air transport companies operating in the country.
 
-Além disso, seria possível reafirmar os avanços obtidos com a Estratégia Nacional de Defesa, o Plano de Articulação e Equipamento de Defesa, a Lei de fomento à Base Industrial de Defesa e principalmente os Projetos Estratégicos da Aeronáutica, com destaque para o KC-390, que aumenta a capacidade operacional da FAB.
+Moreover, it would be possible to reaffirm the advances made through the National Defense Strategy, the Defense Articulation and Equipment Plan, the Defense Industrial Base Development Law, and especially the Strategic Projects of the Air Force — prominently the KC-390, which enhances the operational capacity of the Brazilian Air Force.
 
-O caso Embraer é uma aula sobre o conflito permanente entre o liberalismo econômico de curto prazo e os interesses estratégicos nacionais de longo prazo. Em setores sensíveis, a soberania não pode ser leiloada.
+The Embraer case is a lesson in the permanent conflict between short-term economic liberalism and long-term national strategic interests. In sensitive sectors, sovereignty cannot be auctioned off.
 
 ---
 
-*Referências: AMARANTE, J. C. A. Indústria de defesa. UFJF, 2004. DELLAGNEZZE, R. 200 anos da indústria de defesa no Brasil. UFJF, 2008. ANDRADE, Israel et al. Mapeamento da Base Industrial de Defesa. ABDI & IPEA, 2016.*
+*References: AMARANTE, J. C. A. Defense Industry. UFJF, 2004. DELLAGNEZZE, R. 200 Years of Brazil's Defense Industry. UFJF, 2008. ANDRADE, Israel et al. Mapping the Defense Industrial Base. ABDI & IPEA, 2016.*

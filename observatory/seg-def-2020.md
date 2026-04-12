@@ -1,40 +1,40 @@
 ---
 layout: page
-title: "O Brasil de 2020 a 2030: Quatro Cenários de Segurança e Defesa"
+title: "Brazil 2020–2030: Four Security and Defense Scenarios"
 ---
 
-# O Brasil de 2020 a 2030: Quatro Cenários de Segurança e Defesa
+# Brazil 2020–2030: Four Security and Defense Scenarios
 
-*Análise de: RODRIGUES, T.; KALIL, M. Situación de la Seguridad Y Defensa de Brasil para la Década de 2020-2030. In: AthenaLab, Santiago do Chile, 2020.*
+*Analysis of: RODRIGUES, T.; KALIL, M. Security and Defense Situation in Brazil for the 2020–2030 Decade. In: AthenaLab, Santiago, Chile, 2020.*
 
-Mariana Kalil é doutora em Relações Internacionais pela Universidade de Brasília, especialista em Segurança e Defesa e professora de Geopolítica da Escola Superior de Guerra. Thiago Rodrigues é doutor em Relações Internacionais pela PUC-SP e professor associado do Instituto de Estudos Estratégicos da UFF. Juntos, contribuem para o capítulo *"Situación de la Seguridad Y Defensa de Brasil para la Década de 2020-2030"*, que analisaremos neste trabalho.
+Mariana Kalil holds a doctorate in International Relations from the University of Brasília, is a specialist in Security and Defense, and serves as a Geopolitics professor at the Superior War College. Thiago Rodrigues holds a doctorate in International Relations from PUC-SP and is an associate professor at UFF's Institute of Strategic Studies. Together, they contribute the chapter *"Security and Defense Situation in Brazil for the 2020–2030 Decade"*, which this analysis examines.
 
-Os autores traçam uma perspectiva objetiva sobre os possíveis rumos do Brasil, analisando aspectos internos como o crime organizado, o narcotráfico, a polarização política e a inserção exacerbada de militares no Poder Executivo. O capítulo pauta-se principalmente pelo alinhamento ou não com os Estados Unidos e pela disponibilidade orçamentária, analisando para cada combinação qual será o provável eixo diplomático e suas consequências nas três questões mais sensíveis da atual década: a questão venezuelana, a amazônica e a chinesa.
+The authors present an objective perspective on the possible directions for Brazil, analyzing internal aspects such as organized crime, drug trafficking, political polarization, and the excessive insertion of military personnel into the Executive Branch. The chapter is primarily framed by alignment or non-alignment with the United States and budgetary availability — analyzing for each combination the likely diplomatic axis and its consequences across the three most sensitive issues of the current decade: the Venezuelan question, the Amazon question, and the Chinese question.
 
-## Os Quatro Cenários
+## The Four Scenarios
 
-**Alinhamento com os EUA com disponibilidade orçamentária**: o Brasil adotaria postura ofensiva juntamente com os EUA e países latinos, exercendo pressão diplomática e econômica contra o regime venezuelano, com possível apoio a intervenções diretas. Na questão amazônica, haveria apoio à exploração dos recursos naturais e expansão da fronteira agrícola, com consentimento de presença militar americana na região. Em relação à China, os autores apontam para distanciamento, mesmo com a formação anterior dos BRICS.
+**US Alignment with Budgetary Availability:** Brazil would adopt an offensive posture alongside the United States and Latin American countries, exerting diplomatic and economic pressure against the Venezuelan regime, with possible support for direct interventions. On the Amazon question, there would be support for exploitation of natural resources and expansion of agricultural frontiers, with consent for American military presence in the region. Regarding China, the authors point to distancing, even given the prior formation of BRICS.
 
-**Alinhamento com os EUA com restrição orçamentária**, hipótese mais provável dado o cenário econômico: o Brasil realizaria uma retórica ofensiva em comparação às suas atitudes em todas as três questões. No caso venezuelano, o foco seria dado a denúncias ao regime ditatorial. Na questão amazônica, o Brasil promoveria a diminuição do avanço do agronegócio no discurso, mascarando dados reais. Em relação à China, manteria um discurso contrário à presença chinesa na América do Sul, mesmo que gerando perdas comerciais.
+**US Alignment with Budgetary Constraint** — the most probable scenario given the economic context: Brazil would maintain offensive rhetoric relative to its actual actions on all three issues. On Venezuela, the focus would be on denouncing the dictatorial regime. On the Amazon, Brazil would promote reduced discourse about agribusiness encroachment, masking real data. Regarding China, Brazil would maintain discourse against Chinese presence in South America, even at the cost of commercial losses.
 
-**Autonomia e diversificação com disponibilidade orçamentária**: o Brasil adotaria postura proativa, retomando posição de liderança e construindo normas para a resolução de questões regionais. Em relação à Venezuela, ampliaria sua voz para mediar o conflito entre interesses russos e americanos na região. Na questão ambiental, teria maior sensibilidade às demandas de organismos multilaterais. Para as relações com a China, os autores sugerem liderança do Brasil na construção de normas multilaterais, aderindo à iniciativa One Belt, One Road.
+**Autonomy and Diversification with Budgetary Availability:** Brazil would adopt a proactive posture, resuming a leadership position and building norms for resolving regional issues. On Venezuela, it would amplify its voice to mediate between Russian and American interests in the region. On environmental matters, greater sensitivity to demands from multilateral organizations. On China, the authors suggest Brazilian leadership in building multilateral norms, adhering to the Belt and Road Initiative.
 
-**Autonomia e diversificação com restrição orçamentária**: este cenário é o que mais demandaria da diplomacia brasileira, tentando resolver questões extremamente sensíveis sem o devido capital político. Nos assuntos vizinhos, esforços diplomáticos para a formação de um grupo de estados que facilitassem o diálogo na Venezuela. No campo ambiental, metas verificáveis por organismos multilaterais. Na questão chinesa, aproximação nos fóruns multilaterais com projetos de infraestrutura e acordos de modernização militar.
+**Autonomy and Diversification with Budgetary Constraint:** This scenario would demand the most from Brazilian diplomacy — attempting to resolve extremely sensitive issues without adequate political capital. On neighboring affairs, diplomatic efforts toward forming a group of states to facilitate dialogue on Venezuela. On the environment, verifiable targets overseen by multilateral bodies. On China, closer alignment in multilateral forums with infrastructure projects and military modernization agreements.
 
-## Uma Leitura Crítica
+## A Critical Reading
 
-Partindo da premissa de que toda projeção geopolítica é extremamente complexa, Kalil e Rodrigues sintetizam de forma quase tabular inúmeras combinações de possibilidades para as ações brasileiras no campo diplomático.
+Starting from the premise that all geopolitical projection is extremely complex, Kalil and Rodrigues synthesize in near-tabular form countless combinations of possibilities for Brazilian diplomatic action.
 
-Balizando pelas projeções de restrição orçamentária, dado o crescimento do PIB desacelerado, aumento da inflação e desconfiança de investidores estrangeiros, e considerando a tendência de alinhamento com os Estados Unidos que prevalecia no cenário político da época, observamos que o Brasil já apresentava denúncias ao regime bolivariano na Venezuela, tanto no campo dos direitos humanos como sobre os abusos jurídicos e políticos do governo vizinho.
+Calibrated against budgetary constraint projections — given slowing GDP growth, rising inflation, and foreign investor distrust — and considering the tendency toward US alignment that prevailed in the political scenario of the time, we observe that Brazil had already been issuing denunciations of the Venezuelan Bolivarian regime, both on human rights grounds and regarding the legal and political abuses of the neighboring government.
 
-Sobre o caso chinês, os autores apontam para um discurso contra a presença chinesa na América do Sul. Entretanto, com a grande parcela do comércio exterior brasileiro destinado à China e o poderoso lobby do agronegócio no Congresso Nacional, dificilmente um presidente teria condições de manter-se firme em seus propósitos ideológicos sem ceder a essas pressões internas.
+On the Chinese question, the authors point to discourse against Chinese presence in South America. However, with a large share of Brazilian foreign trade directed to China and the powerful agribusiness lobby in Congress, it would be nearly impossible for any president to hold firm on ideological principles without yielding to these internal pressures.
 
-## Conclusão
+## Conclusion
 
-Mesmo que seja falho em alguns aspectos específicos, o que pela complexidade do assunto é bastante aceitável, o trabalho dos autores é de extrema relevância. Contribui sobremaneira para o estudo das Relações Internacionais e para uma discussão lúcida e imparcial sobre as prováveis linhas de ação do Brasil frente às questões mais sensíveis ao nosso continente.
+Although flawed in some specific aspects — which, given the complexity of the subject, is quite acceptable — the work of these authors is of extreme relevance. It contributes substantially to the study of International Relations and to a lucid, impartial discussion of the probable lines of action for Brazil on the most sensitive issues facing our continent.
 
-O exercício de projetar cenários não serve para prever o futuro com precisão. Serve para que os tomadores de decisão reconheçam os sinais quando o cenário começa a se configurar, e estejam preparados para agir com antecedência.
+The exercise of projecting scenarios does not serve to predict the future with precision. It serves to ensure that decision-makers recognize the signals when a scenario begins to take shape — and are prepared to act in advance.
 
 ---
 
-*Referências: RODRIGUES, T.; KALIL, M. Situación de la Seguridad Y Defensa de Brasil para la Década de 2020-2030. In: SPIELMAN J. G.; TORO J. P. Desafíos para la Seguridade y la Defensa en el Continente Americano. AthenaLab, Santiago do Chile, 2020.*
+*References: RODRIGUES, T.; KALIL, M. Security and Defense Situation in Brazil for the 2020–2030 Decade. In: SPIELMAN J. G.; TORO J. P. Security and Defense Challenges in the Americas. AthenaLab, Santiago, Chile, 2020.*
