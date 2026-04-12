@@ -5,4 +5,4 @@ title: cyber
 
 ## cyber
 
-<p class="section-desc">Threat intelligence, red team, and security research.</p>
+<p class="section-desc">Pentest methodology, quick-reference toolkit, and machine writeups.</p>
