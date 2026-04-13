@@ -26,7 +26,7 @@ title: evasion
 <span class="section-label">evasão de hooks e telemetria</span>
 
 <div class="wu-list">
-  <span class="empty">Unhooking: Restoring the Windows API</span>
+  <a href="{{ '/evasion/unhooking/' | relative_url }}">Unhooking: Restoring the Windows API</a>
   <span class="empty">Direct Syscalls: Bypassing User-Mode Hooks Entirely</span>
   <span class="empty">ETW Bypass: Blinding the Telemetry Layer</span>
 </div>
