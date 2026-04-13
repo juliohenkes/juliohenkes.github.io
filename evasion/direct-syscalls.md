@@ -61,48 +61,104 @@ If the first byte is `E9` (a jmp), the function is hooked and the SSN cannot be 
 
 ## Halo's Gate: SSN from Neighboring Stubs
 
-NTDLL's syscall stubs are laid out in memory in consecutive SSN order. The export directory sorts functions alphabetically, but within NTDLL the syscall stubs happen to be arranged so that adjacent stubs have consecutive SSNs. `NtAllocateVirtualMemory` at SSN `0x18` is immediately followed by a stub at `0x19`, and so on.
+NTDLL's syscall stubs are consecutive in SSN order in virtual memory. The export directory sorts functions alphabetically, but the stubs are physically laid out so that `NtAllocateVirtualMemory` at SSN `0x18` is immediately followed in memory by the stub at `0x19`, and so on.
 
-If the target function is hooked, the neighboring stubs often are not. Walking forward or backward through memory from the hooked function's address, the next intact stub reveals its SSN. Subtract the distance in stub count to recover the target's SSN.
+If the target function is hooked, the neighboring stubs often are not. The correct approach is to sort all exported `Nt*` functions by their virtual address in the in-memory NTDLL, which gives the true adjacency and actual byte distances between stubs. Using a fixed stride like 32 bytes fails because NTDLL stubs are not uniformly sized across Windows versions.
 
 ```c
+#include <windows.h>
+#include <stdlib.h>
+
+typedef struct {
+    BYTE  *addr;
+    DWORD  ssn;   // filled when stub is unhooked
+    int    index; // position in address-sorted order
+} STUB_ENTRY;
+
+static int cmp_stub(const void *a, const void *b) {
+    STUB_ENTRY *sa = (STUB_ENTRY *)a;
+    STUB_ENTRY *sb = (STUB_ENTRY *)b;
+    if (sa->addr < sb->addr) return -1;
+    if (sa->addr > sb->addr) return  1;
+    return 0;
+}
+
+// Returns TRUE if stub at addr is an unhooked syscall stub,
+// and writes the SSN into *ssn_out.
+static BOOL read_ssn(BYTE *addr, DWORD *ssn_out) {
+    // Standard x64 syscall stub: 4C 8B D1 B8 <SSN> 0F 05 C3
+    if (addr[0] == 0x4C && addr[1] == 0x8B &&
+        addr[2] == 0xD1 && addr[3] == 0xB8) {
+        *ssn_out = *(DWORD *)(addr + 4);
+        return TRUE;
+    }
+    return FALSE;
+}
+
 DWORD get_ssn_halo(const char *func_name) {
     HMODULE ntdll = GetModuleHandleA("ntdll.dll");
-    BYTE   *func  = (BYTE *)GetProcAddress(ntdll, func_name);
 
-    // Check if this function is already readable
-    if (func[0] == 0x4C && func[3] == 0xB8)
-        return *(DWORD *)(func + 4);
+    PIMAGE_DOS_HEADER dos = (PIMAGE_DOS_HEADER)ntdll;
+    PIMAGE_NT_HEADERS nt  =
+        (PIMAGE_NT_HEADERS)((BYTE *)ntdll + dos->e_lfanew);
+    PIMAGE_EXPORT_DIRECTORY exp =
+        (PIMAGE_EXPORT_DIRECTORY)((BYTE *)ntdll +
+        nt->OptionalHeader.DataDirectory[0].VirtualAddress);
 
-    // Walk neighboring stubs (each stub is approximately 32 bytes on x64)
-    // Search forward and backward for an unhooked neighbor
-    for (int i = 1; i < 500; i++) {
-        // Check i stubs forward
-        BYTE *neighbor_fwd = func + (i * 32);
-        if (neighbor_fwd[0] == 0x4C &&
-            neighbor_fwd[1] == 0x8B &&
-            neighbor_fwd[2] == 0xD1 &&
-            neighbor_fwd[3] == 0xB8) {
-            DWORD neighbor_ssn = *(DWORD *)(neighbor_fwd + 4);
-            return neighbor_ssn - i;  // target SSN = neighbor - distance
-        }
+    PDWORD names = (PDWORD)((BYTE *)ntdll + exp->AddressOfNames);
+    PWORD  ords  = (PWORD) ((BYTE *)ntdll + exp->AddressOfNameOrdinals);
+    PDWORD funcs = (PDWORD)((BYTE *)ntdll + exp->AddressOfFunctions);
 
-        // Check i stubs backward
-        BYTE *neighbor_bwd = func - (i * 32);
-        if (neighbor_bwd[0] == 0x4C &&
-            neighbor_bwd[1] == 0x8B &&
-            neighbor_bwd[2] == 0xD1 &&
-            neighbor_bwd[3] == 0xB8) {
-            DWORD neighbor_ssn = *(DWORD *)(neighbor_bwd + 4);
-            return neighbor_ssn + i;  // target SSN = neighbor + distance
-        }
+    // Collect all Nt* exports into an array
+    DWORD      count = 0;
+    STUB_ENTRY stubs[512] = {0};
+
+    for (DWORD i = 0; i < exp->NumberOfNames && count < 512; i++) {
+        const char *name = (const char *)((BYTE *)ntdll + names[i]);
+        if (name[0] != 'N' || name[1] != 't') continue;
+        stubs[count].addr = (BYTE *)ntdll + funcs[ords[i]];
+        stubs[count].ssn  = 0xFFFFFFFF;
+        count++;
+    }
+
+    // Sort by virtual address -- this gives true adjacency order
+    qsort(stubs, count, sizeof(STUB_ENTRY), cmp_stub);
+
+    // Assign index and fill SSNs where stub is unhooked
+    BYTE *target_addr = (BYTE *)GetProcAddress(ntdll, func_name);
+    int   target_idx  = -1;
+
+    for (DWORD i = 0; i < count; i++) {
+        stubs[i].index = (int)i;
+        read_ssn(stubs[i].addr, &stubs[i].ssn);
+        if (stubs[i].addr == target_addr)
+            target_idx = (int)i;
+    }
+
+    if (target_idx < 0)
+        return 0xFFFFFFFF;
+
+    // If the target itself is unhooked, return its SSN directly
+    if (stubs[target_idx].ssn != 0xFFFFFFFF)
+        return stubs[target_idx].ssn;
+
+    // Search outward from target_idx for the nearest unhooked neighbor
+    for (int delta = 1; delta < (int)count; delta++) {
+        int fwd = target_idx + delta;
+        int bwd = target_idx - delta;
+
+        if (fwd < (int)count && stubs[fwd].ssn != 0xFFFFFFFF)
+            return stubs[fwd].ssn - (DWORD)delta;
+
+        if (bwd >= 0 && stubs[bwd].ssn != 0xFFFFFFFF)
+            return stubs[bwd].ssn + (DWORD)delta;
     }
 
     return 0xFFFFFFFF;
 }
 ```
 
-The assumption that stubs are 32 bytes apart is a simplification. In practice, the stub size varies and the correct approach sorts all exported syscall functions by their address to determine exact offsets. The principle holds: if any neighboring stub is unhooked, the SSN is recoverable.
+Sorting by address is the key correctness requirement. The SSN is the position of the stub in address order among all `Nt*` syscall stubs, which is exactly what the sorted index gives. A hooked neighbor at index `target_idx + delta` with SSN `N` means the target's SSN is `N - delta`.
 
 ## Writing the Syscall Stub
 
@@ -118,9 +174,9 @@ In a MASM or NASM file compiled alongside the C code:
 extern g_ssn_NtAllocVm:DWORD
 
 NtAllocateVirtualMemory_Direct PROC
-    mov r10, rcx            ; mirror rcx to r10 (syscall calling convention)
-    mov eax, g_ssn_NtAllocVm  ; load resolved SSN
-    syscall                 ; transition to kernel
+    mov r10, rcx                       ; mirror rcx to r10 (syscall calling convention)
+    mov eax, DWORD PTR [g_ssn_NtAllocVm]  ; load SSN value from memory
+    syscall                            ; transition to kernel
     ret
 NtAllocateVirtualMemory_Direct ENDP
 

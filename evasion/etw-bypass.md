@@ -79,11 +79,15 @@ The provider still calls `EtwEventWrite`, but internally checks `IsEnabled` firs
 
 ## Targeting the .NET Runtime
 
-When PowerShell executes, the CLR emits ETW events for every method JIT-compiled and every script block executed. These events flow through `Microsoft-Windows-DotNETRuntime`. EDRs use them to inspect PowerShell content after AMSI has been bypassed or before it runs.
+The behavior here differs between Windows PowerShell 5.x and PowerShell 7+.
 
-The CLR's ETW emission goes through `EtwEventWrite` like any other user-mode provider. Patching `EtwEventWrite` before the CLR loads, or before a specific script block executes, kills this telemetry entirely. Timing matters: if the CLR has already emitted the ScriptBlock event before the patch is in place, the content is already in the ETW stream.
+**Windows PowerShell 5.x** runs on the .NET Framework CLR hosted inside the process. The CLR emits ETW events through `EtwEventWrite` for every method JIT-compiled and every script block executed, flowing through `Microsoft-Windows-DotNETRuntime`. Patching `EtwEventWrite` before the CLR loads kills this telemetry entirely.
 
-For in-process scenarios (injecting into a PowerShell process), the patch should be applied as early as possible, before the first user-supplied script block is JIT-compiled.
+**PowerShell 7+** runs on .NET (Core/5+), which has a different ETW emission path. In some versions, telemetry is emitted via `EventSource` objects backed by `EventPipe`, a cross-platform tracing mechanism that does not exclusively use `EtwEventWrite`. Patching `EtwEventWrite` on a PowerShell 7 process silences the Win32 ETW path but may not silence EventPipe-based providers depending on the .NET version and runtime configuration. For complete coverage on PowerShell 7, both paths need to be addressed.
+
+For both versions, timing matters: if the CLR has already emitted the ScriptBlock event before the patch is in place, the content is already in the ETW stream. Patch as early as possible, before the first user-supplied script block is JIT-compiled.
+
+For in-process scenarios (injecting into a PowerShell process), the patch should be applied immediately after injection, before the script execution thread processes its next input.
 
 ## The NtTraceEvent Alternative
 

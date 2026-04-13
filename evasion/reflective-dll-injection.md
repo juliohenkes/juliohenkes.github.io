@@ -18,43 +18,53 @@ The first problem `ReflectiveLoader` must solve is locating its own base address
 On x64, the function's own address is available through the instruction pointer. A common approach walks backward from the current instruction pointer, searching for the MZ signature (`0x4D5A`) that marks the start of a PE file. Every 4KB page boundary is a candidate until the correct header is found.
 
 ```c
+// Read the current instruction pointer using a call/pop trick
+// that is position-independent and does not rely on compiler intrinsics.
+//
+// On x64 (MSVC or GCC):  use __readgsqword / inline asm
+// On x86 (GCC):          use inline asm
+// On x86 (MSVC):         use __asm
+
+static ULONG_PTR get_rip(void) {
 #ifdef _WIN64
-#define ULONG_PTR_SIZE 8
+    // Call a 0-byte function and capture what the CPU would have put
+    // into the return address slot.  The simplest portable approach:
+    // a naked function that reads its own return address from the stack.
+    ULONG_PTR rip;
+    // GCC / Clang (MinGW-w64):
+    __asm__ volatile ("lea %0, [rip]" : "=r"(rip));
+    // MSVC alternative (uncomment and remove GCC line if using cl.exe):
+    // rip = (ULONG_PTR)_AddressOfReturnAddress();   // points 8 bytes before caller's RIP
+    return rip;
 #else
-#define ULONG_PTR_SIZE 4
+    ULONG_PTR eip;
+    __asm__ volatile ("call 1f\n1: pop %0" : "=r"(eip));
+    return eip;
 #endif
+}
 
 ULONG_PTR reflective_loader_base(void) {
-    // Get current instruction pointer
-    ULONG_PTR addr;
-#ifdef _WIN64
-    addr = (ULONG_PTR)_ReturnAddress();
-#else
-    __asm { mov eax, [esp] }
-    // simplified -- actual implementation reads EIP
-    addr = (ULONG_PTR)_ReturnAddress();
-#endif
+    // Start from the current instruction pointer, inside this DLL.
+    ULONG_PTR addr = get_rip();
 
-    // Walk backward in 4KB steps looking for MZ header
+    // Walk backward in 4KB steps looking for the MZ + PE signature.
+    // The DLL's mapped image starts at a page-aligned address.
     while (TRUE) {
-        // Align down to page boundary
-        addr &= ~(0x1000 - 1);
+        addr &= ~(ULONG_PTR)(0x1000 - 1);  // align down to page boundary
 
         PIMAGE_DOS_HEADER dos = (PIMAGE_DOS_HEADER)addr;
         if (dos->e_magic == IMAGE_DOS_SIGNATURE) {
             PIMAGE_NT_HEADERS nt =
                 (PIMAGE_NT_HEADERS)(addr + dos->e_lfanew);
-            if (nt->Signature == IMAGE_NT_SIGNATURE) {
-                // Found a valid PE: this is our base
+            if (nt->Signature == IMAGE_NT_SIGNATURE)
                 return addr;
-            }
         }
         addr -= 0x1000;
     }
 }
 ```
 
-This walks backward one page at a time until it finds a page starting with the DOS magic bytes followed by a valid NT signature. That page is the beginning of the DLL's mapped image. From there, every offset in the PE headers is meaningful.
+The `lea rip, [rip]` idiom reads the program counter directly without a function call, so the address is guaranteed to be inside the DLL's mapped region. Walking backward page by page from there always terminates at the DOS header of the enclosing PE image.
 
 ## Resolving the API Without Importing It
 

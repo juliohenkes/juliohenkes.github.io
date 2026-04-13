@@ -222,7 +222,8 @@ void *get_kernel32() {
     void *entry = *(void **)flink;          // ntdll
     entry = *(void **)entry;               // kernel32
 
-    // DllBase is at offset -0x10 from the InMemoryOrder entry (x64)
+    // InMemoryOrderLinks is at +0x10 in LDR_DATA_TABLE_ENTRY (x64).
+    // DllBase is at +0x30. Offset from InMemoryOrderLinks to DllBase = +0x20.
     return *(void **)((uint8_t *)entry + 0x20);
 }
 ```

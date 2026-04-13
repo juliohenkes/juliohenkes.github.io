@@ -203,9 +203,11 @@ PatchGuard specifically monitors:
 - Kernel code sections of NTOSKRNL and HAL
 - Critical kernel global variables
 
-The callback arrays (`PspCreateProcessNotifyRoutine`, etc.) are not directly protected by PatchGuard in all versions, which is why zeroing them from kernel code is viable. However, modifying the SSDT to redirect syscalls, or patching kernel function bodies, triggers PatchGuard's integrity checks and results in a system crash (`CRITICAL_STRUCTURE_CORRUPTION`, bug check 0x109).
+The callback arrays (`PspCreateProcessNotifyRoutine`, etc.) sit in non-paged pool data memory, not in a code section. PatchGuard's primary concern is kernel code integrity: it monitors NTOSKRNL and HAL code pages, the SSDT, and the IDT. Data structures in pool memory, including the callback arrays, are not part of PatchGuard's check set on most shipping Windows versions, which is why zeroing an array entry from kernel code does not trigger a bugcheck.
 
-This is the constraint that shapes BYOVD. The goal is not to patch arbitrary kernel structures. The goal is to locate and zero the callback registrations, which PatchGuard does not consistently protect, through kernel code execution obtained via a legitimate but vulnerable driver.
+This distinction matters: modifying the SSDT to redirect syscalls touches a structure PatchGuard explicitly watches and results in a `CRITICAL_STRUCTURE_CORRUPTION` (0x109) crash. Zeroing a callback pointer in pool memory does not. This is the constraint that shapes BYOVD: operate on pool-allocated data, not on code or PatchGuard-monitored structures.
+
+Note that Microsoft expands PatchGuard's monitored set across Windows releases. What is pool data today may be promoted to a protected structure in a future build. Verifying against the exact target build before relying on this behavior is necessary for operational use.
 
 ## The Full Detection Stack
 
