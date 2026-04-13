@@ -50,4 +50,5 @@ title: evasion
 
 <div class="wu-list">
   <a href="{{ '/evasion/full-chain/' | relative_url }}">Full Chain: Bypassing a Modern EDR End to End</a>
+  <a href="{{ '/evasion/amsi-drx-bypass/' | relative_url }}">AMSI Bypass via Hardware Breakpoints: Working Implementation</a>
 </div>
