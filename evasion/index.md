@@ -41,7 +41,7 @@ title: evasion
 <span class="section-label">kernel</span>
 
 <div class="wu-list">
-  <span class="empty">Kernel Callbacks: What EDRs Register and Why</span>
+  <a href="{{ '/evasion/kernel-callbacks/' | relative_url }}">Kernel Callbacks: What EDRs Register and Why</a>
   <span class="empty">BYOVD: Exploiting Signed Drivers to Reach the Kernel</span>
   <span class="empty">PPL Bypass: Attacking Protected Processes</span>
 </div>
