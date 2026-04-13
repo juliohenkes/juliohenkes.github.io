@@ -413,6 +413,13 @@ code {
   background: var(--active-bg);
 }
 
+.wu-list span.empty {
+  padding: 7px 12px;
+  color: var(--border);
+  font-size: 0.875rem;
+  font-style: italic;
+}
+
 .page-content .wu-list a {
   color: var(--text);
 }
