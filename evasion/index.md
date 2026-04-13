@@ -46,9 +46,8 @@ title: evasion
   <a href="{{ '/evasion/ppl-bypass/' | relative_url }}">PPL Bypass: Attacking Protected Processes</a>
 </div>
 
-<span class="section-label">execução sem arquivo</span>
+<span class="section-label">bonus</span>
 
 <div class="wu-list">
-  <span class="empty">Fileless Execution: Living Entirely in Memory</span>
-  <span class="empty">COM Hijacking: Persistence Without Writing Executables</span>
+  <a href="{{ '/evasion/full-chain/' | relative_url }}">Full Chain: Bypassing a Modern EDR End to End</a>
 </div>
