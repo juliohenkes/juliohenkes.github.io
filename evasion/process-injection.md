@@ -268,7 +268,7 @@ BOOL inject_via_ntdll(DWORD pid, uint8_t *shellcode, size_t sc_len) {
 }
 ```
 
-This bypasses Win32-layer hooks. If the EDR also hooks NTDLL, it does not help. The next step is reading the hooked bytes from NTDLL in memory, comparing them against the clean bytes from the NTDLL file on disk, and restoring the originals. That is the unhooking technique covered in a later article.
+This bypasses Win32-layer hooks. If the EDR also hooks NTDLL, the calls remain visible at that layer. Restoring the original NTDLL bytes requires reading what is currently mapped in memory, comparing it against the clean copy on disk, and writing the originals back before making any calls.
 
 ## What the EDR Sees
 
@@ -291,10 +291,3 @@ Legitimate software rarely opens handles to unrelated processes with write and t
 
 Mitigating the handle problem requires either obtaining the handle through a less-monitored path, reusing a handle that already exists in your process, or targeting a process relationship where cross-process access is more expected, such as a process you spawned yourself. Each option constrains the target selection and execution context.
 
-## The Transition to Process Hollowing
-
-Process injection operates on a running process. The target is executing its own code in parallel with yours. This creates timing constraints, context conflicts, and behavioral exposure from the target's normal activity.
-
-Process hollowing starts from the other direction: spawn a legitimate process in a suspended state, before it has executed a single instruction, replace its code with your payload, and resume it. From the OS perspective, the legitimate executable started and ran. From your perspective, your code ran inside a legitimate process identity. No pre-existing thread is touched, no foreign handle to a running process is needed, and the execution context is entirely controlled.
-
-That is the next article.
