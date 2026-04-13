@@ -34,7 +34,7 @@ title: evasion
 <span class="section-label">amsi</span>
 
 <div class="wu-list">
-  <span class="empty">AMSI Internals: How Script Content is Inspected</span>
+  <a href="{{ '/evasion/amsi-internals/' | relative_url }}">AMSI Internals: How Script Content is Inspected</a>
   <span class="empty">AMSI Bypass: Patching the Inspection Pipeline</span>
 </div>
 
