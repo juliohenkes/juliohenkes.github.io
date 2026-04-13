@@ -1,0 +1,40 @@
+- group: pentest
+  pages:
+    - { slug: reconnaissance,          title: "Reconnaissance" }
+    - { slug: vulnerability-scanning,  title: "Vulnerability Scanning" }
+    - { slug: web-attacks,             title: "Web Attacks" }
+    - { slug: client-side-attacks,     title: "Client-Side Attacks" }
+    - { slug: public-exploits,         title: "Public Exploits" }
+    - { slug: password-attacks,        title: "Password Attacks" }
+    - { slug: windows-privesc,         title: "Windows Privilege Escalation" }
+    - { slug: linux-privesc,           title: "Linux Privilege Escalation" }
+    - { slug: tunneling,               title: "Tunneling" }
+    - { slug: ad-enumeration,          title: "AD Enumeration" }
+    - { slug: ad-authentication,       title: "AD Authentication" }
+    - { slug: ad-lateral-movement,     title: "AD Lateral Movement" }
+
+- group: toolkit
+  pages:
+    - { slug: ligolo-tunnel,  title: "Ligolo Tunnel" }
+    - { slug: freeze,         title: "Freeze" }
+    - { slug: amsi-bypass,    title: "AMSI Bypass" }
+    - { slug: nishang,        title: "Nishang" }
+    - { slug: rev-bash,       title: "Reverse Shell (bash)" }
+    - { slug: rev-mkfifo,     title: "Reverse Shell (mkfifo)" }
+    - { slug: rev-php,        title: "Reverse Shell (PHP)" }
+    - { slug: powercat,       title: "Powercat + NTLM Relay" }
+    - { slug: pshellb64,      title: "pshellb64.py" }
+    - { slug: tty-upgrade,    title: "TTY Upgrade" }
+    - { slug: enum-network,   title: "Network Enumeration" }
+    - { slug: enum-windows,   title: "Windows File Enum" }
+    - { slug: sshuttle,       title: "sshuttle" }
+    - { slug: add-rdp,        title: "Add RDP" }
+    - { slug: uac-bypass,     title: "UAC Bypass" }
+    - { slug: wmi-exec,       title: "WMI Exec" }
+    - { slug: word-macro,     title: "Word Macro" }
+    - { slug: mimikatz,       title: "Mimikatz" }
+    - { slug: ticketer,       title: "Ticketer" }
+    - { slug: persistence,    title: "Persistence" }
+    - { slug: mssql-shell,    title: "MSSQL to Shell" }
+    - { slug: upload-server,  title: "Upload Server" }
+    - { slug: history,        title: "History Cleanup" }

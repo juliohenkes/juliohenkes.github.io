@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="wu-layout">
+  <aside class="wu-sidebar">
+    {% include cyber-sidebar.html %}
+  </aside>
+  <main class="wu-main">
+    <div class="wu-breadcrumb">
+      <a href="{{ '/cyber/' | relative_url }}">cyber</a>
+      <span>/</span>
+      <span>{{ page.group }}</span>
+      <span>/</span>
+      {{ page.title }}
+    </div>
+    <article class="wu-content">
+      {{ content }}
+    </article>
+  </main>
+</div>
