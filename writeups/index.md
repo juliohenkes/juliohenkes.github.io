@@ -9,9 +9,9 @@ title: writeups
 
 {% for group in site.data.writeups %}
 <span class="section-label">{{ group.difficulty }}</span>
-
 <div class="wu-list">
-{% for machine in group.machines %}<a href="{{ '/writeups/' | append: machine.slug | append: '/' | relative_url }}"><img src="{{ '/assets/icons/' | append: machine.os | append: '.svg' | relative_url }}" class="os-icon-sm" alt="{{ machine.os }}">{{ machine.name }}</a>
-{% endfor %}</div>
-
+{% for machine in group.machines %}
+<a href="/writeups/{{ machine.slug }}/"><img src="/assets/icons/{{ machine.os }}.svg" class="os-icon-sm" alt="{{ machine.os }}">{{ machine.name }}</a>
+{% endfor %}
+</div>
 {% endfor %}
