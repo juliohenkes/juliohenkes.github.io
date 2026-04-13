@@ -28,7 +28,7 @@ title: evasion
 <div class="wu-list">
   <a href="{{ '/evasion/unhooking/' | relative_url }}">Unhooking: Restoring the Windows API</a>
   <a href="{{ '/evasion/direct-syscalls/' | relative_url }}">Direct Syscalls: Bypassing User-Mode Hooks Entirely</a>
-  <span class="empty">ETW Bypass: Blinding the Telemetry Layer</span>
+  <a href="{{ '/evasion/etw-bypass/' | relative_url }}">ETW Bypass: Blinding the Telemetry Layer</a>
 </div>
 
 <span class="section-label">amsi</span>
