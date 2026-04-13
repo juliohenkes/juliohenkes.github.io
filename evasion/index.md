@@ -7,7 +7,7 @@ title: evasion
 
 <p class="section-desc">AV and EDR evasion: detection mechanisms, bypass techniques, and in-memory execution.</p>
 
-<span class="section-label">fundamentos</span>
+<span class="section-label">fundamentals</span>
 
 <div class="wu-list">
   <a href="{{ '/evasion/av-evasion-basics/' | relative_url }}">The Minimum You Need to Know About Antivirus Evasion</a>
@@ -15,7 +15,7 @@ title: evasion
   <a href="{{ '/evasion/obfuscators/' | relative_url }}">Obfuscators: Making Malicious Code Unrecognizable</a>
 </div>
 
-<span class="section-label">execução em memória</span>
+<span class="section-label">in-memory execution</span>
 
 <div class="wu-list">
   <a href="{{ '/evasion/process-injection/' | relative_url }}">Process Injection: Executing Inside Another Process</a>
@@ -23,7 +23,7 @@ title: evasion
   <a href="{{ '/evasion/reflective-dll-injection/' | relative_url }}">Reflective DLL Injection: Loading Without the Loader</a>
 </div>
 
-<span class="section-label">evasão de hooks e telemetria</span>
+<span class="section-label">hooks and telemetry</span>
 
 <div class="wu-list">
   <a href="{{ '/evasion/unhooking/' | relative_url }}">Unhooking: Restoring the Windows API</a>
@@ -36,6 +36,7 @@ title: evasion
 <div class="wu-list">
   <a href="{{ '/evasion/amsi-internals/' | relative_url }}">AMSI Internals: How Script Content is Inspected</a>
   <a href="{{ '/evasion/amsi-bypass/' | relative_url }}">AMSI Bypass: Patching the Inspection Pipeline</a>
+  <a href="{{ '/evasion/amsi-drx-bypass/' | relative_url }}">AMSI Bypass via Hardware Breakpoints: Working Implementation</a>
 </div>
 
 <span class="section-label">kernel</span>
@@ -50,5 +51,4 @@ title: evasion
 
 <div class="wu-list">
   <a href="{{ '/evasion/full-chain/' | relative_url }}">Full Chain: Bypassing a Modern EDR End to End</a>
-  <a href="{{ '/evasion/amsi-drx-bypass/' | relative_url }}">AMSI Bypass via Hardware Breakpoints: Working Implementation</a>
 </div>
