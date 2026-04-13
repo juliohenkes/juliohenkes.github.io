@@ -12,4 +12,5 @@ title: evasion
 <div class="wu-list">
   <a href="{{ '/evasion/av-evasion-basics/' | relative_url }}">The Minimum You Need to Know About Antivirus Evasion</a>
   <a href="{{ '/evasion/crypters/' | relative_url }}">Crypters: Hiding Payloads on Disk</a>
+  <a href="{{ '/evasion/obfuscators/' | relative_url }}">Obfuscators: Making Malicious Code Unrecognizable</a>
 </div>
