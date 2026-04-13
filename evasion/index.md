@@ -14,4 +14,5 @@ title: evasion
   <a href="{{ '/evasion/crypters/' | relative_url }}">Crypters: Hiding Payloads on Disk</a>
   <a href="{{ '/evasion/obfuscators/' | relative_url }}">Obfuscators: Making Malicious Code Unrecognizable</a>
   <a href="{{ '/evasion/process-injection/' | relative_url }}">Process Injection: Executing Inside Another Process</a>
+  <a href="{{ '/evasion/process-hollowing/' | relative_url }}">Process Hollowing: Replacing a Legitimate Process</a>
 </div>
