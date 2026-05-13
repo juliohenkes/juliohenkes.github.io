@@ -1,3 +1,10 @@
+---
+title: "Pelican"
+difficulty: intermediate
+os: linux
+description: "Pelican — Offensive Security Proving Grounds intermediate linux writeup."
+---
+
 # Pelican
 
 ## Enumerating Services

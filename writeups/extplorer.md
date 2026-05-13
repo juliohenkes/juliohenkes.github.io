@@ -1,4 +1,12 @@
+---
+title: "Extplorer"
+difficulty: intermediate
+os: linux
+description: "Extplorer — Offensive Security Proving Grounds intermediate linux writeup."
+---
+
 # Extplorer
+
 > eXtplorer file manager + grupo disk
 
 ## Enumeration

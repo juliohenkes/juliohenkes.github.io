@@ -1,4 +1,12 @@
+---
+title: "Crane"
+difficulty: intermediate
+os: linux
+description: "Crane — Offensive Security Proving Grounds intermediate linux writeup."
+---
+
 # Crane
+
 > SuiteCRM RCE + sudo service
 
 ## Enumeration

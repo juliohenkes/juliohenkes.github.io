@@ -1,4 +1,12 @@
+---
+title: "Boolean"
+difficulty: intermediate
+os: linux
+description: "Boolean — Offensive Security Proving Grounds intermediate linux writeup."
+---
+
 # Boolean
+
 > SQL injection boolean-based + authorized_keys
 
 ## Enumeration

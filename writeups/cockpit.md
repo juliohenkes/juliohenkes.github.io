@@ -1,4 +1,12 @@
+---
+title: "Cockpit"
+difficulty: intermediate
+os: linux
+description: "Cockpit — Offensive Security Proving Grounds intermediate linux writeup."
+---
+
 # Cockpit
+
 > SQL auth bypass + tar wildcard SUID
 
 ## Enumeration

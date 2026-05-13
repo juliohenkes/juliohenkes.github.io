@@ -1,3 +1,10 @@
+---
+title: "Marshalled"
+difficulty: intermediate
+os: linux
+description: "Marshalled — Offensive Security Proving Grounds intermediate linux writeup."
+---
+
 # Marshalled
 
 ## Enumerating Services

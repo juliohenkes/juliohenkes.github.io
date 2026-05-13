@@ -1,4 +1,12 @@
+---
+title: "Access"
+difficulty: intermediate
+os: windows
+description: "Access — Offensive Security Proving Grounds intermediate windows writeup."
+---
+
 # Access
+
 > .htaccess upload + SeManageVolume
 
 ## Enumeration

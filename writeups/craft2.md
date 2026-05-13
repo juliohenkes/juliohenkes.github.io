@@ -1,3 +1,10 @@
+---
+title: "Craft2"
+difficulty: hard
+os: windows
+description: "Craft2 — Offensive Security Proving Grounds hard windows writeup."
+---
+
 # Craft2
 
 ## Enumerating Services

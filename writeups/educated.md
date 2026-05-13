@@ -1,4 +1,12 @@
+---
+title: "Educated"
+difficulty: intermediate
+os: linux
+description: "Educated — Offensive Security Proving Grounds intermediate linux writeup."
+---
+
 # Educated
+
 > Free School CMS + jadx APK reversing
 
 ## Enumeration

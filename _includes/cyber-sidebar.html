@@ -1,38 +1,17 @@
-<div class="sidebar-header">cyber</div>
+<div class="sidebar-header">cyber · index</div>
 {% for group in site.data.cyber %}
   {% assign is_open = false %}
-  {% if page.group == group.group %}{% assign is_open = true %}{% endif %}
-  <div class="sidebar-group {% if is_open %}open{% endif %}" id="group-{{ group.group }}">
-    <div class="sidebar-group-label" onclick="toggleGroup('{{ group.group }}')">
+  {% if page.section == group.section %}{% assign is_open = true %}{% endif %}
+  <div class="sidebar-group {% if is_open %}open{% endif %}" id="group-{{ group.section }}">
+    <button class="sidebar-group-label" type="button" onclick="toggleGroup('{{ group.section }}')" aria-expanded="{{ is_open }}">
       <span class="sidebar-caret">▶</span>
-      <span class="diff-label {{ group.group }}">{{ group.group }}</span>
+      <span class="diff-label">{{ group.section }}</span>
       <span class="sidebar-count">{{ group.pages | size }}</span>
-    </div>
+    </button>
     <div class="sidebar-items">
       {% for p in group.pages %}
-        {% assign expected = '/cyber/' | append: group.group | append: '/' | append: p.slug | append: '/' %}
+        {% assign expected = '/' | append: group.section | append: '/' | append: p.slug | append: '/' %}
         <a href="{{ expected | relative_url }}" {% if page.url == expected %}class="active"{% endif %}>{{ p.title }}</a>
-      {% endfor %}
-    </div>
-  </div>
-{% endfor %}
-
-{% for group in site.data.writeups %}
-  {% assign is_open = false %}
-  {% if page.difficulty == group.difficulty %}{% assign is_open = true %}{% endif %}
-  <div class="sidebar-group {% if is_open %}open{% endif %}" id="group-{{ group.difficulty }}">
-    <div class="sidebar-group-label" onclick="toggleGroup('{{ group.difficulty }}')">
-      <span class="sidebar-caret">▶</span>
-      <span class="diff-label {{ group.difficulty }}">{{ group.difficulty }}</span>
-      <span class="sidebar-count">{{ group.machines | size }}</span>
-    </div>
-    <div class="sidebar-items">
-      {% for machine in group.machines %}
-        {% assign expected = '/writeups/' | append: group.difficulty | append: '/' | append: machine.slug | append: '/' %}
-        <a href="{{ expected | relative_url }}" {% if page.url == expected %}class="active"{% endif %}>
-          <img src="{{ '/assets/icons/' | append: machine.os | append: '.svg' | relative_url }}" class="os-icon" alt="{{ machine.os }}">
-          {{ machine.name }}
-        </a>
       {% endfor %}
     </div>
   </div>

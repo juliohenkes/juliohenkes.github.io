@@ -1,8 +1,15 @@
+---
+title: "Twiggy"
+difficulty: easy
+os: linux
+description: "Twiggy — Offensive Security Proving Grounds easy linux writeup."
+---
+
 # Twiggy
 
 > Salt Stack / sudo mpost
 
-### Enumerating Services
+## Enumerating Services
 First, we'll perform a generic scan to identify the open ports and services running on this machine.
 ```shell
 # TCP
@@ -14,13 +21,13 @@ PORT     STATE SERVICE VERSION
 4506/tcp open  zmtp    ZeroMQ ZMTP 2.0
 8000/tcp open  http    CherryPy wsgiserver
 ```
-### Enumerating port 8000
+## Enumerating port 8000
 Salt Stack API running on port 8000.
 ```shell
 # Check version
 curl http://192.168.182.62:8000/
 ```
-### Initial Access
+## Initial Access
 SaltStack is vulnerable to CVE-2020-11651 (authentication bypass + RCE).
 ```shell
 # Exploit CVE-2020-11651
@@ -37,14 +44,14 @@ python3 -c "import pty;pty.spawn('/bin/bash')"
 # Evidence
 cat /root/local.txt
 ```
-### Privilege Escalation
+## Privilege Escalation
 Already root after exploitation.
 ```shell
 # Sudo check
 sudo -l
 (root) NOPASSWD: /usr/bin/mpost
 ```
-### Post-Exploitation
+## Post-Exploitation
 ```shell
 # Evidence
 cat /root/proof.txt

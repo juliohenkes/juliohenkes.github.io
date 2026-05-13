@@ -1,3 +1,10 @@
+---
+title: "PyLoader"
+difficulty: intermediate
+os: linux
+description: "PyLoader — Offensive Security Proving Grounds intermediate linux writeup."
+---
+
 # PyLoader
 
 ## Enumerating Services

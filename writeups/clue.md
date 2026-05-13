@@ -1,3 +1,10 @@
+---
+title: "Clue"
+difficulty: hard
+os: linux
+description: "Clue — Offensive Security Proving Grounds hard linux writeup."
+---
+
 # Clue
 
 ## Enumerating Services

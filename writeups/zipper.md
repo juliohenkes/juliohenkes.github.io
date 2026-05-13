@@ -1,3 +1,10 @@
+---
+title: "Zipper"
+difficulty: hard
+os: linux
+description: "Zipper — Offensive Security Proving Grounds hard linux writeup."
+---
+
 # Zipper
 
 ## Enumerating Services

@@ -1,4 +1,12 @@
+---
+title: "Image"
+difficulty: intermediate
+os: linux
+description: "Image — Offensive Security Proving Grounds intermediate linux writeup."
+---
+
 # Image
+
 > ImageMagick RCE + strace SUID
 
 ## Enumeration

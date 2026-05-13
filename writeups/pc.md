@@ -1,3 +1,10 @@
+---
+title: "Pc"
+difficulty: intermediate
+os: linux
+description: "Pc — Offensive Security Proving Grounds intermediate linux writeup."
+---
+
 # Pc
 
 ## Enumerating Services

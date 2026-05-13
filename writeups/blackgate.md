@@ -1,3 +1,10 @@
+---
+title: "Blackgate"
+difficulty: hard
+os: linux
+description: "Blackgate — Offensive Security Proving Grounds hard linux writeup."
+---
+
 # Blackgate
 
 ## Enumerating Services

@@ -1,0 +1,12 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% assign now = 'now' | date: '%Y-%m-%d' %}
+{% for p in site.pages %}{% unless p.url contains '.xml' or p.url contains '.txt' or p.sitemap == false %}  <url>
+    <loc>{{ p.url | absolute_url }}</loc>
+    <lastmod>{{ p.last_modified_at | default: now | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+{% endunless %}{% endfor %}</urlset>

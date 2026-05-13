@@ -1,3 +1,10 @@
+---
+title: "Plum"
+difficulty: intermediate
+os: linux
+description: "Plum — Offensive Security Proving Grounds intermediate linux writeup."
+---
+
 # Plum
 
 ## Enumerating Services

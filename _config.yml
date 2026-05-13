@@ -1,7 +1,9 @@
 title: Júlio Henkes
-description: Offensive Security · Cyber Intelligence
+description: "Offensive Security · Cyber Intelligence — writeups, evasion, exploit dev, and dossiers by Júlio Henkes."
 url: "https://juliohenkes.github.io"
 baseurl: ""
+lang: en
+author: Júlio Henkes
 
 markdown: kramdown
 highlighter: rouge
@@ -23,25 +25,65 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - musica/
+  - README.md
 
 defaults:
   - scope:
-      path: "evasion"
+      path: ""
     values:
       layout: page
+
+  - scope:
+      path: "evasion"
+      type: pages
+    values:
+      layout: cyber
+      section: evasion
   - scope:
       path: "exploit-dev"
+      type: pages
     values:
-      layout: page
+      layout: cyber
+      section: exploit-dev
   - scope:
       path: "methodology"
+      type: pages
     values:
-      layout: page
+      layout: cyber
+      section: methodology
   - scope:
       path: "toolkit"
+      type: pages
+    values:
+      layout: cyber
+      section: toolkit
+  - scope:
+      path: "writeups"
+      type: pages
+    values:
+      layout: writeup
+
+  - scope:
+      path: "evasion/index.md"
     values:
       layout: page
   - scope:
-      path: "writeups"
+      path: "exploit-dev/index.md"
+    values:
+      layout: page
+  - scope:
+      path: "methodology/index.md"
+    values:
+      layout: page
+  - scope:
+      path: "toolkit/index.md"
+    values:
+      layout: page
+  - scope:
+      path: "writeups/index.md"
+    values:
+      layout: page
+  - scope:
+      path: "observatory/index.md"
     values:
       layout: page

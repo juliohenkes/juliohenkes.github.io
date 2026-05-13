@@ -1,12 +1,21 @@
-<nav class="site-nav">
-  <a href="{{ '/' | relative_url }}" class="nav-logo">jh</a>
-  <div class="nav-links">
-    <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>bio</a>
-    <a href="{{ '/observatory/' | relative_url }}" {% if page.url contains '/observatory/' %}class="active"{% endif %}>observatory</a>
-    <a href="{{ '/evasion/' | relative_url }}" {% if page.url contains '/evasion/' %}class="active"{% endif %}>evasion</a>
-    <a href="{{ '/exploit-dev/' | relative_url }}" {% if page.url contains '/exploit-dev/' %}class="active"{% endif %}>exploit dev</a>
-    <a href="{{ '/methodology/' | relative_url }}" {% if page.url contains '/methodology/' %}class="active"{% endif %}>methodology</a>
-    <a href="{{ '/toolkit/' | relative_url }}" {% if page.url contains '/toolkit/' %}class="active"{% endif %}>toolkit</a>
-    <a href="{{ '/writeups/' | relative_url }}" {% if page.url contains '/writeups/' %}class="active"{% endif %}>writeups</a>
+<nav class="site-nav" aria-label="primary">
+  <a href="{{ '/' | relative_url }}" class="nav-logo" aria-label="Júlio Henkes — home">jh</a>
+  <button class="nav-mobile-btn" id="nav-toggle" aria-controls="nav-links" aria-expanded="false">menu</button>
+  <div class="nav-links" id="nav-links">
+    {%- assign sections = "bio,/|observatory,/observatory/|evasion,/evasion/|exploit-dev,/exploit-dev/|methodology,/methodology/|toolkit,/toolkit/|writeups,/writeups/" | split: "|" -%}
+    {%- for entry in sections -%}
+      {%- assign parts = entry | split: "," -%}
+      {%- assign label = parts[0] -%}
+      {%- assign path  = parts[1] -%}
+      {%- assign url   = path | relative_url -%}
+      {%- if path == "/" -%}
+        {%- assign is_active = false -%}
+        {%- if page.url == "/" -%}{%- assign is_active = true -%}{%- endif -%}
+      {%- else -%}
+        {%- assign is_active = false -%}
+        {%- if page.url contains path -%}{%- assign is_active = true -%}{%- endif -%}
+      {%- endif -%}
+      <a href="{{ url }}"{% if is_active %} aria-current="page"{% endif %}>{{ label }}</a>
+    {%- endfor -%}
   </div>
 </nav>

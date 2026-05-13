@@ -1,3 +1,10 @@
+---
+title: "Law"
+difficulty: intermediate
+os: linux
+description: "Law — Offensive Security Proving Grounds intermediate linux writeup."
+---
+
 # Law
 
 ## Enumerating Services

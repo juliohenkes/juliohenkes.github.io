@@ -1,3 +1,10 @@
+---
+title: "Heist"
+difficulty: hard
+os: windows
+description: "Heist — Offensive Security Proving Grounds hard windows writeup."
+---
+
 # Heist
 
 ## Enumerating Services

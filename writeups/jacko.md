@@ -1,4 +1,12 @@
+---
+title: "Jacko"
+difficulty: intermediate
+os: windows
+description: "Jacko — Offensive Security Proving Grounds intermediate windows writeup."
+---
+
 # Jacko
+
 > H2 Database + PaperStream
 
 ## Enumeration

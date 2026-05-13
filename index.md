@@ -1,33 +1,106 @@
 ---
 layout: page
-title: Júlio Henkes
+title: "Júlio Henkes"
+description: "Cyber Security Manager · former Army Captain · Cyber Intelligence and Red Team operator."
 ---
 
-# Júlio Henkes
+<header class="bio-hero">
+  <div>
+    <div class="bio-mark">SIG/JH · DOSSIER 01</div>
+    <h1 class="bio-name">Júlio <em>Henkes</em></h1>
+    <p class="bio-role">
+      Cyber Security Manager<br>
+      <strong>former Army Captain</strong> · Cyber Intelligence · Red Team
+    </p>
+  </div>
+  <nav class="bio-links" aria-label="external profiles">
+    <a href="https://github.com/juliohenkes" target="_blank" rel="noopener noreferrer">github</a>
+    <a href="https://www.linkedin.com/in/j%C3%BAlio-henkes-928437332/" target="_blank" rel="noopener noreferrer">linkedin</a>
+  </nav>
+</header>
 
-<div class="links">
-  <a href="https://github.com/juliohenkes" target="_blank" rel="noopener noreferrer">github</a>
-  <a href="https://www.linkedin.com/in/j%C3%BAlio-henkes-928437332/" target="_blank" rel="noopener noreferrer">linkedin</a>
-</div>
+<section class="bio-section">
+  <div class="bio-section-label">
+    <span class="num">01</span>
+    <span>experience</span>
+  </div>
+  <div class="bio-rows">
+    <div class="bio-row">
+      <div>
+        <div class="bio-row-title">Cyber Security Manager</div>
+        <span class="bio-row-org">Sicoob</span>
+      </div>
+      <span class="bio-row-meta">current</span>
+    </div>
+    <div class="bio-row">
+      <div>
+        <div class="bio-row-title">Cyber Operations</div>
+        <span class="bio-row-org">DOCO / CDCiber — Brazilian Army</span>
+      </div>
+      <span class="bio-row-meta">officer</span>
+    </div>
+    <div class="bio-row">
+      <div>
+        <div class="bio-row-title">Instructor</div>
+        <span class="bio-row-org">Agulhas Negras Military Academy (AMAN)</span>
+      </div>
+      <span class="bio-row-meta">faculty</span>
+    </div>
+    <div class="bio-row">
+      <div>
+        <div class="bio-row-title">Commander — 1º Pelotão de Choque</div>
+        <span class="bio-row-org">Brasília</span>
+      </div>
+      <span class="bio-row-meta">unit cmd</span>
+    </div>
+  </div>
+</section>
 
-Cyber Security Manager<br>
-Former Army Captain. Cyber Intelligence, Red Team.
+<section class="bio-section">
+  <div class="bio-section-label">
+    <span class="num">02</span>
+    <span>education</span>
+  </div>
+  <div class="bio-rows">
+    <div class="bio-row">
+      <div>
+        <div class="bio-row-title">MBA — International Relations</div>
+        <span class="bio-row-org">Universidade Federal Fluminense</span>
+      </div>
+      <span class="bio-row-meta">mba</span>
+    </div>
+    <div class="bio-row">
+      <div>
+        <div class="bio-row-title">Post-graduation — Cyber Warfare</div>
+      </div>
+      <span class="bio-row-meta">spec.</span>
+    </div>
+    <div class="bio-row">
+      <div>
+        <div class="bio-row-title">Post-graduation — Signal Security</div>
+      </div>
+      <span class="bio-row-meta">spec.</span>
+    </div>
+    <div class="bio-row">
+      <div>
+        <div class="bio-row-title">B.Sc. — Military Sciences</div>
+        <span class="bio-row-org">Agulhas Negras (AMAN)</span>
+      </div>
+      <span class="bio-row-meta">b.sc.</span>
+    </div>
+  </div>
+</section>
 
-<span class="section-label">experience</span>
-
-Cyber Security Manager — Sicoob<br>
-Cyber Operations — DOCO / CDCiber<br>
-Instructor — Agulhas Negras (AMAN)<br>
-Commander — 1º Pel Choque, Brasília
-
-<span class="section-label">education</span>
-
-MBA, International Relations — UFF<br>
-Post-grad, Cyber Warfare<br>
-Post-grad, Signal Security<br>
-B.Sc. Military Sciences — Agulhas Negras (AMAN)
-
-<span class="section-label">certifications</span>
-
-OSEP — OffSec Experienced Penetration Tester<br>
-OSCP — OffSec Certified Professional
+<section class="bio-section">
+  <div class="bio-section-label">
+    <span class="num">03</span>
+    <span>certifications</span>
+  </div>
+  <div>
+    <span class="bio-cert">OSEP</span>
+    <span class="bio-cert">OSCP</span>
+    <p class="bio-role" style="margin-top:18px">
+      OffSec Experienced Penetration Tester · OffSec Certified Professional
+    </p>
+  </div>
+</section>

@@ -1,3 +1,10 @@
+---
+title: "Press"
+difficulty: intermediate
+os: linux
+description: "Press — Offensive Security Proving Grounds intermediate linux writeup."
+---
+
 # Press
 
 ## Enumerating Services

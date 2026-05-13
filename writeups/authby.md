@@ -1,4 +1,12 @@
+---
+title: "Authby"
+difficulty: intermediate
+os: windows
+description: "Authby — Offensive Security Proving Grounds intermediate windows writeup."
+---
+
 # Authby
+
 > ftp admin:admin + ms11-046 (Server 2008)
 
 ## Enumeration

@@ -1,4 +1,12 @@
+---
+title: "Resourced"
+difficulty: intermediate
+os: windows
+description: "Resourced — Offensive Security Proving Grounds intermediate windows writeup."
+---
+
 # Resourced
+
 > ntds.dit + SYSTEM + RBCD
 
 ## Enumeration

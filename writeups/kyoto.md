@@ -1,4 +1,12 @@
+---
+title: "Kyoto"
+difficulty: intermediate
+os: windows
+description: "Kyoto — Offensive Security Proving Grounds intermediate windows writeup."
+---
+
 # Kyoto
+
 > DC enum + buffer overflow + SharpGPOAbuse
 
 ## Enumeration

