@@ -15,7 +15,7 @@ description: "Cyber Security Manager · former Army Captain · Cyber Intelligenc
   </div>
   <nav class="bio-links" aria-label="external profiles">
     <a href="https://github.com/juliohenkes" target="_blank" rel="noopener noreferrer">github</a>
-    <a href="https://www.linkedin.com/in/j%C3%BAlio-henkes-928437332/" target="_blank" rel="noopener noreferrer">linkedin</a>
+    <a href="https://www.linkedin.com/in/j%C3%BAliohenkes/" target="_blank" rel="noopener noreferrer">linkedin</a>
   </nav>
 </header>
 
