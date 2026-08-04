@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Júlio Henkes"
-description: "Cyber Security Manager · former Army Captain · Cyber Intelligence and Red Team operator."
+description: "Cyber Intelligence Manager · former Army Captain · Cyber Intelligence and Red Team operator."
 ---
 
 <header class="bio-hero">
@@ -9,7 +9,7 @@ description: "Cyber Security Manager · former Army Captain · Cyber Intelligenc
     <div class="bio-mark">SIG/JH · DOSSIER 01</div>
     <h1 class="bio-name">Júlio <em>Henkes</em></h1>
     <p class="bio-role">
-      Cyber Security Manager<br>
+      Cyber Intelligence Manager<br>
       <strong>former Army Captain</strong> · Cyber Intelligence · Red Team
     </p>
   </div>
@@ -27,10 +27,17 @@ description: "Cyber Security Manager · former Army Captain · Cyber Intelligenc
   <div class="bio-rows">
     <div class="bio-row">
       <div>
-        <div class="bio-row-title">Cyber Security Manager</div>
+        <div class="bio-row-title">Cyber Intelligence Manager</div>
         <span class="bio-row-org">Sicoob</span>
       </div>
       <span class="bio-row-meta">current</span>
+    </div>
+    <div class="bio-row">
+      <div>
+        <div class="bio-row-title">Offensive Security Manager</div>
+        <span class="bio-row-org">Sicoob</span>
+      </div>
+      <span class="bio-row-meta">prior</span>
     </div>
     <div class="bio-row">
       <div>
@@ -45,13 +52,6 @@ description: "Cyber Security Manager · former Army Captain · Cyber Intelligenc
         <span class="bio-row-org">Agulhas Negras Military Academy (AMAN)</span>
       </div>
       <span class="bio-row-meta">faculty</span>
-    </div>
-    <div class="bio-row">
-      <div>
-        <div class="bio-row-title">Commander — 1º Pelotão de Choque</div>
-        <span class="bio-row-org">Brasília</span>
-      </div>
-      <span class="bio-row-meta">unit cmd</span>
     </div>
   </div>
 </section>
